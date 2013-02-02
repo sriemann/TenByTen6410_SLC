@@ -1,0 +1,6 @@
+BUILD: [Thrd:Sequence:Type  ] Message
+BUILD: [01:0000000247:ERRORE] oal_usbdbgrndismdd.lib(rndismin.obj) : error LNK2001: unresolved external symbol g_UsbDbgZones
+BUILD: [01:0000000248:ERRORE] oal_usbdbgrndismdd.lib(usbrndis.obj) : error LNK2001: unresolved external symbol g_UsbDbgZones
+BUILD: [01:0000000249:ERRORE] oal_usbdbgrndismdd.lib(usbrndis.obj) : error LNK2019: unresolved external symbol UsbDbgPdd_Init referenced in function UsbRndis_Init
+BUILD: [01:0000000250:ERRORE] C:\WINCE600\platform\TenByTen6410_SLC\target\ARMV4I\retail\eboot_sdfuser.exe : fatal error LNK1120: 2 unresolved externals
+BUILD: [01:0000000255:ERRORE] EDITBIN : fatal error LNK1104: cannot open file 'C:\WINCE600\platform\TenByTen6410_SLC\target\ARMV4I\retail\eboot_sdfuser.exe'

@@ -1,0 +1,5 @@
+BUILD: [Thrd:Sequence:Type  ] Message
+BUILD: [00:0000000011:WARNS ] Directory: C:\WINCE600\platform\TenByTen6410_SLC\src\drivers\display\s3c6410_ldi_lib\ does not exist.
+BUILD: [00:0000000012:WARNS ] Directory: C:\WINCE600\platform\TenByTen6410_SLC\src\drivers\display\s3c6410_disp_lib\ does not exist.
+BUILD: [01:0000000119:WARNN ] c:\wince600\platform\tenbyten6410_slc\src\bootloader\eboot.sdfuser\eboot\sdinterface.c(294) : warning C4748: /GS can not protect parameters and local variables from local buffer overrun because optimizations are disabled in function
+BUILD: [00:0000000180:WARNN ] File: C:\WINCE600\PLATFORM\TenByTen6410_SLC\src\bootloader\Eboot.SDFuser\EBoot\EbootImage does not exist (2).

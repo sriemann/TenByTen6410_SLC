@@ -1,0 +1,41 @@
+BUILD: [Thrd:Sequence:Type  ] Message
+BUILD: [01:0000000040:WARNN ] C:\WINCE600\PLATFORM\TenByTen6410_SLC\src\bootloader\EBOOT\.\main.c(929) : warning C4013: 'convertBMP2FB' undefined; assuming extern returning int
+BUILD: [01:0000000041:WARNN ] C:\WINCE600\PLATFORM\TenByTen6410_SLC\src\bootloader\EBOOT\.\main.c(2330) : warning C4133: 'initializing' : incompatible types - from 'unsigned short [2]' to 'char *'
+BUILD: [01:0000000042:WARNN ] C:\WINCE600\PLATFORM\TenByTen6410_SLC\src\bootloader\EBOOT\.\main.c(2330) : warning C4133: 'initializing' : incompatible types - from 'unsigned short [7]' to 'char *'
+BUILD: [01:0000000043:WARNN ] C:\WINCE600\PLATFORM\TenByTen6410_SLC\src\bootloader\EBOOT\.\main.c(2330) : warning C4133: 'initializing' : incompatible types - from 'unsigned short [7]' to 'char *'
+BUILD: [01:0000000044:WARNN ] C:\WINCE600\PLATFORM\TenByTen6410_SLC\src\bootloader\EBOOT\.\main.c(2330) : warning C4133: 'initializing' : incompatible types - from 'unsigned short [8]' to 'char *'
+BUILD: [01:0000000045:WARNN ] C:\WINCE600\PLATFORM\TenByTen6410_SLC\src\bootloader\EBOOT\.\main.c(2330) : warning C4133: 'initializing' : incompatible types - from 'unsigned short [10]' to 'char *'
+BUILD: [01:0000000046:WARNN ] C:\WINCE600\PLATFORM\TenByTen6410_SLC\src\bootloader\EBOOT\.\main.c(2330) : warning C4133: 'initializing' : incompatible types - from 'unsigned short [9]' to 'char *'
+BUILD: [01:0000000047:WARNN ] C:\WINCE600\PLATFORM\TenByTen6410_SLC\src\bootloader\EBOOT\.\main.c(2330) : warning C4133: 'initializing' : incompatible types - from 'unsigned short [7]' to 'char *'
+BUILD: [01:0000000048:WARNN ] C:\WINCE600\PLATFORM\TenByTen6410_SLC\src\bootloader\EBOOT\.\main.c(2330) : warning C4133: 'initializing' : incompatible types - from 'unsigned short [9]' to 'char *'
+BUILD: [01:0000000061:WARNN ] c:\wince600\platform\tenbyten6410_slc\src\bootloader\eboot\LogoCraft.h(13) : warning C4200: nonstandard extension used : zero-sized array in struct/union
+BUILD: [01:0000000063:WARNN ] C:\WINCE600\PLATFORM\TenByTen6410_SLC\src\bootloader\EBOOT\.\nand.cpp(938) : warning C4018: '<' : signed/unsigned mismatch
+BUILD: [01:0000000064:WARNN ] C:\WINCE600\PLATFORM\TenByTen6410_SLC\src\bootloader\EBOOT\.\nand.cpp(924) : warning C4101: 'status' : unreferenced local variable
+BUILD: [01:0000000065:WARNN ] C:\WINCE600\PLATFORM\TenByTen6410_SLC\src\bootloader\EBOOT\.\nand.cpp(998) : warning C4018: '<' : signed/unsigned mismatch
+BUILD: [01:0000000069:WARNN ] C:\WINCE600\PLATFORM\TenByTen6410_SLC\src\bootloader\EBOOT\.\usb.c(1802) : warning C4013: 'Delay' undefined; assuming extern returning int
+BUILD: [01:0000000076:WARNN ] C:\WINCE600\PLATFORM\TenByTen6410_SLC\src\bootloader\EBOOT\.\MegaDisplay.c(26) : warning C4013: 'InitializeInterrupt' undefined; assuming extern returning int
+BUILD: [01:0000000077:WARNN ] C:\WINCE600\PLATFORM\TenByTen6410_SLC\src\bootloader\EBOOT\.\MegaDisplay.c(78) : warning C4013: 'getChar' undefined; assuming extern returning int
+BUILD: [01:0000000078:WARNN ] C:\WINCE600\PLATFORM\TenByTen6410_SLC\src\bootloader\EBOOT\.\MegaDisplay.c(91) : warning C4013: 'Delay' undefined; assuming extern returning int
+BUILD: [01:0000000079:WARNN ] C:\WINCE600\PLATFORM\TenByTen6410_SLC\src\bootloader\EBOOT\.\MegaDisplay.c(196) : warning C4554: '|' : check operator precedence for possible error; use parentheses to clarify precedence
+BUILD: [01:0000000080:WARNN ] C:\WINCE600\PLATFORM\TenByTen6410_SLC\src\bootloader\EBOOT\.\MegaDisplay.c(198) : warning C4554: '|' : check operator precedence for possible error; use parentheses to clarify precedence
+BUILD: [01:0000000081:WARNN ] C:\WINCE600\PLATFORM\TenByTen6410_SLC\src\bootloader\EBOOT\.\MegaDisplay.c(163) : warning C4101: 'data' : unreferenced local variable
+BUILD: [01:0000000085:WARNN ] C:\WINCE600\PLATFORM\TenByTen6410_SLC\src\bootloader\EBOOT\.\iic.c(53) : warning C4101: 'a' : unreferenced local variable
+BUILD: [01:0000000086:WARNN ] C:\WINCE600\PLATFORM\TenByTen6410_SLC\src\bootloader\EBOOT\.\iic.c(213) : warning C4101: 'j' : unreferenced local variable
+BUILD: [01:0000000093:WARNN ] C:\WINCE600\PLATFORM\TenByTen6410_SLC\src\bootloader\EBOOT\.\DisplayMenu.c(72) : warning C4013: 'OEMgetLCDBpp' undefined; assuming extern returning int
+BUILD: [01:0000000094:WARNN ] C:\WINCE600\PLATFORM\TenByTen6410_SLC\src\bootloader\EBOOT\.\DisplayMenu.c(75) : warning C4013: 'OEMgetBGColor' undefined; assuming extern returning int
+BUILD: [01:0000000095:WARNN ] C:\WINCE600\PLATFORM\TenByTen6410_SLC\src\bootloader\EBOOT\.\DisplayMenu.c(116) : warning C4013: 'OEMsetBGColor' undefined; assuming extern returning int
+BUILD: [01:0000000099:WARNN ] C:\WINCE600\PLATFORM\TenByTen6410_SLC\src\bootloader\EBOOT\.\LogoCraft.c(2298) : warning C4018: '<' : signed/unsigned mismatch
+BUILD: [01:0000000100:WARNN ] C:\WINCE600\PLATFORM\TenByTen6410_SLC\src\bootloader\EBOOT\.\LogoCraft.c(2300) : warning C4018: '<' : signed/unsigned mismatch
+BUILD: [01:0000000101:WARNN ] C:\WINCE600\PLATFORM\TenByTen6410_SLC\src\bootloader\EBOOT\.\LogoCraft.c(2280) : warning C4101: 'pixel' : unreferenced local variable
+BUILD: [01:0000000102:WARNN ] C:\WINCE600\PLATFORM\TenByTen6410_SLC\src\bootloader\EBOOT\.\LogoCraft.c(2281) : warning C4101: 'src_idx' : unreferenced local variable
+BUILD: [01:0000000103:WARNN ] C:\WINCE600\PLATFORM\TenByTen6410_SLC\src\bootloader\EBOOT\.\LogoCraft.c(2422) : warning C4018: '<' : signed/unsigned mismatch
+BUILD: [01:0000000104:WARNN ] C:\WINCE600\PLATFORM\TenByTen6410_SLC\src\bootloader\EBOOT\.\LogoCraft.c(2392) : warning C4101: 'pixel' : unreferenced local variable
+BUILD: [01:0000000105:WARNN ] C:\WINCE600\PLATFORM\TenByTen6410_SLC\src\bootloader\EBOOT\.\LogoCraft.c(2393) : warning C4101: 'src_idx' : unreferenced local variable
+BUILD: [01:0000000106:WARNN ] C:\WINCE600\PLATFORM\TenByTen6410_SLC\src\bootloader\EBOOT\.\LogoCraft.c(2478) : warning C4018: '<' : signed/unsigned mismatch
+BUILD: [01:0000000107:WARNN ] C:\WINCE600\PLATFORM\TenByTen6410_SLC\src\bootloader\EBOOT\.\LogoCraft.c(2448) : warning C4101: 'pixel' : unreferenced local variable
+BUILD: [01:0000000108:WARNN ] C:\WINCE600\PLATFORM\TenByTen6410_SLC\src\bootloader\EBOOT\.\LogoCraft.c(2449) : warning C4101: 'src_idx' : unreferenced local variable
+BUILD: [00:0000000119:WARNN ] File: C:\WINCE600\PLATFORM\TenByTen6410_SLC\src\bootloader\EBOOT\EbootImage does not exist (2).
+BUILD: [01:0000000189:WARNN ] fulllibc.lib(fpraise.obj) : warning LNK4099: PDB 'ccrtfpw1.pdb' was not found with 'C:\WINCE600\OSDesigns\TenByTen6410_SLC\Wince600\TenByTen6410_SLC_ARMV4I\cesysgen\oak\lib\ARMV4I\retail\fulllibc.lib' or at 'C:\WINCE600\platform\TenByTen6410_SLC\target\ARMV4I\retail\ccrtfpw1.pdb'; linking object as if no debug info
+BUILD: [01:0000000190:WARNN ] fulllibc.lib(atox.obj) : warning LNK4099: PDB 'ccrtconv.pdb' was not found with 'C:\WINCE600\OSDesigns\TenByTen6410_SLC\Wince600\TenByTen6410_SLC_ARMV4I\cesysgen\oak\lib\ARMV4I\retail\fulllibc.lib' or at 'C:\WINCE600\platform\TenByTen6410_SLC\target\ARMV4I\retail\ccrtconv.pdb'; linking object as if no debug info
+BUILD: [01:0000000191:WARNN ] fulllibc.lib(xtoa.obj) : warning LNK4099: PDB 'ccrtconv.pdb' was not found with 'C:\WINCE600\OSDesigns\TenByTen6410_SLC\Wince600\TenByTen6410_SLC_ARMV4I\cesysgen\oak\lib\ARMV4I\retail\fulllibc.lib' or at 'C:\WINCE600\platform\TenByTen6410_SLC\target\ARMV4I\retail\ccrtconv.pdb'; linking object as if no debug info
+BUILD: [01:0000000192:WARNN ] fulllibc.lib(diverr.obj) : warning LNK4099: PDB 'ccrthelp.pdb' was not found with 'C:\WINCE600\OSDesigns\TenByTen6410_SLC\Wince600\TenByTen6410_SLC_ARMV4I\cesysgen\oak\lib\ARMV4I\retail\fulllibc.lib' or at 'C:\WINCE600\platform\TenByTen6410_SLC\target\ARMV4I\retail\ccrthelp.pdb'; linking object as if no debug info

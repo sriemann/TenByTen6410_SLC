@@ -1,0 +1,51 @@
+# Stepldr cannot support DEBUG build
+# For some Additional DEBUG library linking
+# It's size over Stepping Stone's size
+!if "$(WINCEDEBUG)" == "debug"
+SKIPBUILD=1
+!endif
+
+!if ("$(BSP_IROM_SDMMC_CH0_BOOT)"=="1")||("$(BSP_IROM_SDMMC_CH1_BOOT)"=="1")
+SKIPBUILD = 1
+!endif
+
+TARGETNAME = stepldr
+TARGETTYPE = PROGRAM
+RELEASETYPE = PLATFORM
+EXEENTRY = StartUp
+
+WINCECPU=1
+WINCESHIP=1
+
+C_DEBUG_INFO_FLAG=NONE
+
+!if "$(SMDK6410_X5D)" == "1"
+CDEFINES=$(CDEFINES) -DSMDK6410_X5D
+ADEFINES=$(ADEFINES) -pd "SMDK6410_X5D SETL {TRUE}"
+!else
+ADEFINES=$(ADEFINES) -pd "SMDK6410_X5D SETL {FALSE}"
+!endif
+
+!IF "$(BSP_USEDVS)" == "1"
+ADEFINES=$(ADEFINES) -pd "DVS_EN SETL {TRUE}"
+!ELSE
+ADEFINES=$(ADEFINES) -pd "DVS_EN SETL {FALSE}"
+!ENDIF
+CDEFEINS=$(CDEFINES) /Faccs /Fm
+
+LDEFINES = -subsystem:native /DEBUGTYPE:CV /FIXED:NO
+
+# FullLibc.lib is used for C common operator function
+# Do not remove this library even build will succeed without this
+# some divider function can map incorrectly.
+TARGETLIBS =    \
+       $(_COMMONOAKROOT)\lib\$(_CPUINDPATH)\fulllibc.lib    \
+
+SOURCES =    \
+        startup.s   \
+        nand_opt.s  \
+        utils.c     \
+        nand.c      \
+        main.c
+
+WINCETARGETFILES=stepldr_romimage

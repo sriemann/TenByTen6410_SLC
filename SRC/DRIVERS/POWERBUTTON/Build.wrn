@@ -1,0 +1,6 @@
+BUILD: [Thrd:Sequence:Type  ] Message
+BUILD: [00:0000000035:WARNN ] C:\WINCE600\PLATFORM\TenByTen6410_SLC\src\drivers\POWERBUTTON\: Missing source file: C:\WINCE600\public\common\sdk\lib\ARMV4I\retail\coredll.lib.
+BUILD: [00:0000000036:WARNN ] C:\WINCE600\PLATFORM\TenByTen6410_SLC\src\drivers\POWERBUTTON\: Missing source file: C:\WINCE600\public\common\oak\lib\ARMV4I\retail\ceddk.lib.
+BUILD: [01:0000000074:WARNN ] precomp.obj : warning LNK4204: 'c:\wince600\platform\tenbyten6410_slc\target\armv4i\retail\smdk6410_pwrbtn.pdb' is missing debugging information for referencing module; linking object as if no debug info
+BUILD: [01:0000000075:WARNN ] PowerButton.obj : warning LNK4204: 'c:\wince600\platform\tenbyten6410_slc\target\armv4i\retail\smdk6410_pwrbtn.pdb' is missing debugging information for referencing module; linking object as if no debug info
+BUILD: [01:0000000076:WARNN ] smdk6410_button.obj : warning LNK4204: 'c:\wince600\platform\tenbyten6410_slc\target\armv4i\retail\smdk6410_pwrbtn.pdb' is missing debugging information for referencing module; linking object as if no debug info

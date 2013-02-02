@@ -1,0 +1,32 @@
+!if 0
+    File:   DIRS
+
+    Author: Flash Software
+
+    COPYRIGHT (c) 2006 SAMSUNG ELECTRONICS CO., LTD. ALL RIGHTS RESERVED
+!endif
+
+!if ("$(BSP_IROM_SDMMC_CH0_BOOT)"!="1")&&("$(BSP_IROM_SDMMC_CH1_BOOT)"!="1")
+SKIPBUILD = 1
+!endif
+
+TARGETNAME = HSMMC
+TARGETTYPE = DYNLINK
+RELEASETYPE = PLATFORM
+WINCEOEM = 1
+DLLENTRY = HSMMC_Entry
+DEFFILE = HSMMC.def
+
+CDEFINES = $(CDEFINES) -DCOREDLL
+LDEFINES = -subsystem:native /DEBUG /DEBUGTYPE:CV /FIXED:NO
+
+TARGETLIBS = \
+    $(_PUBLICROOT)\common\oak\lib\$(_CPUINDPATH)\storeapi.lib \
+    $(_COMMONSDKROOT)\lib\$(_CPUINDPATH)\coredll.lib \
+    $(_COMMONOAKROOT)\lib\$(_CPUINDPATH)\ceddk.lib \
+    $(_TARGETPLATROOT)\lib\$(_CPUINDPATH)\DriverLib.lib \
+    $(_TARGETPLATROOT)\lib\$(_CPUINDPATH)\SDMMCLib_HSMMC.lib
+
+SOURCES = \
+    HSMMC.c
+

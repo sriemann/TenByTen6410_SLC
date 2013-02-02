@@ -1,0 +1,48 @@
+ NAV_LED
+
+ Timestamp is 510b797a (Fri Feb 01 16:14:50 2013)
+
+ Preferred load address is 10000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 0000001cH .rdata                  CODE
+ 0001:0000001c 00000024H .rdata$debug            CODE
+ 0001:00000040 000002f0H .text                   CODE
+ 0001:00000330 00000014H .idata$2                CODE
+ 0001:00000344 00000014H .idata$3                CODE
+ 0001:00000358 00000008H .idata$4                CODE
+ 0001:00000360 0000000aH .idata$6                CODE
+ 0001:00000370 000000ffH .edata                  CODE
+ 0002:00000000 00000008H .idata$5                DATA
+ 0002:00000008 00000004H .bss                    DATA
+ 0003:00000000 00000070H .pdata                  DATA
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0000:00000000       ___safe_se_handler_table   00000000     <absolute>
+ 0000:00000000       ___safe_se_handler_count   00000000     <absolute>
+ 0001:00000040       InitLedAddr                10001040 f   Led.obj
+ 0001:0000007c       GPIOInit                   1000107c f   Led.obj
+ 0001:000001c0       ProcLed                    100011c0 f   Led.obj
+ 0001:00000284       DllMain                    10001284 f   Led.obj
+ 0001:0000028c       LED_Close                  1000128c f   Led.obj
+ 0001:00000294       LED_Deinit                 10001294 f   Led.obj
+ 0001:0000029c       LED_Init                   1000129c f   Led.obj
+ 0001:000002b4       LED_IOControl              100012b4 f   Led.obj
+ 0001:000002f8       LED_Open                   100012f8 f   Led.obj
+ 0001:00000300       LED_PowerDown              10001300 f   Led.obj
+ 0001:00000304       LED_PowerUp                10001304 f   Led.obj
+ 0001:00000308       LED_Read                   10001308 f   Led.obj
+ 0001:00000310       LED_Seek                   10001310 f   Led.obj
+ 0001:00000318       LED_Write                  10001318 f   Led.obj
+ 0001:00000320       MmMapIoSpace               10001320 f   ceddk:CEDDK.dll
+ 0001:00000330       __IMPORT_DESCRIPTOR_CEDDK  10001330     ceddk:CEDDK.dll
+ 0001:00000344       __NULL_IMPORT_DESCRIPTOR   10001344     ceddk:CEDDK.dll
+ 0002:00000000       __imp_MmMapIoSpace         10002000     ceddk:CEDDK.dll
+ 0002:00000004       \177CEDDK_NULL_THUNK_DATA  10002004     ceddk:CEDDK.dll
+ 0002:00000008       v_pIOP_LED_regs            10002008     Led.obj
+
+ entry point at        0001:00000284
+
+ Static symbols
+

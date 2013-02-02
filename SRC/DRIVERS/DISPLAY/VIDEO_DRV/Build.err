@@ -1,0 +1,3 @@
+BUILD: [Thrd:Sequence:Type  ] Message
+BUILD: [01:0000000099:ERRORE] NMAKE :  U1073: don't know how to make 'C:\WINCE600\platform\TenByTen6410_SLC\lib\ARMV4I\retail\s3c6410_disp_lib.lib'
+BUILD: [01:0000000101:ERRORE] NMAKE.EXE TargetLibFiles  -i -c BUILDMSG=Stop.  BUILDROOT=C:\WINCE600\PLATFORM\TenByTen6410_SLC LINKONLY=1 NOPASS0=1 failed - rc = 2

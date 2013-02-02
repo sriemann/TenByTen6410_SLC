@@ -1,0 +1,170 @@
+BUILD: [Thrd:Sequence:Type  ] Message
+BUILD: [00:0000000018:WARNN ] File: C:\WINCE600\PLATFORM\TenByTen6410_SLC\SRC\DRIVERS\DISPLAY\Build.err does not exist (2).
+BUILD: [01:0000000175:WARNN ] C:\WINCE600\PLATFORM\TenByTen6410_SLC\SRC\DRIVERS\DISPLAY\DISPCON_LIB\.\s3c6410_display_con.c(99) : warning C4013: 'LDI_fill_output_device_information' undefined; assuming extern returning int
+BUILD: [00:0000000253:WARNN ] C:\WINCE600\PLATFORM\TenByTen6410_SLC\SRC\DRIVERS\DM9000A1\sources(20) : Build.exe does not evaluate IF conditional statements. Conditional statements that affect macro definitions might cause Build.exe to not rebuild modified source code. Refer to the Platform Builder documentation.
+BUILD: [00:0000000254:WARNN ] File: C:\WINCE600\PLATFORM\TenByTen6410_SLC\SRC\DRIVERS\IROMBOOT\SDMMCBOOT\DrvLib\obj\ARMV4I\retail\DriverLib_mutex.obj does not exist (2).
+BUILD: [00:0000000255:WARNN ] File: C:\WINCE600\PLATFORM\TenByTen6410_SLC\SRC\DRIVERS\IROMBOOT\SDMMCBOOT\DrvLib\obj\ARMV4I\retail\DriverLib_Init.obj does not exist (2).
+BUILD: [00:0000000256:WARNN ] File: C:\WINCE600\PLATFORM\TenByTen6410_SLC\SRC\DRIVERS\IROMBOOT\SDMMCBOOT\DrvLib\obj\ARMV4I\retail\Oemaddrtab.obj does not exist (2).
+BUILD: [00:0000000271:WARNN ] File: C:\WINCE600\PLATFORM\TenByTen6410_SLC\SRC\DRIVERS\IROMBOOT\SDMMCBOOT\SDMMCLIB\SDMMCLIB_BIBDRV\obj\ARMV4I\retail\MMCCopy.obj does not exist (2).
+BUILD: [00:0000000272:WARNN ] File: C:\WINCE600\PLATFORM\TenByTen6410_SLC\SRC\DRIVERS\IROMBOOT\SDMMCBOOT\SDMMCLIB\SDMMCLIB_BIBDRV\obj\ARMV4I\retail\SDMMCDrv.obj does not exist (2).
+BUILD: [00:0000000286:WARNN ] File: C:\WINCE600\platform\TenByTen6410_SLC\lib\ARMV4I\retail\DriverLib.lib does not exist (2).
+BUILD: [00:0000000287:WARNN ] File: C:\WINCE600\platform\TenByTen6410_SLC\lib\ARMV4I\retail\SDMMCLib_BIBDRV.lib does not exist (2).
+BUILD: [00:0000000288:WARNN ] File: C:\WINCE600\PLATFORM\TenByTen6410_SLC\SRC\DRIVERS\IROMBOOT\SDMMCBOOT\SDMMCLIB\SDMMCLIB_SDMMC\obj\ARMV4I\retail\MMCCopy.obj does not exist (2).
+BUILD: [00:0000000289:WARNN ] File: C:\WINCE600\PLATFORM\TenByTen6410_SLC\SRC\DRIVERS\IROMBOOT\SDMMCBOOT\SDMMCLIB\SDMMCLIB_SDMMC\obj\ARMV4I\retail\SDMMCDrv.obj does not exist (2).
+BUILD: [00:0000000304:WARNN ] File: C:\WINCE600\platform\TenByTen6410_SLC\lib\ARMV4I\retail\DriverLib.lib does not exist (2).
+BUILD: [00:0000000305:WARNN ] File: C:\WINCE600\platform\TenByTen6410_SLC\lib\ARMV4I\retail\SDMMCLib_BIBDRV.lib does not exist (2).
+BUILD: [00:0000000306:WARNN ] File: C:\WINCE600\platform\TenByTen6410_SLC\lib\ARMV4I\retail\SDMMCLib_HSMMC.lib does not exist (2).
+BUILD: [00:0000000307:WARNN ] File: C:\WINCE600\PLATFORM\TenByTen6410_SLC\SRC\DRIVERS\IROMBOOT\SDMMCBOOT\SDMMCLIB\SDMMCLIB_OAL\obj\ARMV4I\retail\MMCCopy.obj does not exist (2).
+BUILD: [00:0000000308:WARNN ] File: C:\WINCE600\PLATFORM\TenByTen6410_SLC\SRC\DRIVERS\IROMBOOT\SDMMCBOOT\SDMMCLIB\SDMMCLIB_OAL\obj\ARMV4I\retail\SDMMCDrv.obj does not exist (2).
+BUILD: [00:0000000323:WARNN ] C:\WINCE600\PLATFORM\TenByTen6410_SLC\SRC\DRIVERS\IROMBOOT\SDMMCBOOT\SDMMCLIB\SDMMCLIB_EBOOT\: Missing source file: C:\WINCE600\public\common\sdk\lib\ARMV4I\retail\coredll.lib.
+BUILD: [00:0000000324:WARNN ] File: C:\WINCE600\PLATFORM\TenByTen6410_SLC\SRC\DRIVERS\IROMBOOT\SDMMCBOOT\SDMMCLIB\SDMMCLIB_EBOOT\obj\ARMV4I\retail\MMCCopy.obj does not exist (2).
+BUILD: [00:0000000325:WARNN ] File: C:\WINCE600\PLATFORM\TenByTen6410_SLC\SRC\DRIVERS\IROMBOOT\SDMMCBOOT\SDMMCLIB\SDMMCLIB_EBOOT\obj\ARMV4I\retail\SDMMCDrv.obj does not exist (2).
+BUILD: [00:0000000340:WARNN ] File: C:\WINCE600\platform\TenByTen6410_SLC\lib\ARMV4I\retail\DriverLib.lib does not exist (2).
+BUILD: [00:0000000341:WARNN ] File: C:\WINCE600\platform\TenByTen6410_SLC\lib\ARMV4I\retail\SDMMCLib_BIBDRV.lib does not exist (2).
+BUILD: [00:0000000342:WARNN ] File: C:\WINCE600\platform\TenByTen6410_SLC\lib\ARMV4I\retail\SDMMCLib_HSMMC.lib does not exist (2).
+BUILD: [00:0000000343:WARNN ] File: C:\WINCE600\platform\TenByTen6410_SLC\lib\ARMV4I\retail\SDMMCLib_OAL.lib does not exist (2).
+BUILD: [00:0000000344:WARNN ] File: C:\WINCE600\platform\TenByTen6410_SLC\lib\ARMV4I\retail\SDMMCLib_eboot.lib does not exist (2).
+BUILD: [00:0000000345:WARNN ] File: C:\WINCE600\PLATFORM\TenByTen6410_SLC\SRC\DRIVERS\IROMBOOT\SDMMCBOOT\SDMMCLIB\SDMMCLIB_IPL\obj\ARMV4I\retail\MMCCopy.obj does not exist (2).
+BUILD: [00:0000000346:WARNN ] File: C:\WINCE600\PLATFORM\TenByTen6410_SLC\SRC\DRIVERS\IROMBOOT\SDMMCBOOT\SDMMCLIB\SDMMCLIB_IPL\obj\ARMV4I\retail\SDMMCDrv.obj does not exist (2).
+BUILD: [00:0000000361:WARNN ] File: C:\WINCE600\PLATFORM\TenByTen6410_SLC\SRC\DRIVERS\IROMBOOT\SDMMCBOOT\BIBDRV\obj\ARMV4I\retail\BIBDrv.obj does not exist (2).
+BUILD: [00:0000000374:WARNN ] File: C:\WINCE600\PLATFORM\TenByTen6410_SLC\SRC\DRIVERS\IROMBOOT\SDMMCBOOT\HSMMC\obj\ARMV4I\retail\HSMMC.obj does not exist (2).
+BUILD: [00:0000000387:WARNN ] File: C:\WINCE600\platform\TenByTen6410_SLC\lib\ARMV4I\retail\DriverLib.lib does not exist (2).
+BUILD: [00:0000000388:WARNN ] File: C:\WINCE600\platform\TenByTen6410_SLC\lib\ARMV4I\retail\SDMMCLib_BIBDRV.lib does not exist (2).
+BUILD: [00:0000000389:WARNN ] File: C:\WINCE600\platform\TenByTen6410_SLC\lib\ARMV4I\retail\SDMMCLib_HSMMC.lib does not exist (2).
+BUILD: [00:0000000390:WARNN ] File: C:\WINCE600\platform\TenByTen6410_SLC\lib\ARMV4I\retail\SDMMCLib_OAL.lib does not exist (2).
+BUILD: [00:0000000391:WARNN ] File: C:\WINCE600\platform\TenByTen6410_SLC\lib\ARMV4I\retail\SDMMCLib_eboot.lib does not exist (2).
+BUILD: [00:0000000392:WARNN ] File: C:\WINCE600\platform\TenByTen6410_SLC\lib\ARMV4I\retail\SDMMCLib_IPL.lib does not exist (2).
+BUILD: [00:0000000393:WARNN ] File: C:\WINCE600\platform\TenByTen6410_SLC\lib\ARMV4I\retail\BIBDrv.lib does not exist (2).
+BUILD: [00:0000000394:WARNN ] File: C:\WINCE600\platform\TenByTen6410_SLC\lib\ARMV4I\retail\HSMMC.lib does not exist (2).
+BUILD: [00:0000000408:WARNN ] File: C:\WINCE600\platform\TenByTen6410_SLC\lib\ARMV4I\retail\DriverLib.lib does not exist (2).
+BUILD: [00:0000000409:WARNN ] File: C:\WINCE600\platform\TenByTen6410_SLC\lib\ARMV4I\retail\SDMMCLib_BIBDRV.lib does not exist (2).
+BUILD: [00:0000000410:WARNN ] File: C:\WINCE600\platform\TenByTen6410_SLC\lib\ARMV4I\retail\SDMMCLib_HSMMC.lib does not exist (2).
+BUILD: [00:0000000411:WARNN ] File: C:\WINCE600\platform\TenByTen6410_SLC\lib\ARMV4I\retail\SDMMCLib_OAL.lib does not exist (2).
+BUILD: [00:0000000412:WARNN ] File: C:\WINCE600\platform\TenByTen6410_SLC\lib\ARMV4I\retail\SDMMCLib_eboot.lib does not exist (2).
+BUILD: [00:0000000413:WARNN ] File: C:\WINCE600\platform\TenByTen6410_SLC\lib\ARMV4I\retail\SDMMCLib_IPL.lib does not exist (2).
+BUILD: [00:0000000414:WARNN ] File: C:\WINCE600\platform\TenByTen6410_SLC\lib\ARMV4I\retail\BIBDrv.lib does not exist (2).
+BUILD: [00:0000000415:WARNN ] File: C:\WINCE600\platform\TenByTen6410_SLC\lib\ARMV4I\retail\HSMMC.lib does not exist (2).
+BUILD: [00:0000000438:WARNN ] C:\WINCE600\PLATFORM\TenByTen6410_SLC\SRC\DRIVERS\DISPLAY\DISPLAY_DRV\: Missing source file: C:\WINCE600\public\common\oak\lib\ARMV4I\retail\gpe.lib.
+BUILD: [00:0000000439:WARNN ] File: C:\WINCE600\platform\TenByTen6410_SLC\lib\ARMV4I\retail\DriverLib.lib does not exist (2).
+BUILD: [00:0000000440:WARNN ] File: C:\WINCE600\platform\TenByTen6410_SLC\lib\ARMV4I\retail\SDMMCLib_BIBDRV.lib does not exist (2).
+BUILD: [00:0000000441:WARNN ] File: C:\WINCE600\platform\TenByTen6410_SLC\lib\ARMV4I\retail\SDMMCLib_HSMMC.lib does not exist (2).
+BUILD: [00:0000000442:WARNN ] File: C:\WINCE600\platform\TenByTen6410_SLC\lib\ARMV4I\retail\SDMMCLib_OAL.lib does not exist (2).
+BUILD: [00:0000000443:WARNN ] File: C:\WINCE600\platform\TenByTen6410_SLC\lib\ARMV4I\retail\SDMMCLib_eboot.lib does not exist (2).
+BUILD: [00:0000000444:WARNN ] File: C:\WINCE600\platform\TenByTen6410_SLC\lib\ARMV4I\retail\SDMMCLib_IPL.lib does not exist (2).
+BUILD: [00:0000000445:WARNN ] File: C:\WINCE600\platform\TenByTen6410_SLC\lib\ARMV4I\retail\BIBDrv.lib does not exist (2).
+BUILD: [00:0000000446:WARNN ] File: C:\WINCE600\platform\TenByTen6410_SLC\lib\ARMV4I\retail\HSMMC.lib does not exist (2).
+BUILD: [00:0000000469:WARNN ] File: C:\WINCE600\PLATFORM\TenByTen6410_SLC\SRC\DRIVERS\CF_ATAPI\COMMON\obj\ARMV4I\retail\csgreq.obj does not exist (2).
+BUILD: [00:0000000470:WARNN ] File: C:\WINCE600\PLATFORM\TenByTen6410_SLC\SRC\DRIVERS\CF_ATAPI\COMMON\obj\ARMV4I\retail\atamain.obj does not exist (2).
+BUILD: [00:0000000471:WARNN ] File: C:\WINCE600\PLATFORM\TenByTen6410_SLC\SRC\DRIVERS\CF_ATAPI\COMMON\obj\ARMV4I\retail\atapipm.obj does not exist (2).
+BUILD: [00:0000000472:WARNN ] File: C:\WINCE600\PLATFORM\TenByTen6410_SLC\SRC\DRIVERS\CF_ATAPI\COMMON\obj\ARMV4I\retail\diskmain.obj does not exist (2).
+BUILD: [00:0000000473:WARNN ] File: C:\WINCE600\PLATFORM\TenByTen6410_SLC\SRC\DRIVERS\CF_ATAPI\COMMON\obj\ARMV4I\retail\atapiio.obj does not exist (2).
+BUILD: [00:0000000474:WARNN ] File: C:\WINCE600\PLATFORM\TenByTen6410_SLC\SRC\DRIVERS\CF_ATAPI\COMMON\obj\ARMV4I\retail\helper.obj does not exist (2).
+BUILD: [00:0000000475:WARNN ] File: C:\WINCE600\PLATFORM\TenByTen6410_SLC\SRC\DRIVERS\CF_ATAPI\COMMON\obj\ARMV4I\retail\debug.obj does not exist (2).
+BUILD: [00:0000000476:WARNN ] File: C:\WINCE600\PLATFORM\TenByTen6410_SLC\SRC\DRIVERS\CF_ATAPI\COMMON\obj\ARMV4I\retail\zones.obj does not exist (2).
+BUILD: [00:0000000496:WARNN ] File: C:\WINCE600\platform\TenByTen6410_SLC\lib\ARMV4I\retail\DriverLib.lib does not exist (2).
+BUILD: [00:0000000497:WARNN ] File: C:\WINCE600\platform\TenByTen6410_SLC\lib\ARMV4I\retail\SDMMCLib_BIBDRV.lib does not exist (2).
+BUILD: [00:0000000498:WARNN ] File: C:\WINCE600\platform\TenByTen6410_SLC\lib\ARMV4I\retail\SDMMCLib_HSMMC.lib does not exist (2).
+BUILD: [00:0000000499:WARNN ] File: C:\WINCE600\platform\TenByTen6410_SLC\lib\ARMV4I\retail\SDMMCLib_OAL.lib does not exist (2).
+BUILD: [00:0000000500:WARNN ] File: C:\WINCE600\platform\TenByTen6410_SLC\lib\ARMV4I\retail\SDMMCLib_eboot.lib does not exist (2).
+BUILD: [00:0000000501:WARNN ] File: C:\WINCE600\platform\TenByTen6410_SLC\lib\ARMV4I\retail\SDMMCLib_IPL.lib does not exist (2).
+BUILD: [00:0000000502:WARNN ] File: C:\WINCE600\platform\TenByTen6410_SLC\lib\ARMV4I\retail\BIBDrv.lib does not exist (2).
+BUILD: [00:0000000503:WARNN ] File: C:\WINCE600\platform\TenByTen6410_SLC\lib\ARMV4I\retail\HSMMC.lib does not exist (2).
+BUILD: [00:0000000504:WARNN ] File: C:\WINCE600\platform\TenByTen6410_SLC\lib\ARMV4I\retail\atapi_common_lib.lib does not exist (2).
+BUILD: [00:0000000505:WARNN ] File: C:\WINCE600\PLATFORM\TenByTen6410_SLC\SRC\DRIVERS\CF_ATAPI\AtapiRomi\obj\ARMV4I\retail\atapiRomi.obj does not exist (2).
+BUILD: [00:0000000520:WARNN ] C:\WINCE600\PLATFORM\TenByTen6410_SLC\SRC\DRIVERS\HSMMC\HSMMCCh1\s3c6410_hsmmc_drv\: Missing source file: C:\WINCE600\public\common\oak\lib\ARMV4I\retail\sdcardlib.lib.
+BUILD: [00:0000000521:WARNN ] C:\WINCE600\PLATFORM\TenByTen6410_SLC\SRC\DRIVERS\HSMMC\HSMMCCh1\s3c6410_hsmmc_drv\: Missing source file: C:\WINCE600\public\common\oak\lib\ARMV4I\retail\sdbus2.lib.
+BUILD: [00:0000000522:WARNN ] File: C:\WINCE600\platform\TenByTen6410_SLC\lib\ARMV4I\retail\DriverLib.lib does not exist (2).
+BUILD: [00:0000000523:WARNN ] File: C:\WINCE600\platform\TenByTen6410_SLC\lib\ARMV4I\retail\SDMMCLib_BIBDRV.lib does not exist (2).
+BUILD: [00:0000000524:WARNN ] File: C:\WINCE600\platform\TenByTen6410_SLC\lib\ARMV4I\retail\SDMMCLib_HSMMC.lib does not exist (2).
+BUILD: [00:0000000525:WARNN ] File: C:\WINCE600\platform\TenByTen6410_SLC\lib\ARMV4I\retail\SDMMCLib_OAL.lib does not exist (2).
+BUILD: [00:0000000526:WARNN ] File: C:\WINCE600\platform\TenByTen6410_SLC\lib\ARMV4I\retail\SDMMCLib_eboot.lib does not exist (2).
+BUILD: [00:0000000527:WARNN ] File: C:\WINCE600\platform\TenByTen6410_SLC\lib\ARMV4I\retail\SDMMCLib_IPL.lib does not exist (2).
+BUILD: [00:0000000528:WARNN ] File: C:\WINCE600\platform\TenByTen6410_SLC\lib\ARMV4I\retail\BIBDrv.lib does not exist (2).
+BUILD: [00:0000000529:WARNN ] File: C:\WINCE600\platform\TenByTen6410_SLC\lib\ARMV4I\retail\HSMMC.lib does not exist (2).
+BUILD: [00:0000000530:WARNN ] File: C:\WINCE600\platform\TenByTen6410_SLC\lib\ARMV4I\retail\atapi_common_lib.lib does not exist (2).
+BUILD: [00:0000000531:WARNN ] File: C:\WINCE600\platform\TenByTen6410_SLC\lib\ARMV4I\retail\s3c6410_cf_atapi.lib does not exist (2).
+BUILD: [00:0000000555:WARNN ] File: C:\WINCE600\platform\TenByTen6410_SLC\lib\ARMV4I\retail\DriverLib.lib does not exist (2).
+BUILD: [00:0000000556:WARNN ] File: C:\WINCE600\platform\TenByTen6410_SLC\lib\ARMV4I\retail\SDMMCLib_BIBDRV.lib does not exist (2).
+BUILD: [00:0000000557:WARNN ] File: C:\WINCE600\platform\TenByTen6410_SLC\lib\ARMV4I\retail\SDMMCLib_HSMMC.lib does not exist (2).
+BUILD: [00:0000000558:WARNN ] File: C:\WINCE600\platform\TenByTen6410_SLC\lib\ARMV4I\retail\SDMMCLib_OAL.lib does not exist (2).
+BUILD: [00:0000000559:WARNN ] File: C:\WINCE600\platform\TenByTen6410_SLC\lib\ARMV4I\retail\SDMMCLib_eboot.lib does not exist (2).
+BUILD: [00:0000000560:WARNN ] File: C:\WINCE600\platform\TenByTen6410_SLC\lib\ARMV4I\retail\SDMMCLib_IPL.lib does not exist (2).
+BUILD: [00:0000000561:WARNN ] File: C:\WINCE600\platform\TenByTen6410_SLC\lib\ARMV4I\retail\BIBDrv.lib does not exist (2).
+BUILD: [00:0000000562:WARNN ] File: C:\WINCE600\platform\TenByTen6410_SLC\lib\ARMV4I\retail\HSMMC.lib does not exist (2).
+BUILD: [00:0000000563:WARNN ] File: C:\WINCE600\platform\TenByTen6410_SLC\lib\ARMV4I\retail\atapi_common_lib.lib does not exist (2).
+BUILD: [00:0000000564:WARNN ] File: C:\WINCE600\platform\TenByTen6410_SLC\lib\ARMV4I\retail\s3c6410_cf_atapi.lib does not exist (2).
+BUILD: [00:0000000588:WARNN ] File: C:\WINCE600\platform\TenByTen6410_SLC\lib\ARMV4I\retail\DriverLib.lib does not exist (2).
+BUILD: [00:0000000589:WARNN ] File: C:\WINCE600\platform\TenByTen6410_SLC\lib\ARMV4I\retail\SDMMCLib_BIBDRV.lib does not exist (2).
+BUILD: [00:0000000590:WARNN ] File: C:\WINCE600\platform\TenByTen6410_SLC\lib\ARMV4I\retail\SDMMCLib_HSMMC.lib does not exist (2).
+BUILD: [00:0000000591:WARNN ] File: C:\WINCE600\platform\TenByTen6410_SLC\lib\ARMV4I\retail\SDMMCLib_OAL.lib does not exist (2).
+BUILD: [00:0000000592:WARNN ] File: C:\WINCE600\platform\TenByTen6410_SLC\lib\ARMV4I\retail\SDMMCLib_eboot.lib does not exist (2).
+BUILD: [00:0000000593:WARNN ] File: C:\WINCE600\platform\TenByTen6410_SLC\lib\ARMV4I\retail\SDMMCLib_IPL.lib does not exist (2).
+BUILD: [00:0000000594:WARNN ] File: C:\WINCE600\platform\TenByTen6410_SLC\lib\ARMV4I\retail\BIBDrv.lib does not exist (2).
+BUILD: [00:0000000595:WARNN ] File: C:\WINCE600\platform\TenByTen6410_SLC\lib\ARMV4I\retail\HSMMC.lib does not exist (2).
+BUILD: [00:0000000596:WARNN ] File: C:\WINCE600\platform\TenByTen6410_SLC\lib\ARMV4I\retail\atapi_common_lib.lib does not exist (2).
+BUILD: [00:0000000597:WARNN ] File: C:\WINCE600\platform\TenByTen6410_SLC\lib\ARMV4I\retail\s3c6410_cf_atapi.lib does not exist (2).
+BUILD: [00:0000000598:WARNN ] C:\WINCE600\PLATFORM\TenByTen6410_SLC\SRC\DRIVERS\KEYBD\kbds3c6410\sources(72) : Build.exe does not evaluate IF conditional statements. Conditional statements that affect macro definitions might cause Build.exe to not rebuild modified source code. Refer to the Platform Builder documentation.
+BUILD: [00:0000000599:WARNN ] C:\WINCE600\PLATFORM\TenByTen6410_SLC\SRC\DRIVERS\OTG\Device\: Missing source file: C:\WINCE600\public\common\oak\lib\ARMV4I\retail\ufnmdd.lib.
+BUILD: [00:0000000622:WARNN ] File: C:\WINCE600\platform\TenByTen6410_SLC\lib\ARMV4I\retail\DriverLib.lib does not exist (2).
+BUILD: [00:0000000623:WARNN ] File: C:\WINCE600\platform\TenByTen6410_SLC\lib\ARMV4I\retail\SDMMCLib_BIBDRV.lib does not exist (2).
+BUILD: [00:0000000624:WARNN ] File: C:\WINCE600\platform\TenByTen6410_SLC\lib\ARMV4I\retail\SDMMCLib_HSMMC.lib does not exist (2).
+BUILD: [00:0000000625:WARNN ] File: C:\WINCE600\platform\TenByTen6410_SLC\lib\ARMV4I\retail\SDMMCLib_OAL.lib does not exist (2).
+BUILD: [00:0000000626:WARNN ] File: C:\WINCE600\platform\TenByTen6410_SLC\lib\ARMV4I\retail\SDMMCLib_eboot.lib does not exist (2).
+BUILD: [00:0000000627:WARNN ] File: C:\WINCE600\platform\TenByTen6410_SLC\lib\ARMV4I\retail\SDMMCLib_IPL.lib does not exist (2).
+BUILD: [00:0000000628:WARNN ] File: C:\WINCE600\platform\TenByTen6410_SLC\lib\ARMV4I\retail\BIBDrv.lib does not exist (2).
+BUILD: [00:0000000629:WARNN ] File: C:\WINCE600\platform\TenByTen6410_SLC\lib\ARMV4I\retail\HSMMC.lib does not exist (2).
+BUILD: [00:0000000630:WARNN ] File: C:\WINCE600\platform\TenByTen6410_SLC\lib\ARMV4I\retail\atapi_common_lib.lib does not exist (2).
+BUILD: [00:0000000631:WARNN ] File: C:\WINCE600\platform\TenByTen6410_SLC\lib\ARMV4I\retail\s3c6410_cf_atapi.lib does not exist (2).
+BUILD: [00:0000000632:WARNN ] File: C:\WINCE600\PLATFORM\TenByTen6410_SLC\SRC\DRIVERS\MFC\mfc_os_dep_layer\src\wince\obj\ARMV4I\retail\MfcMemory.obj does not exist (2).
+BUILD: [00:0000000633:WARNN ] File: C:\WINCE600\PLATFORM\TenByTen6410_SLC\SRC\DRIVERS\MFC\mfc_os_dep_layer\src\wince\obj\ARMV4I\retail\MfcIntrNotification.obj does not exist (2).
+BUILD: [00:0000000634:WARNN ] File: C:\WINCE600\PLATFORM\TenByTen6410_SLC\SRC\DRIVERS\MFC\mfc_os_dep_layer\src\wince\obj\ARMV4I\retail\MfcMutex.obj does not exist (2).
+BUILD: [00:0000000635:WARNN ] File: C:\WINCE600\PLATFORM\TenByTen6410_SLC\SRC\DRIVERS\MFC\mfc_os_dep_layer\src\wince\obj\ARMV4I\retail\LogMsg.obj does not exist (2).
+BUILD: [00:0000000651:WARNN ] File: C:\WINCE600\PLATFORM\TenByTen6410_SLC\SRC\DRIVERS\MFC\mfc_os_indep_layer\src\obj\ARMV4I\retail\BitProcBuf.obj does not exist (2).
+BUILD: [00:0000000652:WARNN ] File: C:\WINCE600\PLATFORM\TenByTen6410_SLC\SRC\DRIVERS\MFC\mfc_os_indep_layer\src\obj\ARMV4I\retail\DataBuf.obj does not exist (2).
+BUILD: [00:0000000653:WARNN ] File: C:\WINCE600\PLATFORM\TenByTen6410_SLC\SRC\DRIVERS\MFC\mfc_os_indep_layer\src\obj\ARMV4I\retail\FramBufMgr.obj does not exist (2).
+BUILD: [00:0000000654:WARNN ] File: C:\WINCE600\PLATFORM\TenByTen6410_SLC\SRC\DRIVERS\MFC\mfc_os_indep_layer\src\obj\ARMV4I\retail\MFC_HW_Init.obj does not exist (2).
+BUILD: [00:0000000655:WARNN ] File: C:\WINCE600\PLATFORM\TenByTen6410_SLC\SRC\DRIVERS\MFC\mfc_os_indep_layer\src\obj\ARMV4I\retail\MFC_Instance.obj does not exist (2).
+BUILD: [00:0000000656:WARNN ] File: C:\WINCE600\PLATFORM\TenByTen6410_SLC\SRC\DRIVERS\MFC\mfc_os_indep_layer\src\obj\ARMV4I\retail\MFC_Inst_Pool.obj does not exist (2).
+BUILD: [00:0000000657:WARNN ] File: C:\WINCE600\PLATFORM\TenByTen6410_SLC\SRC\DRIVERS\MFC\mfc_os_indep_layer\src\obj\ARMV4I\retail\MfcSfr.obj does not exist (2).
+BUILD: [00:0000000658:WARNN ] File: C:\WINCE600\PLATFORM\TenByTen6410_SLC\SRC\DRIVERS\MFC\mfc_os_indep_layer\src\obj\ARMV4I\retail\Prism_S_V13E.obj does not exist (2).
+BUILD: [00:0000000659:WARNN ] File: C:\WINCE600\PLATFORM\TenByTen6410_SLC\SRC\DRIVERS\MFC\mfc_os_indep_layer\src\obj\ARMV4I\retail\CacheOpr.obj does not exist (2).
+BUILD: [00:0000000680:WARNN ] File: C:\WINCE600\platform\TenByTen6410_SLC\lib\ARMV4I\retail\DriverLib.lib does not exist (2).
+BUILD: [00:0000000681:WARNN ] File: C:\WINCE600\platform\TenByTen6410_SLC\lib\ARMV4I\retail\SDMMCLib_BIBDRV.lib does not exist (2).
+BUILD: [00:0000000682:WARNN ] File: C:\WINCE600\platform\TenByTen6410_SLC\lib\ARMV4I\retail\SDMMCLib_HSMMC.lib does not exist (2).
+BUILD: [00:0000000683:WARNN ] File: C:\WINCE600\platform\TenByTen6410_SLC\lib\ARMV4I\retail\SDMMCLib_OAL.lib does not exist (2).
+BUILD: [00:0000000684:WARNN ] File: C:\WINCE600\platform\TenByTen6410_SLC\lib\ARMV4I\retail\SDMMCLib_eboot.lib does not exist (2).
+BUILD: [00:0000000685:WARNN ] File: C:\WINCE600\platform\TenByTen6410_SLC\lib\ARMV4I\retail\SDMMCLib_IPL.lib does not exist (2).
+BUILD: [00:0000000686:WARNN ] File: C:\WINCE600\platform\TenByTen6410_SLC\lib\ARMV4I\retail\BIBDrv.lib does not exist (2).
+BUILD: [00:0000000687:WARNN ] File: C:\WINCE600\platform\TenByTen6410_SLC\lib\ARMV4I\retail\HSMMC.lib does not exist (2).
+BUILD: [00:0000000688:WARNN ] File: C:\WINCE600\platform\TenByTen6410_SLC\lib\ARMV4I\retail\atapi_common_lib.lib does not exist (2).
+BUILD: [00:0000000689:WARNN ] File: C:\WINCE600\platform\TenByTen6410_SLC\lib\ARMV4I\retail\s3c6410_cf_atapi.lib does not exist (2).
+BUILD: [00:0000000690:WARNN ] File: C:\WINCE600\platform\TenByTen6410_SLC\lib\ARMV4I\retail\mfcdd_os_dep.lib does not exist (2).
+BUILD: [00:0000000691:WARNN ] File: C:\WINCE600\platform\TenByTen6410_SLC\lib\ARMV4I\retail\mfc_os_indep_layer.lib does not exist (2).
+BUILD: [00:0000000692:WARNN ] File: C:\WINCE600\PLATFORM\TenByTen6410_SLC\SRC\DRIVERS\MFC\mfc_dd_if_layer\wince\src\obj\ARMV4I\retail\MfcDriver.res does not exist (2).
+BUILD: [00:0000000693:WARNN ] File: C:\WINCE600\PLATFORM\TenByTen6410_SLC\SRC\DRIVERS\MFC\mfc_dd_if_layer\wince\src\obj\ARMV4I\retail\MfcDriver.obj does not exist (2).
+BUILD: [00:0000000694:WARNN ] File: C:\WINCE600\PLATFORM\TenByTen6410_SLC\SRC\DRIVERS\MFC\mfc_dd_if_layer\wince\src\obj\ARMV4I\retail\MfcSetConfig.obj does not exist (2).
+BUILD: [00:0000000695:WARNN ] File: C:\WINCE600\PLATFORM\TenByTen6410_SLC\SRC\DRIVERS\MFC\mfc_dd_if_layer\wince\src\obj\ARMV4I\retail\MfcPwrMgmt.obj does not exist (2).
+BUILD: [00:0000000696:WARNN ] File: C:\WINCE600\PLATFORM\TenByTen6410_SLC\SRC\DRIVERS\MFC\mfc_dd_if_layer\wince\src\obj\ARMV4I\retail\MfcSetClk.obj does not exist (2).
+BUILD: [00:0000000714:WARNN ] C:\WINCE600\PLATFORM\TenByTen6410_SLC\SRC\DRIVERS\DM9000A1\sources(19) : Build.exe does not evaluate IF conditional statements. Conditional statements that affect macro definitions might cause Build.exe to not rebuild modified source code. Refer to the Platform Builder documentation.
+BUILD: [00:0000000715:WARNN ] C:\WINCE600\PLATFORM\TenByTen6410_SLC\SRC\DRIVERS\IROMBOOT\SDMMCBOOT\BIBDRV\: Missing source file: C:\WINCE600\public\common\oak\lib\ARMV4I\retail\ceddk.lib.
+BUILD: [00:0000000716:WARNN ] File: C:\WINCE600\platform\TenByTen6410_SLC\lib\ARMV4I\retail\DriverLib.lib does not exist (2).
+BUILD: [00:0000000717:WARNN ] File: C:\WINCE600\platform\TenByTen6410_SLC\lib\ARMV4I\retail\SDMMCLib_BIBDRV.lib does not exist (2).
+BUILD: [00:0000000718:WARNN ] File: C:\WINCE600\platform\TenByTen6410_SLC\lib\ARMV4I\retail\SDMMCLib_HSMMC.lib does not exist (2).
+BUILD: [00:0000000719:WARNN ] File: C:\WINCE600\platform\TenByTen6410_SLC\lib\ARMV4I\retail\SDMMCLib_OAL.lib does not exist (2).
+BUILD: [00:0000000720:WARNN ] File: C:\WINCE600\platform\TenByTen6410_SLC\lib\ARMV4I\retail\SDMMCLib_eboot.lib does not exist (2).
+BUILD: [00:0000000721:WARNN ] File: C:\WINCE600\platform\TenByTen6410_SLC\lib\ARMV4I\retail\SDMMCLib_IPL.lib does not exist (2).
+BUILD: [00:0000000722:WARNN ] File: C:\WINCE600\platform\TenByTen6410_SLC\lib\ARMV4I\retail\BIBDrv.lib does not exist (2).
+BUILD: [00:0000000723:WARNN ] File: C:\WINCE600\platform\TenByTen6410_SLC\lib\ARMV4I\retail\HSMMC.lib does not exist (2).
+BUILD: [00:0000000724:WARNN ] File: C:\WINCE600\platform\TenByTen6410_SLC\lib\ARMV4I\retail\atapi_common_lib.lib does not exist (2).
+BUILD: [00:0000000725:WARNN ] File: C:\WINCE600\platform\TenByTen6410_SLC\lib\ARMV4I\retail\s3c6410_cf_atapi.lib does not exist (2).
+BUILD: [00:0000000726:WARNN ] File: C:\WINCE600\platform\TenByTen6410_SLC\lib\ARMV4I\retail\mfcdd_os_dep.lib does not exist (2).
+BUILD: [00:0000000727:WARNN ] File: C:\WINCE600\platform\TenByTen6410_SLC\lib\ARMV4I\retail\mfc_os_indep_layer.lib does not exist (2).
+BUILD: [00:0000000728:WARNN ] File: C:\WINCE600\platform\TenByTen6410_SLC\lib\ARMV4I\retail\s3c6410_mfc.lib does not exist (2).
+BUILD: [01:0000000884:WARNN ] gpe.lib(aablt.obj) : warning LNK4099: PDB 'aablt.pdb' was not found with 'C:\WINCE600\OSDesigns\TenByTen6410_SLC\Wince600\TenByTen6410_SLC_ARMV4I\cesysgen\oak\lib\ARMV4I\retail\gpe.lib' or at 'C:\WINCE600\platform\TenByTen6410_SLC\target\ARMV4I\retail\aablt.pdb'; linking object as if no debug info
+BUILD: [01:0000000885:WARNN ] ddgpe.lib(guid.obj) : warning LNK4099: PDB 'ddguid.pdb' was not found with 'C:\WINCE600\OSDesigns\TenByTen6410_SLC\Wince600\TenByTen6410_SLC_ARMV4I\cesysgen\oak\lib\ARMV4I\retail\ddgpe.lib' or at 'C:\WINCE600\platform\TenByTen6410_SLC\target\ARMV4I\retail\ddguid.pdb'; linking object as if no debug info
+BUILD: [00:0000001123:WARNN ] C:\WINCE600\PLATFORM\TenByTen6410_SLC\SRC\DRIVERS\KEYBD\kbds3c6410\sources(48) : Build.exe does not evaluate IF conditional statements. Conditional statements that affect macro definitions might cause Build.exe to not rebuild modified source code. Refer to the Platform Builder documentation.
+BUILD: [00:0000001478:WARNN ] C:\WINCE600\PLATFORM\TenByTen6410_SLC\SRC\DRIVERS\CMM\: Missing source file: C:\WINCE600\public\common\sdk\lib\ARMV4I\retail\CEDDK.lib.
+BUILD: [00:0000001604:WARNN ] C:\WINCE600\PLATFORM\TenByTen6410_SLC\SRC\DRIVERS\DM9000A1\sources(17) : Build.exe does not evaluate IF conditional statements. Conditional statements that affect macro definitions might cause Build.exe to not rebuild modified source code. Refer to the Platform Builder documentation.
+BUILD: [00:0000001605:WARNN ] C:\WINCE600\PLATFORM\TenByTen6410_SLC\SRC\DRIVERS\MAVELL_WIFI\WLAN\sources(37) : Build.exe does not evaluate IF conditional statements. Conditional statements that affect macro definitions might cause Build.exe to not rebuild modified source code. Refer to the Platform Builder documentation.
+BUILD: [00:0000001606:WARNN ] C:\WINCE600\PLATFORM\TenByTen6410_SLC\SRC\DRIVERS\MAVELL_WIFI\WLAN\: Missing source file: C:\WINCE600\platform\TenByTen6410_SLC\lib\ARMV4I\retail\drvio.lib.
+BUILD: [00:0000001647:WARNN ] C:\WINCE600\PLATFORM\TenByTen6410_SLC\SRC\DRIVERS\WIFI_SDIO\WLAN\sources(37) : Build.exe does not evaluate IF conditional statements. Conditional statements that affect macro definitions might cause Build.exe to not rebuild modified source code. Refer to the Platform Builder documentation.

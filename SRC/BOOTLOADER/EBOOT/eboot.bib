@@ -1,0 +1,46 @@
+//
+// Copyright (c) Samsung Electronics. Co. LTD.  All rights reserved.
+//
+/*++
+THIS CODE AND INFORMATION IS PROVIDED "AS IS" WITHOUT WARRANTY OF
+ANY KIND, EITHER EXPRESSED OR IMPLIED, INCLUDING BUT NOT LIMITED TO
+THE IMPLIED WARRANTIES OF MERCHANTABILITY AND/OR FITNESS FOR A
+PARTICULAR PURPOSE.
+
+*/
+
+
+MEMORY
+;-----------------------------------------------------
+;    NAME        ADDRESS    SIZE        TYPE
+;-----------------------------------------------------
+    PTS         80000000    00020000    RESERVED        ; Page Table    : 128 KB
+    ARGS        80020800    00000800    RESERVED        ; BSP Args    : 2 KB
+    EBOOT       80030000    00080000    RAMIMAGE        ; Eboot Image    : 512 KB
+    RAM         800B0000    00010000    RAM             ; RAM        : 64 KB
+    BINFS       800C0000    00030000    RESERVED        ; Bin FS        : 192 KB
+    STACK       800FC000    00004000    RESERVED        ; Stack        : 16 KB (sharing with Step Loader)
+                                                        ; From 8010000 ~, decompressed image will be put.
+
+    FLSCACHE    80100000    03F00000    RESERVED        ; This is same region for NK RAMIMAGE
+    USB_BUF     84000000    03E00000    RESERVED        ; USB Download Buffer Start Address
+                                                        ; Download code does not check End Size.
+;    DISPLAY     87E00000    00200000    RESERVED        ; match to config.bib for sharing display library
+    DISPLAY     87E00000    00100000    RESERVED        ; match to config.bib for sharing display library
+
+
+CONFIG
+    COMPRESSION=OFF
+    PROFILE=OFF
+    KERNELFIXUPS=ON
+    SRE=ON
+
+    ROMSTART = 80030000
+    ROMWIDTH = 32
+    ROMSIZE = 00080000
+
+MODULES
+;   Name            Path                                                              Memory Type
+;   --------------  ----------------------------------------------                    -----------
+    nk.exe          $(_TARGETPLATROOT)\target\$(_TGTCPU)\$(WINCEDEBUG)\eboot.exe      EBOOT
+

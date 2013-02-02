@@ -1,0 +1,58 @@
+!if 0
+Copyright (c) Microsoft Corporation.  All rights reserved.
+!endif
+!if 0
+Use of this source code is subject to the terms of the Microsoft end-user
+license agreement (EULA) under which you licensed this SOFTWARE PRODUCT.
+If you did not accept the terms of the EULA, you are not authorized to use
+this source code. For a copy of the EULA, please see the LICENSE.RTF on your
+install media.
+!endif
+
+TARGETNAME = oal
+TARGETTYPE = LIBRARY
+
+RELEASETYPE = PLATFORM
+NOMIPS16CODE = 1
+
+SYNCHRONIZE_DRAIN=1
+
+_OSSVCSOAKROOT=$(_PUBLICROOT)\ossvcs\oak
+
+INCLUDES=$(INCLUDES);$(_TARGETPLATROOT)\src\drivers\ExtPowerCTL\INC;
+CDEFINES=$(CDEFINES) -DCEDDK_USEDDKMACRO
+
+!IF "$(BSP_DEBUGPORT)" == "SERIAL_UART0"
+CDEFINES=$(CDEFINES) -DDEBUG_PORT=0
+!ENDIF
+
+!IF "$(BSP_DEBUGPORT)" == "SERIAL_UART1"
+CDEFINES=$(CDEFINES) -DDEBUG_PORT=1
+!ENDIF
+
+!IF "$(BSP_DEBUGPORT)" == "SERIAL_UART2"
+CDEFINES=$(CDEFINES) -DDEBUG_PORT=2
+!ENDIF
+
+!IF "$(BSP_DEBUGPORT)" == "SERIAL_UART3"
+CDEFINES=$(CDEFINES) -DDEBUG_PORT=3
+!ENDIF
+
+!IF ("$(BSP_IROM_SDMMC_CH0_BOOT)"=="1")||("$(BSP_IROM_SDMMC_CH1_BOOT)"=="1")
+CDEFINES=$(CDEFINES) -D_IROM_SDMMC_
+!ENDIF
+
+LDEFINES=-subsystem:native /DEBUG /DEBUGTYPE:CV /FIXED:NO
+SOURCELIBS=$(SOURCELIBS) \
+	$(_TARGETPLATROOT)\lib\$(_CPUINDPATH)\extpowerctl_lib.lib  \
+
+SOURCES =    \
+    debug.c    \
+    init.c        \
+    intr.c    \
+    ioctl.c    \
+    power.c    \
+
+ARM_SOURCES =    \
+    startup.s
+

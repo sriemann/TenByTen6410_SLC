@@ -1,0 +1,56 @@
+;
+; Copyright (c) Microsoft Corporation.  All rights reserved.
+;
+;
+; Use of this source code is subject to the terms of the Microsoft end-user
+; license agreement (EULA) under which you licensed this SOFTWARE PRODUCT.
+; If you did not accept the terms of the EULA, you are not authorized to use
+; this source code. For a copy of the EULA, please see the LICENSE.RTF on your
+; install media.
+;
+;******************************************************************************
+;*
+;* System On Chip(SOC)
+;*
+;* Copyright (c) 2002 Software Center, Samsung Electronics, Inc.
+;* All rights reserved.
+;*
+;* This software is the confidential and proprietary information of Samsung
+;* Electronics, Inc("Confidential Information"). You Shall not disclose such
+;* Confidential Information and shall use it only in accordance with the terms
+;* of the license agreement you entered into Samsung.
+;*
+;******************************************************************************
+
+MEMORY
+;-----------------------------------------------------
+;    NAME        ADDRESS    SIZE        TYPE
+;-----------------------------------------------------
+	PTS			80000000	00020000	RESERVED		; Page Table	: 128 KB
+	ARGS		80020800	00000800	RESERVED		; BSP Args	: 2 KB
+	EBOOT_SDFUSER		80030000	00080000	RAMIMAGE		; Eboot Image	: 512 KB
+	RAM			86C00000	00400000	RAM				; RAM		: 4 MB
+	BINFS		800C0000	00030000	RESERVED		; Bin FS		: 192 KB
+	STACK		800FC000	00004000	RESERVED		; Stack		: 16 KB (sharing with Step Loader)
+
+	FLSCACHE	80100000	02F00000		RESERVED
+	USB_BUF		83000000	03000000	RESERVED
+                                                        ; Download code does not check End Size.
+    DISPLAY     87F00000    00100000    RESERVED        ; match to config.bib for sharing display library 
+
+
+CONFIG
+    COMPRESSION=OFF
+    PROFILE=OFF
+    KERNELFIXUPS=ON
+    SRE=ON
+
+    ROMSTART = 80030000
+    ROMWIDTH = 32
+    ROMSIZE = 00080000
+
+MODULES
+;   Name            Path                                                              Memory Type
+;   --------------  ----------------------------------------------                    -----------
+    nk.exe          $(_TARGETPLATROOT)\target\$(_TGTCPU)\$(WINCEDEBUG)\eboot_sdfuser.exe      EBOOT_SDFUSER
+

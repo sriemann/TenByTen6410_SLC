@@ -1,0 +1,3 @@
+BUILD: [Thrd:Sequence:Type  ] Message
+BUILD: [00:0000000047:WARNN ] C:\WINCE600\PLATFORM\TenByTen6410_SLC\SRC\DRIVERS\ExtPowerCTL\ExtPowerCTL_DRV\: Missing source file: C:\WINCE600\public\common\sdk\lib\ARMV4I\debug\coredll.lib.
+BUILD: [00:0000000048:WARNN ] C:\WINCE600\PLATFORM\TenByTen6410_SLC\SRC\DRIVERS\ExtPowerCTL\ExtPowerCTL_DRV\: Missing source file: C:\WINCE600\public\common\oak\lib\ARMV4I\debug\ceddk.lib.

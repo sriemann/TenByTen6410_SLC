@@ -1,0 +1,217 @@
+ backlight
+
+ Timestamp is 510b7975 (Fri Feb 01 16:14:45 2013)
+
+ Preferred load address is 10000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 00000004H .CRT$XCA                CODE
+ 0001:00000004 00000004H .CRT$XCZ                CODE
+ 0001:00000008 00000004H .CRT$XIA                CODE
+ 0001:0000000c 00000004H .CRT$XIZ                CODE
+ 0001:00000010 00000004H .CRT$XPA                CODE
+ 0001:00000014 00000004H .CRT$XPZ                CODE
+ 0001:00000018 00000004H .CRT$XTA                CODE
+ 0001:0000001c 00000004H .CRT$XTZ                CODE
+ 0001:00000020 00000898H .rdata                  CODE
+ 0001:000008b8 00000026H .rdata$debug            CODE
+ 0001:000008e0 00001774H .text                   CODE
+ 0001:00002058 00000074H .xdata                  CODE
+ 0001:000020cc 00000028H .idata$2                CODE
+ 0001:000020f4 00000014H .idata$3                CODE
+ 0001:00002108 000000c0H .idata$4                CODE
+ 0001:000021c8 00000016H .idata$6                CODE
+ 0001:000021e0 000000cfH .edata                  CODE
+ 0002:00000000 000000c0H .idata$5                DATA
+ 0002:000000c0 0000044cH .data                   DATA
+ 0002:0000050c 00000020H .bss                    DATA
+ 0003:00000000 00000138H .pdata                  DATA
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0000:00000000       ___safe_se_handler_count   00000000     <absolute>
+ 0000:00000000       ___safe_se_handler_table   00000000     <absolute>
+ 0001:00000000       __xc_a                     10001000     corelib0:crt0init.obj
+ 0001:00000004       __xc_z                     10001004     corelib0:crt0init.obj
+ 0001:00000008       __xi_a                     10001008     corelib0:crt0init.obj
+ 0001:0000000c       __xi_z                     1000100c     corelib0:crt0init.obj
+ 0001:00000010       __xp_a                     10001010     corelib0:crt0init.obj
+ 0001:00000014       __xp_z                     10001014     corelib0:crt0init.obj
+ 0001:00000018       __xt_a                     10001018     corelib0:crt0init.obj
+ 0001:0000001c       __xt_z                     1000101c     corelib0:crt0init.obj
+ 0001:00000040       ??_C@_1EI@FPBANDCM@?$AAP?$AAo?$AAw?$AAe?$AAr?$AAM?$AAa?$AAn?$AAa?$AAg?$AAe?$AAr?$AA?1?$AAR?$AAe?$AAl?$AAo?$AAa?$AAd?$AAA?$AAc?$AAt?$AAi?$AAv?$AAi?$AAt?$AAy?$AAT?$AAi?$AAm?$AAe?$AAo@ 10001040     bkldrvapi.obj
+ 0001:00000088       ??_C@_1DA@PCOFNLNE@?$AAG?$AAe?$AAt?$AAS?$AAy?$AAs?$AAt?$AAe?$AAm?$AAP?$AAo?$AAw?$AAe?$AAr?$AAS?$AAt?$AAa?$AAt?$AAu?$AAs?$AAE?$AAx?$AA2?$AA?$AA@ 10001088     bkldrvapi.obj
+ 0001:000000b8       ??_C@_1BI@CJKPFBEK@?$AAc?$AAo?$AAr?$AAe?$AAd?$AAl?$AAl?$AA?4?$AAd?$AAl?$AAl?$AA?$AA@ 100010b8     bkldrvapi.obj
+ 0001:000000d0       ??_C@_1FG@BBABBPBD@?$AAB?$AAL?$AAK?$AA_?$AAI?$AAn?$AAi?$AAt?$AA?3?$AA?5?$AAR?$AAe?$AAg?$AAQ?$AAu?$AAe?$AAr?$AAy?$AAV?$AAa?$AAl?$AAu?$AAe?$AAE?$AAx?$AA?5?$AAf?$AAa?$AAi?$AAl?$AAe?$AAd@ 100010d0     bkldrvapi.obj
+ 0001:00000128       ??_C@_19DINFBLAK@?$AAN?$AAa?$AAm?$AAe?$AA?$AA@ 10001128     bkldrvapi.obj
+ 0001:00000138       ??_C@_1FC@CDLEKDEK@?$AAB?$AAL?$AAK?$AA_?$AAI?$AAn?$AAi?$AAt?$AA?3?$AA?5?$AAO?$AAp?$AAe?$AAn?$AAD?$AAe?$AAv?$AAi?$AAc?$AAe?$AAK?$AAe?$AAy?$AA?5?$AAf?$AAa?$AAi?$AAl?$AAe?$AAd?$AA?5?$AAw@ 10001138     bkldrvapi.obj
+ 0001:00000190       ??_C@_1IC@CJKPFLDL@?$AAE?$AAR?$AAR?$AAO?$AAR?$AA?3?$AA?5?$AAB?$AAK?$AAL?$AA_?$AAI?$AAn?$AAi?$AAt?$AA?3?$AA?5?$AAF?$AAa?$AAi?$AAl?$AAe?$AAd?$AA?5?$AAa?$AAl?$AAl?$AAo?$AAc?$AAa?$AAt?$AAe@ 10001190     bkldrvapi.obj
+ 0001:00000218       ??_C@_1FO@NOEPHHN@?$AAE?$AAR?$AAR?$AAO?$AAR?$AA?3?$AA?5?$AAB?$AAK?$AAL?$AA_?$AAD?$AAe?$AAi?$AAn?$AAi?$AAt?$AA?3?$AA?5?$AAI?$AAn?$AAc?$AAo?$AAr?$AAr?$AAe?$AAc?$AAt?$AA?5?$AAc?$AAo?$AAn@ 10001218     bkldrvapi.obj
+ 0001:00000278       ??_C@_1GE@DLIGJEDK@?$AAE?$AAR?$AAR?$AAO?$AAR?$AA?3?$AA?5?$AAB?$AAK?$AAL?$AA_?$AAI?$AAo?$AAC?$AAo?$AAn?$AAt?$AAr?$AAo?$AAl?$AA?3?$AA?5?$AAI?$AAn?$AAc?$AAo?$AAr?$AAr?$AAe?$AAc?$AAt?$AA?5@ 10001278     bkldrvapi.obj
+ 0001:000002e8       ??_C@_1EG@KLIEIOJB@?$AAe?$AAx?$AAc?$AAe?$AAp?$AAt?$AAi?$AAo?$AAn?$AA?5?$AAi?$AAn?$AA?5?$AAc?$AAo?$AAn?$AAv?$AAe?$AAr?$AAt?$AAs?$AAt?$AAr?$AAi?$AAn?$AAg?$AAt?$AAo?$AAg?$AAu?$AAi?$AAd@ 100012e8     bkldrvmain.obj
+ 0001:00000330       ??_C@_1GI@LBPPMOKF@?$AA?$HL?$AA?$CF?$AA0?$AA8?$AAl?$AAX?$AA?9?$AA?$CF?$AA0?$AA4?$AAX?$AA?9?$AA?$CF?$AA0?$AA4?$AAX?$AA?9?$AA?$CF?$AA0?$AA2?$AAX?$AA?$CF?$AA0?$AA2?$AAX?$AA?9?$AA?$CF?$AA0?$AA2?$AAX?$AA?$CF?$AA0@ 10001330     bkldrvmain.obj
+ 0001:00000398       ??_C@_1BI@JMDIJPCL@?$AAA?$AAC?$AA?5?$AAi?$AAs?$AA?5?$AAo?$AAn?$AA?4?$AA?$AN?$AA?6?$AA?$AA@ 10001398     bkldrvmain.obj
+ 0001:000003b0       ??_C@_1GE@BPOEEKDA@?$AAG?$AAe?$AAt?$AAS?$AAy?$AAs?$AAt?$AAe?$AAm?$AAP?$AAo?$AAw?$AAe?$AAr?$AAS?$AAt?$AAs?$AAt?$AAu?$AAs?$AAE?$AAx?$AA2?$AA?5?$AAf?$AAa?$AAi?$AAl?$AAe?$AAd?$AA?5?$AAw@ 100013b0     bkldrvmain.obj
+ 0001:00000418       ??_C@_1FI@GIAHMGCK@?$AAB?$AAa?$AAc?$AAk?$AAl?$AAi?$AAg?$AAh?$AAt?$AA?5?$AAd?$AAr?$AAi?$AAv?$AAe?$AAr?$AA?3?$AA?5?$AAW?$AAa?$AAi?$AAt?$AAF?$AAo?$AAr?$AAA?$AAP?$AAI?$AAR?$AAe?$AAa?$AAd@ 10001418     bkldrvmain.obj
+ 0001:00000470       ??_C@_1BK@EDPIHDBN@?$AAA?$AAC?$AAB?$AAr?$AAi?$AAg?$AAh?$AAt?$AAN?$AAe?$AAs?$AAs?$AA?$AA@ 10001470     bkldrvmain.obj
+ 0001:0000048c       ??_C@_1BG@BJDIOOOG@?$AAB?$AAr?$AAi?$AAg?$AAh?$AAt?$AAN?$AAe?$AAs?$AAs?$AA?$AA@ 1000148c     bkldrvmain.obj
+ 0001:000004a4       ??_C@_1BE@PJBHBNNG@?$AAA?$AAC?$AAT?$AAi?$AAm?$AAe?$AAo?$AAu?$AAt?$AA?$AA@ 100014a4     bkldrvmain.obj
+ 0001:000004b8       ??_C@_1BO@PELGLPFE@?$AAB?$AAa?$AAt?$AAt?$AAe?$AAr?$AAy?$AAT?$AAi?$AAm?$AAe?$AAo?$AAu?$AAt?$AA?$AA@ 100014b8     bkldrvmain.obj
+ 0001:000004d8       ??_C@_1CC@FKEHPNLB@?$AAA?$AAC?$AAB?$AAa?$AAc?$AAk?$AAl?$AAi?$AAg?$AAh?$AAt?$AAO?$AAn?$AAT?$AAa?$AAp?$AA?$AA@ 100014d8     bkldrvmain.obj
+ 0001:000004fc       ??_C@_1BO@BFBCCLIP@?$AAB?$AAa?$AAc?$AAk?$AAl?$AAi?$AAg?$AAh?$AAt?$AAO?$AAn?$AAT?$AAa?$AAp?$AA?$AA@ 100014fc     bkldrvmain.obj
+ 0001:0000051c       ??_C@_1CO@MGKPHPG@?$AAC?$AAo?$AAn?$AAt?$AAr?$AAo?$AAl?$AAP?$AAa?$AAn?$AAe?$AAl?$AA?2?$AAB?$AAa?$AAc?$AAk?$AAl?$AAi?$AAg?$AAh?$AAt?$AA?$AA@ 1000151c     bkldrvmain.obj
+ 0001:00000550       ??_C@_1EG@JDOEDDAC@?$AAB?$AAK?$AAL?$AA?3?$AA?5?$AAC?$AAe?$AAF?$AAi?$AAn?$AAd?$AAF?$AAi?$AAr?$AAs?$AAt?$AAR?$AAe?$AAg?$AAC?$AAh?$AAa?$AAn?$AAg?$AAe?$AA?5?$AAf?$AAa?$AAi?$AAl?$AAe?$AAd@ 10001550     bkldrvmain.obj
+ 0001:00000598       ??_C@_1EI@KAELLKGO@?$AAR?$AAe?$AAq?$AAu?$AAe?$AAs?$AAt?$AAD?$AAe?$AAv?$AAi?$AAc?$AAe?$AAN?$AAo?$AAt?$AAi?$AAf?$AAi?$AAc?$AAa?$AAt?$AAi?$AAo?$AAn?$AAs?$AA?5?$AAf?$AAa?$AAi?$AAl?$AAe@ 10001598     bkldrvmain.obj
+ 0001:000005e0       ??_C@_1FO@GJDAPONO@?$AAc?$AAa?$AAn?$AA?8?$AAt?$AA?5?$AAc?$AAo?$AAn?$AAv?$AAe?$AAr?$AAt?$AA?5?$AAP?$AAM?$AAC?$AAL?$AAA?$AAS?$AAS?$AA_?$AAD?$AAI?$AAS?$AAP?$AAL?$AAA?$AAY?$AA?5?$AAs?$AAt@ 100015e0     bkldrvmain.obj
+ 0001:00000640       ??_C@_1EO@BHDHHEGO@?$AA?$HL?$AAE?$AAB?$AA9?$AA1?$AAC?$AA7?$AAC?$AA9?$AA?9?$AA8?$AAB?$AAF?$AA6?$AA?9?$AA4?$AAa?$AA2?$AAd?$AA?9?$AA9?$AAA?$AAB?$AA8?$AA?9?$AA6?$AA9?$AA7?$AA2?$AA4?$AAE?$AAE@ 10001640     bkldrvmain.obj
+ 0001:00000690       ??_C@_1FE@PLLMHJCJ@?$AAB?$AAK?$AAL?$AA?3?$AA?5?$AAr?$AAe?$AAg?$AAi?$AAs?$AAt?$AAe?$AAr?$AA?5?$AAp?$AAo?$AAw?$AAe?$AAr?$AA?5?$AAn?$AAo?$AAt?$AAi?$AAf?$AAi?$AAc?$AAa?$AAt?$AAi?$AAo?$AAn@ 10001690     bkldrvmain.obj
+ 0001:000006e8       ??_C@_1EG@ICCAJICH@?$AAB?$AAK?$AAL?$AA?3?$AA?5?$AAC?$AAr?$AAe?$AAa?$AAt?$AAe?$AA?5?$AAm?$AAe?$AAs?$AAs?$AAa?$AAg?$AAe?$AA?5?$AAq?$AAu?$AAe?$AAu?$AAe?$AA?5?$AAf?$AAa?$AAi?$AAl?$AAe?$AAd@ 100016e8     bkldrvmain.obj
+ 0001:00000730       ??_C@_1GI@KPCFIBGF@?$AAE?$AAR?$AAR?$AAO?$AAR?$AA?3?$AA?5?$AAB?$AAa?$AAc?$AAk?$AAl?$AAi?$AAg?$AAh?$AAt?$AAT?$AAh?$AAr?$AAe?$AAa?$AAd?$AA?3?$AA?5?$AAI?$AAn?$AAc?$AAo?$AAr?$AAr?$AAe?$AAc@ 10001730     bkldrvmain.obj
+ 0001:00000798       ??_C@_1FM@MLIEFNLM@?$AA?$FL?$AAB?$AAK?$AAL?$AA_?$AAP?$AAD?$AAD?$AA?$FN?$AA?5?$AAv?$AA_?$AAp?$AAP?$AAW?$AAM?$AAR?$AAe?$AAg?$AAs?$AA?5?$AAM?$AAm?$AAM?$AAa?$AAp?$AAI?$AAo?$AAS?$AAp?$AAa?$AAc@ 10001798     backlight_pdd:backlight_pdd.obj
+ 0001:000007f8       ??_C@_1FO@OLHBLDOB@?$AA?$FL?$AAB?$AAK?$AAL?$AA_?$AAP?$AAD?$AAD?$AA?$FN?$AA?5?$AAv?$AA_?$AAp?$AAG?$AAP?$AAI?$AAO?$AAR?$AAe?$AAg?$AAs?$AA?5?$AAM?$AAm?$AAM?$AAa?$AAp?$AAI?$AAo?$AAS?$AAp?$AAa@ 100017f8     backlight_pdd:backlight_pdd.obj
+ 0001:00000858       ??_C@_1GA@CHPBCIEH@?$AA?$CL?$AAB?$AAa?$AAc?$AAk?$AAL?$AAi?$AAg?$AAh?$AAt?$AAS?$AAe?$AAt?$AAS?$AAt?$AAa?$AAt?$AAe?$AA?5?$AA?9?$AA?5?$AAU?$AAn?$AAs?$AAu?$AAp?$AAp?$AAo?$AAr?$AAt?$AAe?$AAd@ 10001858     backlight_pdd:backlight_pdd.obj
+ 0001:00000960       BKL_Init                   10001960 f   bkldrvapi.obj
+ 0001:00000b20       BKL_Deinit                 10001b20 f   bkldrvapi.obj
+ 0001:00000b54       BKL_Open                   10001b54 f   bkldrvapi.obj
+ 0001:00000b58       BKL_Close                  10001b58 f   bkldrvapi.obj
+ 0001:00000b68       BKL_PowerUp                10001b68 f   bkldrvapi.obj
+ 0001:00000b6c       BKL_PowerDown              10001b6c f   bkldrvapi.obj
+ 0001:00000b78       BKL_IOControl              10001b78 f   bkldrvapi.obj
+ 0001:00000e00       DllMain                    10001e00 f   bkldrvapi.obj
+ 0001:00000e20       ?ConvertStringToGuid@@YAHPBGPAU_GUID@@@Z 10001e20 f   bkldrvmain.obj
+ 0001:00000f0c       ?UpdateACStatus@@YAXPAUBKL_MDD_INFO@@@Z 10001f0c f   bkldrvmain.obj
+ 0001:00000fb4       ?GetBestSupportedState@@YAHPAUBKL_MDD_INFO@@W4_CEDEVICE_POWER_STATE@@PAW42@@Z 10001fb4 f   bkldrvmain.obj
+ 0001:00001060       ?BacklightUpdateMDDRegSettings@@YAXPAUBKL_MDD_INFO@@@Z 10002060 f   bkldrvmain.obj
+ 0001:00001260       ?UpdateBacklight@@YAXPAUBKL_MDD_INFO@@K@Z 10002260 f   bkldrvmain.obj
+ 0001:00001368       ?fnBackLightThread@@YAKPAX@Z 10002368 f   bkldrvmain.obj
+ 0001:000016c4       EventModify                100026c4 f   coredll:COREDLL.dll
+ 0001:000016d4       __GetUserKData             100026d4 f   coredll:COREDLL.dll
+ 0001:000016e4       LocalFree                  100026e4 f   coredll:COREDLL.dll
+ 0001:000016f4       FreeLibrary                100026f4 f   coredll:COREDLL.dll
+ 0001:00001704       CloseHandle                10002704 f   coredll:COREDLL.dll
+ 0001:00001714       WaitForSingleObject        10002714 f   coredll:COREDLL.dll
+ 0001:00001724       OpenEventW                 10002724 f   coredll:COREDLL.dll
+ 0001:00001734       CreateThread               10002734 f   coredll:COREDLL.dll
+ 0001:00001744       GetProcAddressW            10002744 f   coredll:COREDLL.dll
+ 0001:00001754       LoadLibraryW               10002754 f   coredll:COREDLL.dll
+ 0001:00001764       CreateEventW               10002764 f   coredll:COREDLL.dll
+ 0001:00001774       RegCloseKey                10002774 f   coredll:COREDLL.dll
+ 0001:00001784       RegQueryValueExW           10002784 f   coredll:COREDLL.dll
+ 0001:00001794       RegOpenKeyExW              10002794 f   coredll:COREDLL.dll
+ 0001:000017a4       NKDbgPrintfW               100027a4 f   coredll:COREDLL.dll
+ 0001:000017b4       LocalAlloc                 100027b4 f   coredll:COREDLL.dll
+ 0001:000017c4       SetLastError               100027c4 f   coredll:COREDLL.dll
+ 0001:000017d4       GetDirectCallerProcessId   100027d4 f   coredll:COREDLL.dll
+ 0001:000017e4       DisableThreadLibraryCalls  100027e4 f   coredll:COREDLL.dll
+ 0001:000017f4       GetLastError               100027f4 f   coredll:COREDLL.dll
+ 0001:00001804       WaitForAPIReady            10002804 f   coredll:COREDLL.dll
+ 0001:00001814       SetDevicePower             10002814 f   coredll:COREDLL.dll
+ 0001:00001824       CeFindNextRegChange        10002824 f   coredll:COREDLL.dll
+ 0001:00001834       CeFindCloseRegChange       10002834 f   coredll:COREDLL.dll
+ 0001:00001844       StopDeviceNotifications    10002844 f   coredll:COREDLL.dll
+ 0001:00001854       CloseMsgQueue              10002854 f   coredll:COREDLL.dll
+ 0001:00001864       StopPowerNotifications     10002864 f   coredll:COREDLL.dll
+ 0001:00001874       ReadMsgQueue               10002874 f   coredll:COREDLL.dll
+ 0001:00001884       WaitForMultipleObjects     10002884 f   coredll:COREDLL.dll
+ 0001:00001894       CeFindFirstRegChange       10002894 f   coredll:COREDLL.dll
+ 0001:000018a4       RequestDeviceNotifications 100028a4 f   coredll:COREDLL.dll
+ 0001:000018b4       RequestPowerNotifications  100028b4 f   coredll:COREDLL.dll
+ 0001:000018c4       CreateMsgQueue             100028c4 f   coredll:COREDLL.dll
+ 0001:000018d4       BL_Set                     100028d4 f   backlight_pdd:backlight_pdd.obj
+ 0001:0000193c       BL_SetBrightness           1000293c f   backlight_pdd:backlight_pdd.obj
+ 0001:00001994       BacklightInit              10002994 f   backlight_pdd:backlight_pdd.obj
+ 0001:00001a74       BacklightDeInit            10002a74 f   backlight_pdd:backlight_pdd.obj
+ 0001:00001ac0       BackLightSetState          10002ac0 f   backlight_pdd:backlight_pdd.obj
+ 0001:00001b8c       BacklightGetSupportedStates 10002b8c f   backlight_pdd:backlight_pdd.obj
+ 0001:00001b94       BacklightIOControl         10002b94 f   backlight_pdd:backlight_pdd.obj
+ 0001:00001b9c       BacklightRegChanged        10002b9c f   backlight_pdd:backlight_pdd.obj
+ 0001:00001cc0       _DllMainCRTStartup         10002cc0 f   corelib0:pegdmain.obj
+ 0001:00001cf0       __GSHandlerCheckCommon     10002cf0 f   corelib0:gshandler.obj
+ 0001:00001d2c       __GSHandlerCheck           10002d2c f   corelib0:gshandler.obj
+ 0001:00001d50       __security_init_cookie     10002d50 f   corelib0:seccinit.obj
+ 0001:00001dac       __security_check_cookie    10002dac f   corelib0:armsecgs.obj
+ 0001:00001dc0       __gsfailure                10002dc0 f   corelib0:armsecgs.obj
+ 0001:00001f00       _cexit                     10002f00 f   corelib0:cexit.obj
+ 0001:00001f1c       _initterm                  10002f1c f   corelib0:crt0dat.obj
+ 0001:00001f50       _cinit                     10002f50 f   corelib0:crt0dat.obj
+ 0001:00001f84       __C_specific_handler       10002f84 f   corelib1:COREDLL.dll
+ 0001:00001f94       memset                     10002f94 f   corelib1:COREDLL.dll
+ 0001:00001fa4       swscanf                    10002fa4 f   corelib1:COREDLL.dll
+ 0001:00001fb4       memcpy                     10002fb4 f   corelib1:COREDLL.dll
+ 0001:00001fc4       _XcptFilter                10002fc4 f   corelib1:COREDLL.dll
+ 0001:00001fd4       __security_gen_cookie2     10002fd4 f   corelib1:COREDLL.dll
+ 0001:00001fe4       __report_gsfailure         10002fe4 f   corelib1:COREDLL.dll
+ 0001:00001ff4       free                       10002ff4 f   corelib1:COREDLL.dll
+ 0001:00002004       DeleteCriticalSection      10003004 f   coredll:COREDLL.dll
+ 0001:00002014       InterlockedExchange        10003014 f   coredll:COREDLL.dll
+ 0001:00002024       TerminateProcess           10003024 f   coredll:COREDLL.dll
+ 0001:00002034       MmMapIoSpace               10003034 f   ceddk:CEDDK.dll
+ 0001:00002044       MmUnmapIoSpace             10003044 f   ceddk:CEDDK.dll
+ 0001:000020cc       __IMPORT_DESCRIPTOR_COREDLL 100030cc     coredll:COREDLL.dll
+ 0001:000020e0       __IMPORT_DESCRIPTOR_CEDDK  100030e0     ceddk:CEDDK.dll
+ 0001:000020f4       __NULL_IMPORT_DESCRIPTOR   100030f4     coredll:COREDLL.dll
+ 0002:00000000       __imp_MmMapIoSpace         10004000     ceddk:CEDDK.dll
+ 0002:00000004       __imp_MmUnmapIoSpace       10004004     ceddk:CEDDK.dll
+ 0002:00000008       \177CEDDK_NULL_THUNK_DATA  10004008     ceddk:CEDDK.dll
+ 0002:0000000c       __imp_FreeLibrary          1000400c     coredll:COREDLL.dll
+ 0002:00000010       __imp_CloseHandle          10004010     coredll:COREDLL.dll
+ 0002:00000014       __imp_WaitForSingleObject  10004014     coredll:COREDLL.dll
+ 0002:00000018       __imp_OpenEventW           10004018     coredll:COREDLL.dll
+ 0002:0000001c       __imp_CreateThread         1000401c     coredll:COREDLL.dll
+ 0002:00000020       __imp_GetProcAddressW      10004020     coredll:COREDLL.dll
+ 0002:00000024       __imp_LoadLibraryW         10004024     coredll:COREDLL.dll
+ 0002:00000028       __imp_CreateEventW         10004028     coredll:COREDLL.dll
+ 0002:0000002c       __imp_RegCloseKey          1000402c     coredll:COREDLL.dll
+ 0002:00000030       __imp_RegQueryValueExW     10004030     coredll:COREDLL.dll
+ 0002:00000034       __imp_RegOpenKeyExW        10004034     coredll:COREDLL.dll
+ 0002:00000038       __imp_NKDbgPrintfW         10004038     coredll:COREDLL.dll
+ 0002:0000003c       __imp_LocalAlloc           1000403c     coredll:COREDLL.dll
+ 0002:00000040       __imp_SetLastError         10004040     coredll:COREDLL.dll
+ 0002:00000044       __imp_GetDirectCallerProcessId 10004044     coredll:COREDLL.dll
+ 0002:00000048       __imp_DisableThreadLibraryCalls 10004048     coredll:COREDLL.dll
+ 0002:0000004c       __imp_GetLastError         1000404c     coredll:COREDLL.dll
+ 0002:00000050       __imp_WaitForAPIReady      10004050     coredll:COREDLL.dll
+ 0002:00000054       __imp_SetDevicePower       10004054     coredll:COREDLL.dll
+ 0002:00000058       __imp_CeFindNextRegChange  10004058     coredll:COREDLL.dll
+ 0002:0000005c       __imp_CeFindCloseRegChange 1000405c     coredll:COREDLL.dll
+ 0002:00000060       __imp_StopDeviceNotifications 10004060     coredll:COREDLL.dll
+ 0002:00000064       __imp_CloseMsgQueue        10004064     coredll:COREDLL.dll
+ 0002:00000068       __imp_StopPowerNotifications 10004068     coredll:COREDLL.dll
+ 0002:0000006c       __imp_LocalFree            1000406c     coredll:COREDLL.dll
+ 0002:00000070       __imp_WaitForMultipleObjects 10004070     coredll:COREDLL.dll
+ 0002:00000074       __imp_CeFindFirstRegChange 10004074     coredll:COREDLL.dll
+ 0002:00000078       __imp_RequestDeviceNotifications 10004078     coredll:COREDLL.dll
+ 0002:0000007c       __imp_RequestPowerNotifications 1000407c     coredll:COREDLL.dll
+ 0002:00000080       __imp_CreateMsgQueue       10004080     coredll:COREDLL.dll
+ 0002:00000084       __imp___C_specific_handler 10004084     corelib1:COREDLL.dll
+ 0002:00000088       __imp_memset               10004088     corelib1:COREDLL.dll
+ 0002:0000008c       __imp_swscanf              1000408c     corelib1:COREDLL.dll
+ 0002:00000090       __imp_memcpy               10004090     corelib1:COREDLL.dll
+ 0002:00000094       __imp__XcptFilter          10004094     corelib1:COREDLL.dll
+ 0002:00000098       __imp___security_gen_cookie2 10004098     corelib1:COREDLL.dll
+ 0002:0000009c       __imp___report_gsfailure   1000409c     corelib1:COREDLL.dll
+ 0002:000000a0       __imp_free                 100040a0     corelib1:COREDLL.dll
+ 0002:000000a4       __imp_DeleteCriticalSection 100040a4     coredll:COREDLL.dll
+ 0002:000000a8       __imp_InterlockedExchange  100040a8     coredll:COREDLL.dll
+ 0002:000000ac       __imp_TerminateProcess     100040ac     coredll:COREDLL.dll
+ 0002:000000b0       __imp___GetUserKData       100040b0     coredll:COREDLL.dll
+ 0002:000000b4       __imp_ReadMsgQueue         100040b4     coredll:COREDLL.dll
+ 0002:000000b8       __imp_EventModify          100040b8     coredll:COREDLL.dll
+ 0002:000000bc       \177COREDLL_NULL_THUNK_DATA 100040bc     coredll:COREDLL.dll
+ 0002:000000c0       ?dpCurSettings@@3U_DBGPARAM@@A 100040c0     bkldrvmain.obj
+ 0002:00000504       __security_cookie          10004504     corelib0:seccinit.obj
+ 0002:00000508       __security_cookie_complement 10004508     corelib0:seccinit.obj
+ 0002:00000514       ?g_dwD0Brightness@@3KA     10004514     backlight_pdd:backlight_pdd.obj
+ 0002:00000518       _exitflag                  10004518     corelib0:cexit.obj
+ 0002:0000051c       __onexitend                1000451c     <common>
+ 0002:00000520       __onexitbegin              10004520     <common>
+ 0002:00000524       g_pcsExit                  10004524     <common>
+ 0002:00000528       _pRawDllMain               10004528     <common>
+
+ entry point at        0001:00001cc0
+
+ Static symbols
+
+ 0001:000008e0       ?FreeContext@@YAXPAUBKL_MDD_INFO@@@Z 100018e0 f   bkldrvapi.obj
+ 0001:00001bc4       _DllMainCRTStartupHelper   10002bc4 f   corelib0:pegdmain.obj
+ 0001:00001e04       doexit                     10002e04 f   corelib0:cexit.obj

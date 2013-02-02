@@ -1,0 +1,40 @@
+ stepldr
+
+ Timestamp is 510b5b79 (Fri Feb 01 14:06:49 2013)
+
+ Preferred load address is 00010000
+
+ Start         Length     Name                   Class
+ 0001:00000000 000003a4H .astart                 CODE
+ 0001:000003b0 00000064H .rdata                  CODE
+ 0001:00000414 00000024H .rdata$debug            CODE
+ 0001:00000438 00000794H .text                   CODE
+ 0001:00000bcc 00000000H .edata                  CODE
+ 0002:00000000 0000000cH .bss                    DATA
+ 0003:00000000 00000040H .pdata                  DATA
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0000:00000000       ___safe_se_handler_count   00000000     <absolute>
+ 0000:00000000       ___safe_se_handler_table   00000000     <absolute>
+ 0001:00000000       StartUp                    00011000 f   startup.obj
+ 0001:0000018c       System_SetSyncMode         0001118c f   startup.obj
+ 0001:000001d0       System_SetAsyncMode        000111d0 f   startup.obj
+ 0001:0000021c       InitDMC                    0001121c f   startup.obj
+ 0001:000003d0       aSlotTable                 000113d0     utils.obj
+ 0001:00000410       pTOC                       00011410     main.obj
+ 0001:00000438       _Read_512Byte              00011438 f   nand_opt.obj
+ 0001:0000047c       Port_Init                  0001147c f   utils.obj
+ 0001:000004ac       Led_Display                000114ac f   utils.obj
+ 0001:000004cc       ECC_CorrectData            000114cc f   nand.obj
+ 0001:0000055c       NAND_ReadPage              0001155c f   nand.obj
+ 0001:000007f8       NAND_Init                  000117f8 f   nand.obj
+ 0001:0000098c       main                       0001198c f   main.obj
+ 0001:00000ab0       __rt_sdiv                  00011ab0 f   fulllibc:__div.obj
+ 0001:00000b8c       __raise_int_divide_by_zero 00011b8c f   fulllibc:diverr.obj
+ 0001:00000bb0       __crtRaiseException        00011bb0 f   fulllibc:raiseexc.obj
+
+ entry point at        0001:00000000
+
+ Static symbols
+
