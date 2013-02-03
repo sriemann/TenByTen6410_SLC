@@ -150,45 +150,17 @@ public:
         //SetDTR(TRUE);
         return TRUE;
     }
-    //virtual BOOL    InitModem(BOOL bInit)
-    //{
-    //    //SetDTR(bInit);
-    //    return CPdd6410Uart::InitModem(bInit);
-    //}
-  //  virtual ULONG   GetModemStatus()
-  //  {
-  //     /* ULONG ulReturn = 
-  //      ULONG ulEvent = 0;*/
-  //      //m_HardwareLock.Lock();
-  //      //BOOL fIsDSRSet = (((*m_pDSRPort) & (1<<m_dwDSRPortNum))==0);
-  //      //RETAILMSG(TRUE, (TEXT("DEBUG: DSRPort Register 0x%lx, Value 0x%lx, fIsDSRSet(%d).\r\n"), m_pDSRPort, *m_pDSRPort, fIsDSRSet)); 
-  //      //if (fIsDSRSet != m_fIsDSRSet)
-  //      //{
-  //      //    ulEvent |= EV_DSR | EV_RLSD;
-  //      //    //RETAILMSG(TRUE, (TEXT("DEBUG: DSRPort Register 0x%lx, Value 0x%lx, fIsDSRSet(%d).\r\n"), m_pDSRPort, *m_pDSRPort, fIsDSRSet)); 
-  //      //}
-  //      //ulReturn |= (fIsDSRSet?(MS_DSR_ON|MS_RLSD_ON):0);
-  //      //m_fIsDSRSet = fIsDSRSet;
-  //      //m_HardwareLock.Unlock();
-  //      /*if (ulEvent!=0)
-  //      {
-  //          EventCallback(ulEvent,ulReturn);
-  //      */}
-		//return CPdd6410Uart::GetModemStatus();
-  //  }
- /*   virtual void    SetDTR(BOOL bSet)
+    virtual BOOL    InitModem(BOOL bInit)
     {
-        RETAILMSG(FALSE, (TEXT("DEBUG: DTRPort Register 0x%x, DTRSet?(%d).\r\n"), m_pDTRPort, bSet)); 
-        if (bSet)
-        {
-            *m_pDTRPort &= ~(1<<m_dwDTRPortNum);
-            RETAILMSG(FALSE, (TEXT("DEBUG: DTRSet Bit=(%d).\r\n"), (*m_pDTRPort & (1<<m_dwDTRPortNum) ) )); 
-        }
-        else
-        {
-            *m_pDTRPort |= (1<<m_dwDTRPortNum);
-        }
-    }*/
+        return CPdd6410Uart::InitModem(bInit);
+    }
+
+    virtual ULONG GetModemStatus()
+    {
+		return CPdd6410Uart::GetModemStatus();
+    }
+   virtual void    SetDTR(BOOL bSet) {}
+
     virtual void    SetDefaultConfiguration()
     {
         // Default Value. Can be altered.
