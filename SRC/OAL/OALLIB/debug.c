@@ -41,16 +41,6 @@ static const UINT32 aSlotTable[16] =
     0xdddd, 0xdfdd, 0xdfdf, 0xffdf
 };
 
-#if (DEBUG_PORT == DEBUG_UART0) 
-#define DEBUG_ON 1
-#elif (DEBUG_PORT == DEBUG_UART1)
-#define DEBUG_ON 1
-#elif	(DEBUG_PORT == DEBUG_UART2)
-#define DEBUG_ON 1
-#elif	(DEBUG_PORT == DEBUG_UART3)
-#define DEBUG_ON 1
-#endif
-
 //------------------------------------------------------------------------------
 // Local Functions
 

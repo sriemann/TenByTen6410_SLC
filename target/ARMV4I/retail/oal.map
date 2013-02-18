@@ -1,6 +1,6 @@
  oal
 
- Timestamp is 510b5b72 (Fri Feb 01 14:06:42 2013)
+ Timestamp is 510cc37f (Sat Feb 02 15:42:55 2013)
 
  Preferred load address is 00010000
 
@@ -8,13 +8,13 @@
  0001:00000000 00000654H .astart                 CODE
  0001:00000660 0000629aH .rdata                  CODE
  0001:000068fc 00000020H .rdata$debug            CODE
- 0001:0000691c 0000b768H .text                   CODE
- 0001:00012084 0000007cH .xdata                  CODE
- 0001:00012100 00000000H .edata                  CODE
+ 0001:0000691c 00009134H .text                   CODE
+ 0001:0000fa50 00000078H .xdata                  CODE
+ 0001:0000fac8 00000000H .edata                  CODE
  0002:00000000 00006000H .KDATA                  DATA
- 0003:00000000 0000084cH .data                   DATA
- 0003:00000860 00000c6cH .bss                    DATA
- 0004:00000000 00000598H .pdata                  DATA
+ 0003:00000000 000007fcH .data                   DATA
+ 0003:00000800 00000c68H .bss                    DATA
+ 0004:00000000 00000540H .pdata                  DATA
 
   Address         Publics by Value              Rva+Base       Lib:Object
 
@@ -341,199 +341,154 @@
  0001:00008334       OEMGetExtensionDRAM        00019334 f   oal:init.obj
  0001:0000834c       OEMInit                    0001934c f   oal:init.obj
  0001:000086a4       OEMInitDebugSerial         000196a4 f   oal:debug.obj
- 0001:000087f8       OEMWriteDebugByte          000197f8 f   oal:debug.obj
- 0001:00008818       OEMReadDebugByte           00019818 f   oal:debug.obj
- 0001:00008838       OEMWriteDebugString        00019838 f   oal:debug.obj
- 0001:00008874       PWRCTL_setDAC0Power        00019874 f   oal:ExtPowerCTL_LIB.obj
- 0001:000088b8       PWRCTL_powerCTLInit        000198b8 f   oal:ExtPowerCTL_LIB.obj
- 0001:00008a3c       PWRCTL_setDAC1Power        00019a3c f   oal:ExtPowerCTL_LIB.obj
- 0001:00008a80       PWRCTL_setAllTo            00019a80 f   oal:ExtPowerCTL_LIB.obj
- 0001:00008b68       PWRCTL_InitializePowerCTL  00019b68 f   oal:ExtPowerCTL_LIB.obj
- 0001:00008b88       PWRCTL_Sleep               00019b88 f   oal:ExtPowerCTL_LIB.obj
- 0001:00008bd4       PWRCTL_Awake               00019bd4 f   oal:ExtPowerCTL_LIB.obj
- 0001:00008bec       OALArgsInit                00019bec f   s3c6410_args:args.obj
- 0001:00008d88       OALArgsQuery               00019d88 f   s3c6410_args:args.obj
- 0001:00008f0c       System_GetAPLLCLK          00019f0c f   s3c6410_system_lib_sec_v1:s3c6410_util.obj
- 0001:00008f7c       System_GetMPLLCLK          00019f7c f   s3c6410_system_lib_sec_v1:s3c6410_util.obj
- 0001:00008fd4       System_VCheckSyncMode      00019fd4 f   s3c6410_system_lib_sec_v1:s3c6410_util.obj
- 0001:00009004       System_GetPCLK             0001a004 f   s3c6410_system_lib_sec_v1:s3c6410_util.obj
- 0001:0000906c       System_GetHCLK             0001a06c f   s3c6410_system_lib_sec_v1:s3c6410_util.obj
- 0001:000090d4       System_GetARMCLK           0001a0d4 f   s3c6410_system_lib_sec_v1:s3c6410_util.obj
- 0001:0000910c       FillClockInfo              0001a10c f   s3c6410_system_lib_sec_v1:s3c6410_util.obj
- 0001:00009148       OEMInterruptHandlerFIQ     0001a148 f   oal_intr_s3c6410_sec_v1:fiq.obj
- 0001:0000914c       OALIntrRequestIrqs         0001a14c f   oal_intr_s3c6410_sec_v1:intr.obj
- 0001:00009200       OALIntrEnableIrqs          0001a200 f   oal_intr_s3c6410_sec_v1:intr.obj
- 0001:00009338       OALIntrDisableIrqs         0001a338 f   oal_intr_s3c6410_sec_v1:intr.obj
- 0001:0000947c       OALIntrDoneIrqs            0001a47c f   oal_intr_s3c6410_sec_v1:intr.obj
- 0001:00009598       OEMInterruptHandler        0001a598 f   oal_intr_s3c6410_sec_v1:intr.obj
- 0001:00009a88       VICTableInit               0001aa88 f   oal_intr_s3c6410_sec_v1:intr.obj
- 0001:00009ca4       OALIntrInit                0001aca4 f   oal_intr_s3c6410_sec_v1:intr.obj
- 0001:00009dec       OALIntrMapInit             0001adec f   oal_intr_s3c6410_sec_v1:map.obj
- 0001:00009e6c       OALIntrStaticTranslate     0001ae6c f   oal_intr_s3c6410_sec_v1:map.obj
- 0001:00009ee4       OALIntrTranslateIrq        0001aee4 f   oal_intr_s3c6410_sec_v1:map.obj
- 0001:00009f54       OALIntrRequestSysIntr      0001af54 f   oal_intr_s3c6410_sec_v1:map.obj
- 0001:0000a098       OALIntrReleaseSysIntr      0001b098 f   oal_intr_s3c6410_sec_v1:map.obj
- 0001:0000a158       OEMInterruptEnable         0001b158 f   oal_intr_s3c6410_sec_v1:map.obj
- 0001:0000a1ec       OEMInterruptDisable        0001b1ec f   oal_intr_s3c6410_sec_v1:map.obj
- 0001:0000a24c       OEMInterruptMask           0001b24c f   oal_intr_s3c6410_sec_v1:map.obj
- 0001:0000a2c4       OEMInterruptDone           0001b2c4 f   oal_intr_s3c6410_sec_v1:map.obj
- 0001:0000a324       OEMIoControl               0001b324 f   oal_ioctl_s3c6410_sec_v1:ioctl.obj
- 0001:0000ad50       InitializeOTGCLK           0001bd50 f   oal_power_s3c6410_sec_v1:off.obj
- 0001:0000add4       OEMPowerOff                0001bdd4 f   oal_power_s3c6410_sec_v1:off.obj
- 0001:0000b174       OEMProfileTimerDisable     0001c174 f   oal_profiler_s3c6410_sec_v1:profiler.obj
- 0001:0000b22c       OALProfileIntrHandler      0001c22c f   oal_profiler_s3c6410_sec_v1:profiler.obj
- 0001:0000b2c8       OEMProfileTimerEnable      0001c2c8 f   oal_profiler_s3c6410_sec_v1:profiler.obj
- 0001:0000b404       OEMGetRealTime             0001c404 f   oal_rtc_s3c6410_sec_v1:rtc.obj
- 0001:0000b5e8       OEMSetRealTime             0001c5e8 f   oal_rtc_s3c6410_sec_v1:rtc.obj
- 0001:0000b848       OEMSetAlarmTime            0001c848 f   oal_rtc_s3c6410_sec_v1:rtc.obj
- 0001:0000bab8       OALIoCtlHalInitRTC         0001cab8 f   oal_rtc_s3c6410_sec_v1:rtc.obj
- 0001:0000bc40       InitSystemTimer            0001cc40 f   oal_timer_s3c6410_sec_v1:timer.obj
- 0001:0000bcd8       OALTimerInit               0001ccd8 f   oal_timer_s3c6410_sec_v1:timer.obj
- 0001:0000bef8       OALTimerIntrHandler        0001cef8 f   oal_timer_s3c6410_sec_v1:timer.obj
- 0001:0000bf90       OALTimerCountsSinceSysTick 0001cf90 f   oal_timer_s3c6410_sec_v1:timer.obj
- 0001:0000bfc8       OALCPUIdle                 0001cfc8 f   oal_timer_s3c6410_sec_v1:timer.obj
- 0001:0000c00c       OEMIdle                    0001d00c f   oal_timer_s3c6410_sec_v1:timer.obj
- 0001:0000c090       OEMGetTickCount            0001d090 f   oal_timer_s3c6410_sec_v1:counts.obj
- 0001:0000c0fc       OALTimerQueryPerformanceFrequency 0001d0fc f   oal_timer_s3c6410_sec_v1:counts.obj
- 0001:0000c12c       OALTimerQueryPerformanceCounter 0001d12c f   oal_timer_s3c6410_sec_v1:counts.obj
- 0001:0000c184       OALIsProcessorFeaturePresent 0001d184 f   oal_misc_s3c6410_sec_v1:feature.obj
- 0001:0000c1e8       OEMCacheRangeFlush         0001d1e8 f   oal_cache_s3c6410_sec_v1:flush.obj
- 0001:0000c390       OEMARMCacheMode            0001d390 f   oal_cache_s3c6410_sec_v1:cachemode.obj
- 0001:0000c398       OALCacheGlobalsInit        0001d398 f   oal_cache_s3c6410_sec_v1:init.obj
- 0001:0000c510       OALClearDTLBEntry          0001d510 f   oal_cache_s3c6410_sec_v1:cleardtlbentry.obj
- 0001:0000c520       OALClearITLBEntry          0001d520 f   oal_cache_s3c6410_sec_v1:clearitlbentry.obj
- 0001:0000c530       OALFlushICacheLines        0001d530 f   oal_cache_s3c6410_sec_v1:flushiclines.obj
- 0001:0000c550       OALCleanDCacheLines        0001d550 f   oal_cache_s3c6410_sec_v1:cleandclines.obj
- 0001:0000c578       OALCleanDCache             0001d578 f   oal_cache_s3c6410_sec_v1:cleandc.obj
- 0001:0000c5ec       OALFlushDCacheLines        0001d5ec f   oal_cache_s3c6410_sec_v1:flushdclines.obj
- 0001:0000c60c       OALPAtoVA                  0001d60c f   oal_memory_arm:memory.obj
- 0001:0000c698       OALLogSerial               0001d698 f   oal_log:log.obj
- 0001:0000c6ec       __GSHandlerCheckCommon     0001d6ec f   fulllibc:gshandler.obj
- 0001:0000c728       __GSHandlerCheck           0001d728 f   fulllibc:gshandler.obj
- 0001:0000c74c       __security_check_cookie    0001d74c f   fulllibc:armsecgs.obj
- 0001:0000c760       __gsfailure                0001d760 f   fulllibc:armsecgs.obj
- 0001:0000c7a4       __utos                     0001d7a4 f   fulllibc:r_itos.obj
- 0001:0000c7bc       __itos                     0001d7bc f   fulllibc:r_itos.obj
- 0001:0000c86c       __stod                     0001d86c f   fulllibc:r_stod.obj
- 0001:0000c99c       __divd                     0001d99c f   fulllibc:r_divd.obj
- 0001:0000cc84       __dtos                     0001dc84 f   fulllibc:r_dtos.obj
- 0001:0000cdd8       __stoi                     0001ddd8 f   fulllibc:r_stoi.obj
- 0001:0000cec0       __subs                     0001dec0 f   fulllibc:r_adds.obj
- 0001:0000ced8       __adds                     0001ded8 f   fulllibc:r_adds.obj
- 0001:0000d124       __flt_underflow            0001e124     fulllibc:r_adds.obj
- 0001:0000d1c8       __fArithReturn             0001e1c8     fulllibc:r_adds.obj
- 0001:0000d218       __fArithNaNCheck           0001e218     fulllibc:r_adds.obj
- 0001:0000d250       __muls                     0001e250 f   fulllibc:r_muls.obj
- 0001:0000d300       fmul_fdiv_overflow         0001e300     fulllibc:r_muls.obj
- 0001:0000d388       __stou                     0001e388 f   fulllibc:r_stou.obj
- 0001:0000d458       __rt_udiv                  0001e458 f   fulllibc:__udiv.obj
- 0001:0000d51c       __rt_udivrem64by64         0001e51c f   fulllibc:mdsdiv64.obj
- 0001:0000d614       __rt_divrem64by64          0001e614 f   fulllibc:mdsdiv64.obj
- 0001:0000d664       __rt_udiv64by64            0001e664 f   fulllibc:mdsdiv64.obj
- 0001:0000d674       __rt_urem64by64            0001e674 f   fulllibc:mdsdiv64.obj
- 0001:0000d68c       __rt_sdiv64by64            0001e68c f   fulllibc:mdsdiv64.obj
- 0001:0000d69c       __rt_srem64by64            0001e69c f   fulllibc:mdsdiv64.obj
- 0001:0000d6b4       __fp_nonveneer_error       0001e6b4     fulllibc:error.obj
- 0001:0000d6b4       __fp_veneer_error          0001e6b4     fulllibc:error.obj
- 0001:0000d6b8       __fp_exception             0001e6b8     fulllibc:error.obj
- 0001:0000d7fc       __fp_norm_op1              0001e7fc     fulllibc:normop1.obj
- 0001:0000d8c4       FPE_Raise                  0001e8c4 f   fulllibc:fpraise.obj
- 0001:0000df64       __fp_div_common            0001ef64     fulllibc:div.obj
- 0001:0000df88       __fp_rdv_common            0001ef88     fulllibc:div.obj
- 0001:0000e42c       __fp_rdv_uncommon          0001f42c     fulllibc:div.obj
- 0001:0000e42c       __fp_div_uncommon          0001f42c     fulllibc:div.obj
- 0001:0000e56c       __fp_norm_op2              0001f56c     fulllibc:normop2.obj
- 0001:0000e62c       _e2d                       0001f62c     fulllibc:e2d.obj
- 0001:0000e638       __fp_e2d                   0001f638     fulllibc:e2d.obj
- 0001:0000e6d0       _e2d_ExpUnderflow          0001f6d0     fulllibc:e2d.obj
- 0001:0000e8f8       __flt_normalise2           0001f8f8     fulllibc:fnorm2.obj
- 0001:0000e98c       __raise_int_divide_by_zero 0001f98c f   fulllibc:diverr.obj
- 0001:0000e9b0       __fp_fcheck_NaN2           0001f9b0     fulllibc:check.obj
- 0001:0000e9dc       __fp_dcheck_NaN2           0001f9dc     fulllibc:check.obj
- 0001:0000ea24       __fp_return_NaN            0001fa24     fulllibc:check.obj
- 0001:0000ea8c       __fp_return_Inf            0001fa8c     fulllibc:check.obj
- 0001:0000ea90       __crtRaiseException        0001fa90 f   fulllibc:raiseexc.obj
- 0001:0000eaac       __fp_convert_NaNs          0001faac     fulllibc:nans.obj
- 0001:0000eacc       __fp_convert_NaN_2Of2      0001facc     fulllibc:nans.obj
- 0001:0000eae4       __fp_convert_NaN1          0001fae4     fulllibc:nans.obj
- 0001:0000eaf0       __fp_convert_NaN_1Of2      0001faf0     fulllibc:nans.obj
- 0001:0000eb80       __fp_norm_denorm_op1       0001fb80     fulllibc:normal.obj
- 0001:0000ec68       __fp_norm_denorm_op2       0001fc68     fulllibc:normal.obj
- 0001:0000ed74       __fp_normalise_op1         0001fd74     fulllibc:normal.obj
- 0001:0000edd8       __fp_normalise_op2         0001fdd8     fulllibc:normal.obj
- 0001:0000ee3c       __fp_normalise_op1neg      0001fe3c     fulllibc:normal.obj
- 0001:0000eeb8       KITLIoctl                  0001feb8 f   nkstub:kitlstub.obj
- 0001:0000eef4       BSPIntrInit                0001fef4 f   oal:intr.obj
- 0001:0000effc       BSPIntrRequestIrqs         0001fffc f   oal:intr.obj
- 0001:0000f118       BSPIntrEnableIrq           00020118 f   oal:intr.obj
- 0001:0000f174       BSPIntrDisableIrq          00020174 f   oal:intr.obj
- 0001:0000f1d0       BSPIntrDoneIrq             000201d0 f   oal:intr.obj
- 0001:0000fc98       BSPPowerOff                00020c98 f   oal:power.obj
- 0001:0000fd74       BSPPowerOn                 00020d74 f   oal:power.obj
- 0001:0000fdb8       InitializeDVS              00020db8 f   s3c6410_PM:dvs.obj
- 0001:0000fe08       SetCurrentIdleTime         00020e08 f   s3c6410_PM:dvs.obj
- 0001:0000fe18       ChangeClockDivider         00020e18 f   s3c6410_PM:dvs.obj
- 0001:0000feec       ProfileDVSOnOff            00020eec f   s3c6410_PM:dvs.obj
- 0001:00010090       ChangeDVSLevel             00021090 f   s3c6410_PM:dvs.obj
- 0001:000100f0       UpdateDVS                  000210f0 f   s3c6410_PM:dvs.obj
- 0001:00010368       OALStall_us                00021368 f   s3c6410_system_lib_sec_v1:s3c6410_stall.obj
- 0001:000103cc       OALStall_ms                000213cc f   s3c6410_system_lib_sec_v1:s3c6410_stall.obj
- 0001:00010434       OALIoCtlHalRequestSysIntr  00021434 f   oal_intr_s3c6410_sec_v1:ioctl.obj
- 0001:00010580       OALIoCtlHalReleaseSysIntr  00021580 f   oal_intr_s3c6410_sec_v1:ioctl.obj
- 0001:00010630       OALIoCtlHalRequestIrq      00021630 f   oal_intr_s3c6410_sec_v1:ioctl.obj
- 0001:00010730       OALIoCtlHalGetCPUID        00021730 f   oal_ioctl_s3c6410_sec_v1:CPUIDCheck.obj
- 0001:0001080c       OALIoCtlHalUpdateMode      0002180c f   oal_ioctl_s3c6410_sec_v1:imgupd.obj
- 0001:000108b0       OALIoCtlHalGetRegSecureKeys 000218b0 f   oal_ioctl_s3c6410_sec_v1:securekeys.obj
- 0001:00010934       OALIoCtlProcessorInfo      00021934 f   oal_ioctl_s3c6410_sec_v1:procinfo.obj
- 0001:00010b1c       OALIoCtlHalGetRandomSeed   00021b1c f   oal_ioctl_s3c6410_sec_v1:randomseed.obj
- 0001:00010ce0       OALIoCtlHalGetUUID         00021ce0 f   oal_ioctl_s3c6410_sec_v1:uuid.obj
- 0001:00010fd4       OALIoCtlHalGetDeviceInfo   00021fd4 f   oal_ioctl_s3c6410_sec_v1:deviceinfo.obj
- 0001:0001139c       OALIoCtlHalGetDeviceId     0002239c f   oal_ioctl_s3c6410_sec_v1:deviceid.obj
- 0001:000115a8       OALIoCtlHalEnableWake      000225a8 f   oal_power_s3c6410_sec_v1:ioctl.obj
- 0001:0001168c       OALIoCtlHalDisableWake     0002268c f   oal_power_s3c6410_sec_v1:ioctl.obj
- 0001:00011770       OALIoCtlHalGetWakeSource   00022770 f   oal_power_s3c6410_sec_v1:ioctl.obj
- 0001:00011818       OEMSWReset                 00022818 f   oal_power_s3c6410_sec_v1:reset.obj
- 0001:00011864       _OEMSWReset                00022864 f   oal_power_s3c6410_sec_v1:watchdog_sw_rst.obj
- 0001:000118d4       OALIoCtlHalGetCacheInfo    000228d4 f   oal_cache_s3c6410_sec_v1:ioctl.obj
- 0001:00011a1c       OALIoCtlHalDdkCall         00022a1c f   oal_io:ioctl.obj
- 0001:00011c78       OALIoBusPowerOff           00022c78 f   oal_io:power.obj
- 0001:00011cd8       OALIoBusPowerOn            00022cd8 f   oal_io:power.obj
- 0001:00011d38       OALIoTransBusAddress       00022d38 f   oal_io:trans.obj
- 0001:00011df8       OALIoTransSystemAddress    00022df8 f   oal_io:trans.obj
- 0001:00011e84       OALIoReadBusData           00022e84 f   oal_io:data.obj
- 0001:00011e8c       OALIoWriteBusData          00022e8c f   oal_io:data.obj
- 0001:00011e94       __C_specific_handler       00022e94 f   fulllibc:chandler.obj
- 0001:00011fe0       strlen                     00022fe0 f   fulllibc:mdsstrlen.obj
- 0001:00012044       __C_ExecuteTerminationHandler 00023044 f   fulllibc:jmpuwind.obj
- 0001:00012044       __C_ExecuteExceptionFilter 00023044 f   fulllibc:jmpuwind.obj
- 0003:00000000       OsAxsDataBlock_2           0002a000     nkldr:kdinfo.obj
- 0003:00000080       OsAxsHwTrap                0002a080     nkldr:kdinfo.obj
- 0003:0000021c       g_pOemGlobal               0002a21c     oemmain:oemglobal.obj
- 0003:00000220       __security_cookie          0002a220     nkstub:nkstub.obj
- 0003:00000224       __security_cookie_complement 0002a224     nkstub:nkstub.obj
- 0003:00000228       g_oalRtcResetTime          0002a228     oal:init.obj
- 0003:00000290       initialOALLogZones         0002a290     oal_log:debug.obj
- 0003:00000298       dpCurSettings              0002a298     oal_log:debug.obj
- 0003:000006dc       __fp_status_flags          0002a6dc     fulllibc:fpdata.obj
- 0003:000006e0       __fp_errblock              0002a6e0     fulllibc:fpdata.obj
- 0003:00000724       __rt_trap                  0002a724     fulllibc:fpdata.obj
- 0003:00000728       g_oalIoCtlPlatformType     0002a728     oal:ioctl.obj
- 0003:0000072c       g_oalIoCtlPlatformOEM      0002a72c     oal:ioctl.obj
- 0003:00000730       g_oalIoCtlProcessorVendor  0002a730     oal:ioctl.obj
- 0003:00000734       g_oalIoCtlProcessorName    0002a734     oal:ioctl.obj
- 0003:00000738       g_oalIoCtlProcessorCore    0002a738     oal:ioctl.obj
- 0003:00000740       g_aTransitionTable         0002a740     s3c6410_PM:dvs.obj
- 0003:00000848       g_oalWakeSource            0002a848     oal_power_s3c6410_sec_v1:ioctl.obj
- 0003:0000088c       g_pProfilerISR             0002a88c     oal_intr_s3c6410_sec_v1:intr.obj
- 0003:0000133c       g_oalRTCcsInit             0002b33c     oal_rtc_s3c6410_sec_v1:rtc.obj
- 0003:00001358       g_oalIoCtlInstructionSet   0002b358     oal:ioctl.obj
- 0003:00001408       g_pNKGlobal                0002b408     <common>
- 0003:0000140c       v_pIOP_PIO_regs            0002b40c     <common>
- 0003:00001410       g_oalIoCtlClockSpeed       0002b410     <common>
- 0003:00001420       g_oalRTCcs                 0002b420     <common>
- 0003:00001440       g_oalTimer                 0002b440     <common>
- 0003:00001480       g_oalCacheInfo             0002b480     <common>
- 0003:000014c8       _soft_fp_control           0002b4c8     <common>
+ 0001:000086a8       OEMWriteDebugByte          000196a8 f   oal:debug.obj
+ 0001:000086ac       OEMReadDebugByte           000196ac f   oal:debug.obj
+ 0001:000086b4       OEMWriteDebugString        000196b4 f   oal:debug.obj
+ 0001:000086b8       PWRCTL_setDAC0Power        000196b8 f   oal:ExtPowerCTL_LIB.obj
+ 0001:000086fc       PWRCTL_powerCTLInit        000196fc f   oal:ExtPowerCTL_LIB.obj
+ 0001:00008880       PWRCTL_setDAC1Power        00019880 f   oal:ExtPowerCTL_LIB.obj
+ 0001:000088c4       PWRCTL_setAllTo            000198c4 f   oal:ExtPowerCTL_LIB.obj
+ 0001:000089ac       PWRCTL_InitializePowerCTL  000199ac f   oal:ExtPowerCTL_LIB.obj
+ 0001:000089cc       PWRCTL_Sleep               000199cc f   oal:ExtPowerCTL_LIB.obj
+ 0001:00008a18       PWRCTL_Awake               00019a18 f   oal:ExtPowerCTL_LIB.obj
+ 0001:00008a30       OALArgsInit                00019a30 f   s3c6410_args:args.obj
+ 0001:00008bcc       OALArgsQuery               00019bcc f   s3c6410_args:args.obj
+ 0001:00008d50       System_GetAPLLCLK          00019d50 f   s3c6410_system_lib_sec_v1:s3c6410_util.obj
+ 0001:00008dc0       System_GetMPLLCLK          00019dc0 f   s3c6410_system_lib_sec_v1:s3c6410_util.obj
+ 0001:00008e18       System_VCheckSyncMode      00019e18 f   s3c6410_system_lib_sec_v1:s3c6410_util.obj
+ 0001:00008e48       System_GetPCLK             00019e48 f   s3c6410_system_lib_sec_v1:s3c6410_util.obj
+ 0001:00008eb0       System_GetHCLK             00019eb0 f   s3c6410_system_lib_sec_v1:s3c6410_util.obj
+ 0001:00008f18       System_GetARMCLK           00019f18 f   s3c6410_system_lib_sec_v1:s3c6410_util.obj
+ 0001:00008f50       FillClockInfo              00019f50 f   s3c6410_system_lib_sec_v1:s3c6410_util.obj
+ 0001:00008f8c       OEMInterruptHandlerFIQ     00019f8c f   oal_intr_s3c6410_sec_v1:fiq.obj
+ 0001:00008f90       OALIntrRequestIrqs         00019f90 f   oal_intr_s3c6410_sec_v1:intr.obj
+ 0001:00009044       OALIntrEnableIrqs          0001a044 f   oal_intr_s3c6410_sec_v1:intr.obj
+ 0001:0000917c       OALIntrDisableIrqs         0001a17c f   oal_intr_s3c6410_sec_v1:intr.obj
+ 0001:000092c0       OALIntrDoneIrqs            0001a2c0 f   oal_intr_s3c6410_sec_v1:intr.obj
+ 0001:000093dc       OEMInterruptHandler        0001a3dc f   oal_intr_s3c6410_sec_v1:intr.obj
+ 0001:000098cc       VICTableInit               0001a8cc f   oal_intr_s3c6410_sec_v1:intr.obj
+ 0001:00009ae8       OALIntrInit                0001aae8 f   oal_intr_s3c6410_sec_v1:intr.obj
+ 0001:00009c30       OALIntrMapInit             0001ac30 f   oal_intr_s3c6410_sec_v1:map.obj
+ 0001:00009cb0       OALIntrStaticTranslate     0001acb0 f   oal_intr_s3c6410_sec_v1:map.obj
+ 0001:00009d28       OALIntrTranslateIrq        0001ad28 f   oal_intr_s3c6410_sec_v1:map.obj
+ 0001:00009d98       OALIntrRequestSysIntr      0001ad98 f   oal_intr_s3c6410_sec_v1:map.obj
+ 0001:00009edc       OALIntrReleaseSysIntr      0001aedc f   oal_intr_s3c6410_sec_v1:map.obj
+ 0001:00009f9c       OEMInterruptEnable         0001af9c f   oal_intr_s3c6410_sec_v1:map.obj
+ 0001:0000a030       OEMInterruptDisable        0001b030 f   oal_intr_s3c6410_sec_v1:map.obj
+ 0001:0000a090       OEMInterruptMask           0001b090 f   oal_intr_s3c6410_sec_v1:map.obj
+ 0001:0000a108       OEMInterruptDone           0001b108 f   oal_intr_s3c6410_sec_v1:map.obj
+ 0001:0000a168       OEMIoControl               0001b168 f   oal_ioctl_s3c6410_sec_v1:ioctl.obj
+ 0001:0000ab94       InitializeOTGCLK           0001bb94 f   oal_power_s3c6410_sec_v1:off.obj
+ 0001:0000ac18       OEMPowerOff                0001bc18 f   oal_power_s3c6410_sec_v1:off.obj
+ 0001:0000afb8       OEMProfileTimerDisable     0001bfb8 f   oal_profiler_s3c6410_sec_v1:profiler.obj
+ 0001:0000b070       OALProfileIntrHandler      0001c070 f   oal_profiler_s3c6410_sec_v1:profiler.obj
+ 0001:0000b10c       OEMProfileTimerEnable      0001c10c f   oal_profiler_s3c6410_sec_v1:profiler.obj
+ 0001:0000b248       OEMGetRealTime             0001c248 f   oal_rtc_s3c6410_sec_v1:rtc.obj
+ 0001:0000b42c       OEMSetRealTime             0001c42c f   oal_rtc_s3c6410_sec_v1:rtc.obj
+ 0001:0000b68c       OEMSetAlarmTime            0001c68c f   oal_rtc_s3c6410_sec_v1:rtc.obj
+ 0001:0000b8fc       OALIoCtlHalInitRTC         0001c8fc f   oal_rtc_s3c6410_sec_v1:rtc.obj
+ 0001:0000ba84       InitSystemTimer            0001ca84 f   oal_timer_s3c6410_sec_v1:timer.obj
+ 0001:0000bb1c       OALTimerInit               0001cb1c f   oal_timer_s3c6410_sec_v1:timer.obj
+ 0001:0000bd3c       OALTimerIntrHandler        0001cd3c f   oal_timer_s3c6410_sec_v1:timer.obj
+ 0001:0000bdd4       OALTimerCountsSinceSysTick 0001cdd4 f   oal_timer_s3c6410_sec_v1:timer.obj
+ 0001:0000be0c       OALCPUIdle                 0001ce0c f   oal_timer_s3c6410_sec_v1:timer.obj
+ 0001:0000be50       OEMIdle                    0001ce50 f   oal_timer_s3c6410_sec_v1:timer.obj
+ 0001:0000bed4       OEMGetTickCount            0001ced4 f   oal_timer_s3c6410_sec_v1:counts.obj
+ 0001:0000bf40       OALTimerQueryPerformanceFrequency 0001cf40 f   oal_timer_s3c6410_sec_v1:counts.obj
+ 0001:0000bf70       OALTimerQueryPerformanceCounter 0001cf70 f   oal_timer_s3c6410_sec_v1:counts.obj
+ 0001:0000bfc8       OALIsProcessorFeaturePresent 0001cfc8 f   oal_misc_s3c6410_sec_v1:feature.obj
+ 0001:0000c02c       OEMCacheRangeFlush         0001d02c f   oal_cache_s3c6410_sec_v1:flush.obj
+ 0001:0000c1d4       OEMARMCacheMode            0001d1d4 f   oal_cache_s3c6410_sec_v1:cachemode.obj
+ 0001:0000c1dc       OALCacheGlobalsInit        0001d1dc f   oal_cache_s3c6410_sec_v1:init.obj
+ 0001:0000c354       OALClearDTLBEntry          0001d354 f   oal_cache_s3c6410_sec_v1:cleardtlbentry.obj
+ 0001:0000c364       OALClearITLBEntry          0001d364 f   oal_cache_s3c6410_sec_v1:clearitlbentry.obj
+ 0001:0000c374       OALFlushICacheLines        0001d374 f   oal_cache_s3c6410_sec_v1:flushiclines.obj
+ 0001:0000c394       OALCleanDCacheLines        0001d394 f   oal_cache_s3c6410_sec_v1:cleandclines.obj
+ 0001:0000c3bc       OALCleanDCache             0001d3bc f   oal_cache_s3c6410_sec_v1:cleandc.obj
+ 0001:0000c430       OALFlushDCacheLines        0001d430 f   oal_cache_s3c6410_sec_v1:flushdclines.obj
+ 0001:0000c450       OALPAtoVA                  0001d450 f   oal_memory_arm:memory.obj
+ 0001:0000c4dc       OALLogSerial               0001d4dc f   oal_log:log.obj
+ 0001:0000c530       __GSHandlerCheckCommon     0001d530 f   fulllibc:gshandler.obj
+ 0001:0000c56c       __GSHandlerCheck           0001d56c f   fulllibc:gshandler.obj
+ 0001:0000c590       __security_check_cookie    0001d590 f   fulllibc:armsecgs.obj
+ 0001:0000c5a4       __gsfailure                0001d5a4 f   fulllibc:armsecgs.obj
+ 0001:0000c5e8       __rt_udiv                  0001d5e8 f   fulllibc:__udiv.obj
+ 0001:0000c6ac       __rt_udivrem64by64         0001d6ac f   fulllibc:mdsdiv64.obj
+ 0001:0000c7a4       __rt_divrem64by64          0001d7a4 f   fulllibc:mdsdiv64.obj
+ 0001:0000c7f4       __rt_udiv64by64            0001d7f4 f   fulllibc:mdsdiv64.obj
+ 0001:0000c804       __rt_urem64by64            0001d804 f   fulllibc:mdsdiv64.obj
+ 0001:0000c81c       __rt_sdiv64by64            0001d81c f   fulllibc:mdsdiv64.obj
+ 0001:0000c82c       __rt_srem64by64            0001d82c f   fulllibc:mdsdiv64.obj
+ 0001:0000c844       __raise_int_divide_by_zero 0001d844 f   fulllibc:diverr.obj
+ 0001:0000c868       __crtRaiseException        0001d868 f   fulllibc:raiseexc.obj
+ 0001:0000c884       KITLIoctl                  0001d884 f   nkstub:kitlstub.obj
+ 0001:0000c8c0       BSPIntrInit                0001d8c0 f   oal:intr.obj
+ 0001:0000c9c8       BSPIntrRequestIrqs         0001d9c8 f   oal:intr.obj
+ 0001:0000cae4       BSPIntrEnableIrq           0001dae4 f   oal:intr.obj
+ 0001:0000cb40       BSPIntrDisableIrq          0001db40 f   oal:intr.obj
+ 0001:0000cb9c       BSPIntrDoneIrq             0001db9c f   oal:intr.obj
+ 0001:0000d664       BSPPowerOff                0001e664 f   oal:power.obj
+ 0001:0000d740       BSPPowerOn                 0001e740 f   oal:power.obj
+ 0001:0000d784       InitializeDVS              0001e784 f   s3c6410_PM:dvs.obj
+ 0001:0000d7d4       SetCurrentIdleTime         0001e7d4 f   s3c6410_PM:dvs.obj
+ 0001:0000d7e4       ChangeClockDivider         0001e7e4 f   s3c6410_PM:dvs.obj
+ 0001:0000d8b8       ProfileDVSOnOff            0001e8b8 f   s3c6410_PM:dvs.obj
+ 0001:0000da5c       ChangeDVSLevel             0001ea5c f   s3c6410_PM:dvs.obj
+ 0001:0000dabc       UpdateDVS                  0001eabc f   s3c6410_PM:dvs.obj
+ 0001:0000dd34       OALStall_us                0001ed34 f   s3c6410_system_lib_sec_v1:s3c6410_stall.obj
+ 0001:0000dd98       OALStall_ms                0001ed98 f   s3c6410_system_lib_sec_v1:s3c6410_stall.obj
+ 0001:0000de00       OALIoCtlHalRequestSysIntr  0001ee00 f   oal_intr_s3c6410_sec_v1:ioctl.obj
+ 0001:0000df4c       OALIoCtlHalReleaseSysIntr  0001ef4c f   oal_intr_s3c6410_sec_v1:ioctl.obj
+ 0001:0000dffc       OALIoCtlHalRequestIrq      0001effc f   oal_intr_s3c6410_sec_v1:ioctl.obj
+ 0001:0000e0fc       OALIoCtlHalGetCPUID        0001f0fc f   oal_ioctl_s3c6410_sec_v1:CPUIDCheck.obj
+ 0001:0000e1d8       OALIoCtlHalUpdateMode      0001f1d8 f   oal_ioctl_s3c6410_sec_v1:imgupd.obj
+ 0001:0000e27c       OALIoCtlHalGetRegSecureKeys 0001f27c f   oal_ioctl_s3c6410_sec_v1:securekeys.obj
+ 0001:0000e300       OALIoCtlProcessorInfo      0001f300 f   oal_ioctl_s3c6410_sec_v1:procinfo.obj
+ 0001:0000e4e8       OALIoCtlHalGetRandomSeed   0001f4e8 f   oal_ioctl_s3c6410_sec_v1:randomseed.obj
+ 0001:0000e6ac       OALIoCtlHalGetUUID         0001f6ac f   oal_ioctl_s3c6410_sec_v1:uuid.obj
+ 0001:0000e9a0       OALIoCtlHalGetDeviceInfo   0001f9a0 f   oal_ioctl_s3c6410_sec_v1:deviceinfo.obj
+ 0001:0000ed68       OALIoCtlHalGetDeviceId     0001fd68 f   oal_ioctl_s3c6410_sec_v1:deviceid.obj
+ 0001:0000ef74       OALIoCtlHalEnableWake      0001ff74 f   oal_power_s3c6410_sec_v1:ioctl.obj
+ 0001:0000f058       OALIoCtlHalDisableWake     00020058 f   oal_power_s3c6410_sec_v1:ioctl.obj
+ 0001:0000f13c       OALIoCtlHalGetWakeSource   0002013c f   oal_power_s3c6410_sec_v1:ioctl.obj
+ 0001:0000f1e4       OEMSWReset                 000201e4 f   oal_power_s3c6410_sec_v1:reset.obj
+ 0001:0000f230       _OEMSWReset                00020230 f   oal_power_s3c6410_sec_v1:watchdog_sw_rst.obj
+ 0001:0000f2a0       OALIoCtlHalGetCacheInfo    000202a0 f   oal_cache_s3c6410_sec_v1:ioctl.obj
+ 0001:0000f3e8       OALIoCtlHalDdkCall         000203e8 f   oal_io:ioctl.obj
+ 0001:0000f644       OALIoBusPowerOff           00020644 f   oal_io:power.obj
+ 0001:0000f6a4       OALIoBusPowerOn            000206a4 f   oal_io:power.obj
+ 0001:0000f704       OALIoTransBusAddress       00020704 f   oal_io:trans.obj
+ 0001:0000f7c4       OALIoTransSystemAddress    000207c4 f   oal_io:trans.obj
+ 0001:0000f850       OALIoReadBusData           00020850 f   oal_io:data.obj
+ 0001:0000f858       OALIoWriteBusData          00020858 f   oal_io:data.obj
+ 0001:0000f860       __C_specific_handler       00020860 f   fulllibc:chandler.obj
+ 0001:0000f9ac       strlen                     000209ac f   fulllibc:mdsstrlen.obj
+ 0001:0000fa10       __C_ExecuteTerminationHandler 00020a10 f   fulllibc:jmpuwind.obj
+ 0001:0000fa10       __C_ExecuteExceptionFilter 00020a10 f   fulllibc:jmpuwind.obj
+ 0003:00000000       OsAxsDataBlock_2           00027000     nkldr:kdinfo.obj
+ 0003:00000080       OsAxsHwTrap                00027080     nkldr:kdinfo.obj
+ 0003:0000021c       g_pOemGlobal               0002721c     oemmain:oemglobal.obj
+ 0003:00000220       __security_cookie          00027220     nkstub:nkstub.obj
+ 0003:00000224       __security_cookie_complement 00027224     nkstub:nkstub.obj
+ 0003:00000228       g_oalRtcResetTime          00027228     oal:init.obj
+ 0003:00000290       initialOALLogZones         00027290     oal_log:debug.obj
+ 0003:00000298       dpCurSettings              00027298     oal_log:debug.obj
+ 0003:000006dc       g_oalIoCtlPlatformType     000276dc     oal:ioctl.obj
+ 0003:000006e0       g_oalIoCtlPlatformOEM      000276e0     oal:ioctl.obj
+ 0003:000006e4       g_oalIoCtlProcessorVendor  000276e4     oal:ioctl.obj
+ 0003:000006e8       g_oalIoCtlProcessorName    000276e8     oal:ioctl.obj
+ 0003:000006ec       g_oalIoCtlProcessorCore    000276ec     oal:ioctl.obj
+ 0003:000006f0       g_aTransitionTable         000276f0     s3c6410_PM:dvs.obj
+ 0003:000007f8       g_oalWakeSource            000277f8     oal_power_s3c6410_sec_v1:ioctl.obj
+ 0003:0000082c       g_pProfilerISR             0002782c     oal_intr_s3c6410_sec_v1:intr.obj
+ 0003:000012dc       g_oalRTCcsInit             000282dc     oal_rtc_s3c6410_sec_v1:rtc.obj
+ 0003:000012f8       g_oalIoCtlInstructionSet   000282f8     oal:ioctl.obj
+ 0003:000013a8       g_pNKGlobal                000283a8     <common>
+ 0003:000013ac       v_pIOP_PIO_regs            000283ac     <common>
+ 0003:000013b0       g_oalIoCtlClockSpeed       000283b0     <common>
+ 0003:000013c0       g_oalRTCcs                 000283c0     <common>
+ 0003:000013e0       g_oalTimer                 000283e0     <common>
+ 0003:00001420       g_oalCacheInfo             00028420     <common>
 
  entry point at        0001:00000000
 
@@ -542,21 +497,21 @@
  0001:00007fe8       ReturnFalse                00018fe8 f   oemmain:oemglobal.obj
  0001:00007ff0       ReturnSelf                 00018ff0 f   oemmain:oemglobal.obj
  0001:00007ff4       FakeCalcPage               00018ff4 f   oemmain:oemglobal.obj
- 0001:000098e0       PrepareDMACIntr            0001a8e0 f   oal_intr_s3c6410_sec_v1:intr.obj
- 0001:0000a4d0       S3C6410_SaveState_GPIO     0001b4d0 f   oal_power_s3c6410_sec_v1:off.obj
- 0001:0000a77c       S3C6410_RestoreState_GPIO  0001b77c f   oal_power_s3c6410_sec_v1:off.obj
- 0001:0000aa28       S3C6410_SaveState_DMACon   0001ba28 f   oal_power_s3c6410_sec_v1:off.obj
- 0001:0000abbc       S3C6410_RestoreState_DMACon 0001bbbc f   oal_power_s3c6410_sec_v1:off.obj
- 0001:0000f22c       OALIoCtlHalReboot          0002022c f   oal:ioctl.obj
- 0001:0000f280       OALIoCtlHalGetHWEntropy    00020280 f   oal:ioctl.obj
- 0001:0000f338       OALIoCtlHalGetHiveCleanFlag 00020338 f   oal:ioctl.obj
- 0001:0000f468       OALIoCtlHalQueryFormatPartition 00020468 f   oal:ioctl.obj
- 0001:0000f5fc       OALIoCtlHalQueryDisplaySettings 000205fc f   oal:ioctl.obj
- 0001:0000f72c       OALIoCtlHalPowerCTL        0002072c f   oal:ioctl.obj
- 0001:0000f82c       OALIoCtlHalSetSystemLevel  0002082c f   oal:ioctl.obj
- 0001:0000f928       OALIoCtlHalProfileDVS      00020928 f   oal:ioctl.obj
- 0001:0000fa24       OALIoCtlHalClockInfo       00020a24 f   oal:ioctl.obj
- 0001:0000fb08       OALIoCtlHalInitRegistry    00020b08 f   oal:ioctl.obj
- 0001:0000fb44       S3C6410_WakeUpSource_Detect 00020b44 f   oal:power.obj
- 0001:00010e1c       ?CheckBufferSize@@YAHPBXABIPAI1PBG@Z 00021e1c f   oal_ioctl_s3c6410_sec_v1:deviceinfo.obj
- 0001:00010ec8       ?GetBootMeName@@YAHPAXIPAIPAPBG@Z 00021ec8 f   oal_ioctl_s3c6410_sec_v1:deviceinfo.obj
+ 0001:00009724       PrepareDMACIntr            0001a724 f   oal_intr_s3c6410_sec_v1:intr.obj
+ 0001:0000a314       S3C6410_SaveState_GPIO     0001b314 f   oal_power_s3c6410_sec_v1:off.obj
+ 0001:0000a5c0       S3C6410_RestoreState_GPIO  0001b5c0 f   oal_power_s3c6410_sec_v1:off.obj
+ 0001:0000a86c       S3C6410_SaveState_DMACon   0001b86c f   oal_power_s3c6410_sec_v1:off.obj
+ 0001:0000aa00       S3C6410_RestoreState_DMACon 0001ba00 f   oal_power_s3c6410_sec_v1:off.obj
+ 0001:0000cbf8       OALIoCtlHalReboot          0001dbf8 f   oal:ioctl.obj
+ 0001:0000cc4c       OALIoCtlHalGetHWEntropy    0001dc4c f   oal:ioctl.obj
+ 0001:0000cd04       OALIoCtlHalGetHiveCleanFlag 0001dd04 f   oal:ioctl.obj
+ 0001:0000ce34       OALIoCtlHalQueryFormatPartition 0001de34 f   oal:ioctl.obj
+ 0001:0000cfc8       OALIoCtlHalQueryDisplaySettings 0001dfc8 f   oal:ioctl.obj
+ 0001:0000d0f8       OALIoCtlHalPowerCTL        0001e0f8 f   oal:ioctl.obj
+ 0001:0000d1f8       OALIoCtlHalSetSystemLevel  0001e1f8 f   oal:ioctl.obj
+ 0001:0000d2f4       OALIoCtlHalProfileDVS      0001e2f4 f   oal:ioctl.obj
+ 0001:0000d3f0       OALIoCtlHalClockInfo       0001e3f0 f   oal:ioctl.obj
+ 0001:0000d4d4       OALIoCtlHalInitRegistry    0001e4d4 f   oal:ioctl.obj
+ 0001:0000d510       S3C6410_WakeUpSource_Detect 0001e510 f   oal:power.obj
+ 0001:0000e7e8       ?CheckBufferSize@@YAHPBXABIPAI1PBG@Z 0001f7e8 f   oal_ioctl_s3c6410_sec_v1:deviceinfo.obj
+ 0001:0000e894       ?GetBootMeName@@YAHPAXIPAIPAPBG@Z 0001f894 f   oal_ioctl_s3c6410_sec_v1:deviceinfo.obj
