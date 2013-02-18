@@ -1,3 +1,23 @@
+----------------------------- ToDo       -----------------------------------
+
+1. mDDR RAMs can do 166MHz, we currently support 133MHz, only, to achive 166MHz, all depending Freq. have to be reviewed 
+2. look if (1) is working, if we can also support 200MHz mDDRs....=>40% memory bandwidth improvement.
+3. Apply changes for Rev. 2 of TenByTen6410
+	a) no TV output, as connectors removed (SD TV is outdated)
+	b) change Hirose 24pin keyboard connector to 24pin 2.0mm header, add I2C support there
+	c) move 8pin connector (MINI2440v2 compatibility) to new location (TVOUT)
+	d) support USB internal connector for USB hub chips ==> new layout
+
+----------------------------- 01.02.2013 -----------------------------------
+
+1. SerialObject supports all four UARTs now. 
+2. eBoot debug.c is independent from OALLIB/debug.c and defaults to UART0 (RS232)
+3. updated the display driver, in LDI part we set the current for LCD pins to 2mA, which
+   eliminates flickering, due to cable inductence. We tested with 250mm FFC to MegaDisplay7, no side effects visible.
+4. In SVEDriver, we give correct LCD-type now, thus LDI lib is initialized correctly. LCD clock is generated from 133MHz source
+
+5. project.reg has FTPD examples included. ( needs User authentification setup )
+
 ----------------------------- 19.05.2012 -----------------------------------
 1. moved ExtPowerCtl LIB from driver section to common section
    as a Build from scratch can't satisfy dependencies in OAL section
