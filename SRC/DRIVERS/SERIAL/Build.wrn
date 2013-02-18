@@ -1,0 +1,3 @@
+BUILD: [Thrd:Sequence:Type  ] Message
+BUILD: [01:0000000029:WARNN ] C:\WINCE600\public\common\oak\inc\Serdbg.h(64) : warning C4005: 'ZONE_INIT' : macro redefinition
+BUILD: [01:0000000031:WARNN ] C:\WINCE600\public\common\oak\inc\Serdbg.h(79) : warning C4005: 'ZONE_ERROR' : macro redefinition
