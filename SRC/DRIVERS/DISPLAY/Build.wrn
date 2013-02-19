@@ -1,7 +1,0 @@
-BUILD: [Thrd:Sequence:Type  ] Message
-BUILD: [01:0000000102:WARNN ] C:\WINCE600\PLATFORM\TenByTen6410_SLC\SRC\DRIVERS\DISPLAY\DISPLAY_DRV\.\display_main.cpp(1548) : warning C4101: 'dwBytes' : unreferenced local variable
-BUILD: [00:0000000152:WARNN ] C:\WINCE600\PLATFORM\TenByTen6410_SLC\SRC\DRIVERS\DISPLAY\DISPLAY_DRV\: Missing source file: C:\WINCE600\public\common\oak\lib\ARMV4I\retail\gpe.lib.
-BUILD: [00:0000000178:WARNN ] C:\WINCE600\PLATFORM\TenByTen6410_SLC\SRC\DRIVERS\DISPLAY\VIDEO_DRV\: Missing source file: C:\WINCE600\public\common\sdk\lib\ARMV4I\retail\coredll.lib.
-BUILD: [00:0000000179:WARNN ] C:\WINCE600\PLATFORM\TenByTen6410_SLC\SRC\DRIVERS\DISPLAY\VIDEO_DRV\: Missing source file: C:\WINCE600\public\common\oak\lib\ARMV4I\retail\ceddk.lib.
-BUILD: [01:0000000271:WARNN ] gpe.lib(aablt.obj) : warning LNK4099: PDB 'aablt.pdb' was not found with 'C:\WINCE600\OSDesigns\TenByTen6410_SLC\Wince600\TenByTen6410_SLC_ARMV4I\cesysgen\oak\lib\ARMV4I\retail\gpe.lib' or at 'C:\WINCE600\platform\TenByTen6410_SLC\target\ARMV4I\retail\aablt.pdb'; linking object as if no debug info
-BUILD: [01:0000000272:WARNN ] ddgpe.lib(guid.obj) : warning LNK4099: PDB 'ddguid.pdb' was not found with 'C:\WINCE600\OSDesigns\TenByTen6410_SLC\Wince600\TenByTen6410_SLC_ARMV4I\cesysgen\oak\lib\ARMV4I\retail\ddgpe.lib' or at 'C:\WINCE600\platform\TenByTen6410_SLC\target\ARMV4I\retail\ddguid.pdb'; linking object as if no debug info
