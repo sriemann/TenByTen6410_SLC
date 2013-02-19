@@ -12,6 +12,11 @@ This document list changes and ToDos for HITEG's TenByTen6410 SLC NAND WinCE 6R3
 	c) move 8pin connector (MINI2440v2 compatibility) to new location (TVOUT)
 	d) support USB internal connector for USB hub chips ==> new layout
 
+
+----------------------------- 19.02.2013 -----------------------------------
+
+1.	Make new 10.4" display working, currently under VGA800x600 (7) works flawlessly without any glitches
+
 ----------------------------- 01.02.2013 -----------------------------------
 
 1. SerialObject supports all four UARTs now. 
