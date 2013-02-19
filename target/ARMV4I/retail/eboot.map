@@ -1,6 +1,6 @@
  eboot
 
- Timestamp is 510cb840 (Sat Feb 02 14:54:56 2013)
+ Timestamp is 51231207 (Tue Feb 19 13:47:51 2013)
 
  Preferred load address is 00010000
 
@@ -193,7 +193,7 @@
  0001:00001da8       ??_C@_1GE@PICKJMPL@?$AAE?$AAR?$AAR?$AAO?$AAR?$AA?3?$AA?5?$AAB?$AAL?$AAF?$AAl?$AAa?$AAs?$AAh?$AAD?$AAo?$AAw?$AAn?$AAl?$AAo?$AAa?$AAd?$AA?3?$AA?5?$AAF?$AAM?$AAD?$AA_?$AAG?$AAe?$AAt?$AAI@ 00012da8     main.obj
  0001:00001e10       ??_C@_1HI@LPCNMJDK@?$AAW?$AAA?$AAR?$AAN?$AAI?$AAN?$AAG?$AA?3?$AA?5?$AAO?$AAE?$AAM?$AAP?$AAl?$AAa?$AAt?$AAf?$AAo?$AAr?$AAm?$AAI?$AAn?$AAi?$AAt?$AA?5?$AAf?$AAa?$AAi?$AAl?$AAe?$AAd?$AA?5@ 00012e10     main.obj
  0001:00001e88       ??_C@_1BE@CFMGMFAD@?$AAB?$AAP?$AA_?$AAI?$AAn?$AAi?$AAt?$AA?$AN?$AA?6?$AA?$AA@ 00012e88     main.obj
- 0001:00001e9c       ??_C@_0M@BGDKGNNP@Feb?5?52?52013?$AA@ 00012e9c     main.obj
+ 0001:00001e9c       ??_C@_0M@KECMAIJA@Feb?519?52013?$AA@ 00012e9c     main.obj
  0001:00001ea8       ??_C@_0FE@MFHHNAPB@Microsoft?5Windows?5CE?5Bootloader?5@ 00012ea8     main.obj
  0001:00001efc       ??_C@_1CI@MAEMAKDO@?$AA?$CL?$AAO?$AAE?$AAM?$AAP?$AAl?$AAa?$AAt?$AAf?$AAo?$AAr?$AAm?$AAI?$AAn?$AAi?$AAt?$AA?4?$AA?$AN?$AA?6?$AA?$AA@ 00012efc     main.obj
  0001:00001f24       ??_C@_0BP@DPJKPABD@ERROR?3?5OEMLaunch?3?5Halting?4?4?4?$AN?6?$AA@ 00012f24     main.obj
@@ -1097,15 +1097,15 @@
  0001:0002a800       _itoa                      0003b800 f   fulllibc:xtoa.obj
  0001:0002a838       strcat                     0003b838 f   fulllibc:mdsstrcat.obj
  0001:0002a860       __raise_int_divide_by_zero 0003b860 f   fulllibc:diverr.obj
- 0001:0002a884       __fp_veneer_error          0003b884     fulllibc:error.obj
  0001:0002a884       __fp_nonveneer_error       0003b884     fulllibc:error.obj
+ 0001:0002a884       __fp_veneer_error          0003b884     fulllibc:error.obj
  0001:0002a888       __fp_exception             0003b888     fulllibc:error.obj
  0001:0002a9cc       __fp_norm_op1              0003b9cc     fulllibc:normop1.obj
  0001:0002aa94       FPE_Raise                  0003ba94 f   fulllibc:fpraise.obj
  0001:0002b134       __fp_div_common            0003c134     fulllibc:div.obj
  0001:0002b158       __fp_rdv_common            0003c158     fulllibc:div.obj
- 0001:0002b5fc       __fp_div_uncommon          0003c5fc     fulllibc:div.obj
  0001:0002b5fc       __fp_rdv_uncommon          0003c5fc     fulllibc:div.obj
+ 0001:0002b5fc       __fp_div_uncommon          0003c5fc     fulllibc:div.obj
  0001:0002b73c       __fp_norm_op2              0003c73c     fulllibc:normop2.obj
  0001:0002b7fc       _e2d                       0003c7fc     fulllibc:e2d.obj
  0001:0002b808       __fp_e2d                   0003c808     fulllibc:e2d.obj

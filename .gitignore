@@ -17,7 +17,6 @@ Thumbs.db
 *.log
 [Bb]in
 [Dd]ebug*/
-*.lib
 *.sbr
 _desktop.ini
 obj/
