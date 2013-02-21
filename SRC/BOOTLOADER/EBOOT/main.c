@@ -2050,32 +2050,17 @@ void InitializeDisplay(void)
         pSysConReg->NORMAL_CFG |= (1<<14);
         while(!(pSysConReg->BLK_PWR_STAT & (1<<4)));
         }
-	pSysConReg->CLK_SRC = (pSysConReg->CLK_SRC & ~(0xFFFFFFF0))
-			|( 0<<31)		// TV27_SEL    -> 27MHz
-            |(0<<30)				// DAC27        -> 27MHz
-            |(0<<28)				// SCALER_SEL    -> MOUT_EPLL
-			|( 0<<26)		// LCD_SEL    -> Dout_MPLL
-            |(0<<24)				// IRDA_SEL    -> MOUT_EPLL
-            |(0<<22)				// MMC2_SEL    -> MOUT_EPLL
-            |(0<<20)				// MMC1_SEL    -> MOUT_EPLL
-            |(0<<18)				// MMC0_SEL    -> MOUT_EPLL
-            |(0<<16)				// SPI1_SEL    -> MOUT_EPLL
-            |(0<<14)				// SPI0_SEL    -> MOUT_EPLL
-            |(0<<13)				// UART_SEL    -> MOUT_EPLL
-            |(0<<10)				// AUDIO1_SEL    -> MOUT_EPLL
-            |(0<<7)					// AUDIO0_SEL    -> MOUT_EPLL
-            |(0<<5)					// UHOST_SEL    -> 48MHz
-            |(0<<4);				// MFCCLK_SEL    -> HCLKx2 (0:HCLKx2, 1:MoutEPLL)	
 	
-	
-
 	if(OEMgetDisplayType()==NO_DISPLAY) 
 	{
 		Disp_envid_onoff(DISP_ENVID_OFF);
 		return;
+	}else
+	{
+		Disp_envid_onoff(DISP_ENVID_ON);
 	}
 
-
+		LDI_setClock(1); // 0: EPLL, 1:MPLL DOUT
 		LDI_setBPP(OEMgetLCDBpp());
 		LDI_initDisplay(OEMgetDisplayType(),pSysConReg, pDispReg, pGPIOReg); 
 	
@@ -2084,14 +2069,9 @@ void InitializeDisplay(void)
 		LDI_fill_output_device_information(&RGBDevInfo);
 
 		// Setup Output Device Information
-		//if((OEMgetDisplayType() != HITEG_TV))
-			Disp_set_output_device_information(&RGBDevInfo);
-	//	else
-	//		Disp_set_output_TV_information(LDI_GetDisplayWidth(OEMgetDisplayType()), LDI_GetDisplayHeight(OEMgetDisplayType()) );
-		
-		// Initialize Display Controller
-		//Disp_initialize_output_interface(DISP_VIDOUT_RGBIF_TVENCODER);
-		Disp_initialize_output_interface((OEMgetDisplayType()==HITEG_TV)?DISP_VIDOUT_TVENCODER:DISP_VIDOUT_RGBIF);
+
+		Disp_set_output_device_information(&RGBDevInfo);
+		Disp_initialize_output_interface(DISP_VIDOUT_RGBIF);
 		
 		if(OEMgetLCDBpp()==16)
 		{
@@ -2110,30 +2090,11 @@ void InitializeDisplay(void)
 
 		Disp_set_framebuffer(DISP_WIN0,IMAGE_FRAMEBUFFER_PA_START);
 		Disp_window_onfoff(DISP_WIN0, DISP_WINDOW_ON);
-		//LDI_setClock((OEMgetDisplayType()==HITEG_TV)?1:0);
-	
-		if(OEMgetDisplayType() == HITEG_TV)
-		{
-			PWRCTL_setPower(&pBSPArgs->powerCTL, DAC0);
-			PWRCTL_setPower(&pBSPArgs->powerCTL, DAC1);
-			PWRCTL_setAllTo(&pBSPArgs->powerCTL);
-			OEMsetPowerCTL(pBSPArgs->powerCTL);
-		}
-		else
-		{
-			PWRCTL_clrPower(&pBSPArgs->powerCTL, DAC0);
-			PWRCTL_setPower(&pBSPArgs->powerCTL, LCD);
-			PWRCTL_setAllTo(&pBSPArgs->powerCTL);
-			OEMsetPowerCTL(pBSPArgs->powerCTL);
-		}
 
-		Disp_envid_onoff(DISP_ENVID_ON); // we switch the TFT controller on...
-
-		if((OEMgetDisplayType() != HITEG_TV))
-			LDI_setBacklight(255);
-		else
-			LDI_setBacklight(0);
-		
+		PWRCTL_clrPower(&pBSPArgs->powerCTL, DAC0);
+		PWRCTL_setPower(&pBSPArgs->powerCTL, LCD);
+		PWRCTL_setAllTo(&pBSPArgs->powerCTL);
+		OEMsetPowerCTL(pBSPArgs->powerCTL);
 		
 		if(OEMgetLogoHW() != ~0)
 		{
@@ -2146,6 +2107,9 @@ void InitializeDisplay(void)
 			LDI_clearScreen(IMAGE_FRAMEBUFFER_PA_START, OEMgetBGColor());
 			displayLogo();
 		}
+
+		Disp_envid_onoff(DISP_ENVID_ON); // we switch the TFT controller on...
+		LDI_setBacklight(255);			 // switch LCD_PWREN HIGH
 }
 
 static void SpinForever(void)

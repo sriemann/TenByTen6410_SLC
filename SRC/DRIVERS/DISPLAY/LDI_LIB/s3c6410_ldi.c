@@ -129,20 +129,15 @@ char *LDI_getDisplayName(HITEG_DISPLAY_TYPE type) // strange format in NK.bin, c
                                     (gpioreg)##->GPFCON = ((gpioreg)##->GPFCON & ~(0x3<<28)) | (1<<28); }
 void LDI_setBacklight(unsigned char rate)
 {
-	//if(HitegDisplays[g_Type].backlight==FIXED_BKLGHT) return;
 	if(rate==0) {
-	  g_pGPIOReg->GPFCON &= ~(0x3<<28); 
-	  g_pGPIOReg->GPFCON |= (0x2<<28);
-      g_pGPIOReg->GPFPUD &= ~(0x3<<28);
-      g_pGPIOReg->GPFDAT &= ~(0x1<<14);  // GPF14=OUT low
+		BACKLIGHT_OFF(g_pGPIOReg);
 		return;
 	}
-	  g_pGPIOReg->GPFCON &= ~(0x3<<28); 
-	  g_pGPIOReg->GPFCON |= (0x2<<28);
-      g_pGPIOReg->GPFPUD &= ~(0x3<<28);
-      g_pGPIOReg->GPFDAT |= (0x1<<14);  // GPF14=OUT high
-
-	  g_pGPIOReg->SPCON &=~(3<<24); // better pictures on displays connected with LONG cables....
+	else
+	{
+		BACKLIGHT_ON(g_pGPIOReg);
+		g_pGPIOReg->SPCON &=~(3<<24); // better pictures on displays connected with LONG cables....
+	}
 }
 
 BACKLIGHT_BOOST *LDI_getBoost(HITEG_DISPLAY_TYPE type)
@@ -155,7 +150,7 @@ void LDI_setClock(int TV)
 			|(0<<31)				// TV27_SEL    -> 27MHz
             |(0<<30)				// DAC27        -> 27MHz
             |(0<<28)				// SCALER_SEL    -> MOUT_EPLL
-			|(0<<26)				// LCD_SEL    -> Mout_MPLL
+			|((TV)<<26)				// LCD_SEL    -> Mout_EPLL
             |(0<<24)				// IRDA_SEL    -> MOUT_EPLL
             |(0<<22)				// MMC2_SEL    -> MOUT_EPLL
             |(0<<20)				// MMC1_SEL    -> MOUT_EPLL

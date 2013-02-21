@@ -50,6 +50,76 @@ static const UINT32 aSlotTable[16] =
 //
 //  Initializes the debug serial port
 //
+
+//------------------------------------------------------------------------------
+//
+//  Function: OEMInitDebugSerial
+//
+//  Initializes the debug serial port
+// HKEY_LOCAL_MACHINE\Drivers\BuiltIn\Serial0
+//------------------------------------------------------------------------------
+//
+//  Function:  OALKitlInitRegistry
+//
+//  This function is called during the initialization process to allow the
+//  OAL to denote devices which are being used by the KITL connection
+//  and thus shouldn't be touched during the OS initialization process.  The
+//  OAL provides this information via the registry.
+//
+
+VOID OALDebugRemoveFromRegistry(unsigned port)
+{
+    HKEY Key;
+    DWORD Status;
+    DWORD Disposition;
+    DWORD Value;
+    DWORD Flags;
+    DEVICE_LOCATION devLoc;
+
+
+
+        // Disable the UART driver since it is used for Debug
+        //
+		switch(port)
+		{
+		case 0:
+			Status = NKRegCreateKeyEx(HKEY_LOCAL_MACHINE, L"Drivers\\BuiltIn\\Serial0", 0, NULL, 0, 0, NULL, &Key, &Disposition);
+			break;
+			
+		case 1:
+			Status = NKRegCreateKeyEx(HKEY_LOCAL_MACHINE, L"Drivers\\BuiltIn\\Serial1", 0, NULL, 0, 0, NULL, &Key, &Disposition);
+			break;
+			
+		case 2:
+			Status = NKRegCreateKeyEx(HKEY_LOCAL_MACHINE, L"Drivers\\BuiltIn\\Serial2", 0, NULL, 0, 0, NULL, &Key, &Disposition);
+			break;
+			
+		case 3:
+			Status = NKRegCreateKeyEx(HKEY_LOCAL_MACHINE, L"Drivers\\BuiltIn\\Serial3", 0, NULL, 0, 0, NULL, &Key, &Disposition);
+			break;
+		default:
+
+			break;
+		}
+        if (Status == ERROR_SUCCESS)
+        {
+            Disposition = DEVFLAGS_NOLOAD;
+            // Set Flags value to indicate no loading of driver for this device
+            Status = NKRegSetValueEx(Key, DEVLOAD_FLAGS_VALNAME, 0, DEVLOAD_FLAGS_VALTYPE, (PBYTE)&Disposition, sizeof(Disposition));
+        }
+
+        // Close the registry key.
+        NKRegCloseKey(Key);
+
+        if (Status != ERROR_SUCCESS)
+        {
+            
+            goto CleanUp;
+        }
+
+CleanUp:
+    return;
+}
 VOID OEMInitDebugSerial()
 {
     UINT32 DivSlot;

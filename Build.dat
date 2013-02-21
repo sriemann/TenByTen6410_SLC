@@ -1,26 +1,28 @@
 V|601
+D|C:\WINCE600\platform\common\lib\ARMV4I\retail\|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0
+
 D|C:\WINCE600\platform\common\src\inc\|a000|0|0|0|0|0|0|0|0|0|0|0|0|0|0
  F|oal.h|4|0|1C6D1EF08B36000
-  I|oal_args.h|1001
-  I|oal_cache.h|1001
-  I|oal_memory.h|1001
-  I|oal_io.h|1001
-  I|oal_ethdrv.h|1001
-  I|oal_flash.h|1001
-  I|oal_ilt.h|1001
-  I|oal_intr.h|1001
-  I|oal_ioctl.h|1001
-  I|oal_kitl.h|1001
-  I|oemglobal.h|1001
-  I|oal_misc.h|1001
-  I|oal_log.h|1001
-  I|oal_pci.h|1001
-  I|oal_pcmcia.h|1001
-  I|oal_power.h|1001
-  I|oal_rtc.h|1001
-  I|oal_timer.h|1001
-  I|oal_perreg.h|1001
-  I|nkexport.h|1000
+  I|oal_args.h|1
+  I|oal_cache.h|1
+  I|oal_memory.h|1
+  I|oal_io.h|1
+  I|oal_ethdrv.h|1
+  I|oal_flash.h|1
+  I|oal_ilt.h|1
+  I|oal_intr.h|1
+  I|oal_ioctl.h|1
+  I|oal_kitl.h|1
+  I|oemglobal.h|1
+  I|oal_misc.h|1
+  I|oal_log.h|1
+  I|oal_pci.h|1
+  I|oal_pcmcia.h|1
+  I|oal_power.h|1
+  I|oal_rtc.h|1
+  I|oal_timer.h|1
+  I|oal_perreg.h|1
+  I|nkexport.h|0
  F|oal_args.h|4|0|1C6D1EF08B36000
  F|oal_blmenu.h|4|0|1C6D1EF08B36000
  F|oal_blserial.h|4|0|1C6D1EF08B36000
@@ -32,19 +34,19 @@ D|C:\WINCE600\platform\common\src\inc\|a000|0|0|0|0|0|0|0|0|0|0|0|0|0|0
  F|oal_cache.h|4|0|1C6D1EF08B36000
  F|oal_cache.inc|4|0|1C6D1EF08B36000
  F|oal_ethdrv.h|4|0|1C6D1EF08B36000
-  I|halether.h|1000
+  I|halether.h|0
  F|oal_flash.h|4|0|1C6D1EF08B36000
  F|oal_ilt.h|4|0|1C6D1EF08B36000
  F|oal_intr.h|4|0|1C6D1EF08B36000
  F|oal_io.h|4|0|1C6D1EF08B36000
-  I|ceddk.h|1000
-  I|pkfuncs.h|1000
+  I|ceddk.h|0
+  I|pkfuncs.h|0
  F|oal_ioctl.h|4|0|1C6D1EF08B36000
  F|oal_ioctl_tab.h|4|0|1C6D1EF08B36000
  F|oal_keyvalue.h|4|0|1C6D1EF08B36000
   I|blcommon.h|1
  F|oal_kitl.h|4|0|1C6D1EF08B36000
-  I|kitl.h|1000
+  I|kitl.h|0
  F|oal_log.h|4|0|1C6D1EF08B36000
  F|oal_memory.h|4|0|1C6D1EF08B36000
  F|oal_memory.inc|4|0|1C6D1EF08B36000
@@ -61,41 +63,41 @@ D|C:\WINCE600\platform\common\src\soc\s3c6410_sec_v1\oal\inc\|a000|0|0|0|0|0|0|0
  F|g2d_reg.h|4|0|1CB18F10299A600
  F|intr.h|4|0|1CB18F101687900
  F|pmplatform.h|4|0|1CB18F101687900
-  I|nkintr.h|1000
+  I|nkintr.h|0
  F|s3c6410.h|4|0|1CB18F101687900
-  I|s3c6410_base_regs.h|1000
-  I|s3c6410_ac97.h|1001
-  I|s3c6410_adc.h|1001
-  I|s3c6410_camif.h|1001
-  I|s3c6410_cfcon.h|1001
-  I|s3c6410_display.h|1001
-  I|s3c6410_dma.h|1001
-  I|s3c6410_dramcon.h|1001
-  I|s3c6410_gpio.h|1001
-  I|s3c6410_hsmmc.h|1001
-  I|s3c6410_iic.h|1001
-  I|s3c6410_iis.h|1001
-  I|s3c6410_intr.h|1001
-  I|s3c6410_keypad.h|1001
-  I|s3c6410_msmif.h|1001
-  I|s3c6410_nand.h|1001
-  I|s3c6410_post.h|1001
-  I|s3c6410_rotator.h|1001
-  I|s3c6410_pwm.h|1001
-  I|s3c6410_rtc.h|1001
-  I|s3c6410_spi.h|1001
-  I|s3c6410_sromcon.h|1001
-  I|s3c6410_syscon.h|1001
-  I|s3c6410_tvenc.h|1001
-  I|s3c6410_tvsc.h|1001
-  I|s3c6410_uart.h|1001
-  I|s3c6410_usbotg.h|1001
-  I|s3c6410_wdog.h|1001
-  I|s3c6410_vintr.h|1001
-  I|s3c6410_system.h|1001
-  I|s3c6410_onenand.h|1001
+  I|s3c6410_base_regs.h|0
+  I|s3c6410_ac97.h|1
+  I|s3c6410_adc.h|1
+  I|s3c6410_camif.h|1
+  I|s3c6410_cfcon.h|1
+  I|s3c6410_display.h|1
+  I|s3c6410_dma.h|1
+  I|s3c6410_dramcon.h|1
+  I|s3c6410_gpio.h|1
+  I|s3c6410_hsmmc.h|1
+  I|s3c6410_iic.h|1
+  I|s3c6410_iis.h|1
+  I|s3c6410_intr.h|1
+  I|s3c6410_keypad.h|1
+  I|s3c6410_msmif.h|1
+  I|s3c6410_nand.h|1
+  I|s3c6410_post.h|1
+  I|s3c6410_rotator.h|1
+  I|s3c6410_pwm.h|1
+  I|s3c6410_rtc.h|1
+  I|s3c6410_spi.h|1
+  I|s3c6410_sromcon.h|1
+  I|s3c6410_syscon.h|1
+  I|s3c6410_tvenc.h|1
+  I|s3c6410_tvsc.h|1
+  I|s3c6410_uart.h|1
+  I|s3c6410_usbotg.h|1
+  I|s3c6410_wdog.h|1
+  I|s3c6410_vintr.h|1
+  I|s3c6410_system.h|1
+  I|s3c6410_onenand.h|1
  F|s3c6410.inc|4|0|1CCCEA4A4DD0B90
-  I|s3c6410_base_regs.inc|1
+  I|s3c6410_base_regs.inc|1001
  F|s3c6410_ac97.h|4|0|1CB18F101687900
  F|s3c6410_adc.h|4|0|1CB18F101687900
  F|s3c6410_base_regs.h|4|0|1CB18F101687900
@@ -121,8 +123,8 @@ D|C:\WINCE600\platform\common\src\soc\s3c6410_sec_v1\oal\inc\|a000|0|0|0|0|0|0|0
  F|s3c6410_rotator.h|4|0|1CB18F10299A600
  F|s3c6410_rtc.h|4|0|1CB18F10299A600
  F|s3c6410_spi.h|4|0|1CB18F10299A600
-  I|winioctl.h|1000
-  I|ceddk.h|1000
+  I|winioctl.h|0
+  I|ceddk.h|0
  F|s3c6410_sromcon.h|4|0|1CB18F10299A600
  F|s3c6410_syscon.h|4|0|1CB18F10299A600
  F|s3c6410_system.h|4|0|1CB18F10299A600
@@ -131,428 +133,117 @@ D|C:\WINCE600\platform\common\src\soc\s3c6410_sec_v1\oal\inc\|a000|0|0|0|0|0|0|0
  F|s3c6410_uart.h|4|0|1CB18F10299A600
  F|s3c6410_usbotg.h|4|0|1CB18F10299A600
  F|s3c6410_vintr.h|4|0|1CB18F10299A600
-  I|oal_intr.h|1000
+  I|oal_intr.h|0
  F|s3c6410_wdog.h|4|0|1CB18F10299A600
  F|soc_cfg.h|4|0|1CCCEA4D34C9874
   I|S3C6410_BASE_REGS.h|1000
   I|S3C6410_SYSCON.h|1000
  F|_desktop.ini|80000|0|1CE0E4523F6983E
 
-D|C:\WINCE600\platform\TenByTen6410_SLC\lib\ARMV4I\retail\|3000|0|0|0|0|0|0|0|0|0|0|0|0|0|0
- F|s3c6410_ldi_lib.lib|d0000|0|1CE0E656168BB64
- F|backlight.def|80000|0|1CE0E643D3E7086
- F|backlight.exp|80000|0|1CE0E643D518356
- F|backlight.lib|80000|0|1CE0E643D518356
- F|backlight_pdd.lib|80000|0|1CE0E643D1123D8
- F|backlight_pdd.pdb|80000|0|1CE0E64158380C2
- F|dm9isa1.exp|80000|0|1CE0E64432F8CD2
- F|dm9isa1.lib|80000|0|1CE0E64432F8CD2
- F|DrvIf.lib|80000|0|1CE0E64437975B8
- F|drvif.pdb|80000|0|1CE0E643000209A
- F|epctl.exp|80000|0|1CE0E643C0D4386
- F|epctl.lib|80000|0|1CE0E643C0D4386
- F|extpowerctl_lib.lib|80000|0|1CE0E643B6FE852
- F|extpowerctl_lib.pdb|80000|0|1CE0E6409DF454E
- F|KeyPadcommon.lib|80000|0|1CE0E643E20EFEC
- F|keypadcommon.pdb|80000|0|1CE0E641B0E17F0
- F|kitl.exp|80000|0|1CE0E643B9AD2A6
- F|kitl.lib|80000|0|1CE0E643B9AD2A6
- F|mfcdd_os_dep.lib|80000|0|1CE0E6440E2A7FC
- F|mfcdd_os_dep.pdb|80000|0|1CE0E6424820AC6
- F|mfc_os_indep_layer.lib|80000|0|1CE0E6440F81D26
- F|mfc_os_indep_layer.pdb|80000|0|1CE0E6425E08474
- F|nandflash.exp|80000|0|1CE0E643FBD66BE
- F|nandflash.lib|80000|0|1CE0E643FBD66BE
- F|nandflash_boot_lib.lib|80000|0|1CE0E643AE59FEE
- F|nandflash_boot_lib.pdb|80000|0|1CE0E6407166630
- F|nandflash_lib.lib|80000|0|1CE0E643AD28D1E
- F|nandflash_lib.pdb|80000|0|1CE0E6406233654
- F|NAV_LED.exp|80000|0|1CE0E644312F09A
- F|NAV_LED.lib|80000|0|1CE0E644312F09A
- F|oal.lib|80000|0|1CE0E643B855D7C
- F|oal.pdb|80000|0|1CE0E640AE7EA54
- F|oal_ethdrv_dm9000a.lib|80000|0|1CE0E643B5CD582
- F|oal_ethdrv_dm9000a.pdb|80000|0|1CE0E6409A3AA84
- F|oal_usbdbgrndismdd.lib|80000|0|1CE0E643B239D12
- F|oal_usbdbgrndismdd.pdb|80000|0|1CE0E64083BA76E
- F|oal_usbdbgsermdd.lib|80000|0|1CE0E643B36AFE2
- F|oal_usbdbgsermdd.pdb|80000|0|1CE0E6408AE184E
- F|PddList.lib|80000|0|1CE0E643E47158C
- F|pddlist.pdb|80000|0|1CE0E641B95FDFA
- F|s3c6410_ac97_lib.lib|80000|0|1CE0E643F842E4E
- F|s3c6410_ac97_lib.pdb|80000|0|1CE0E641EFE9AA6
- F|s3c6410_args.lib|80000|0|1CE0E643AFB1518
- F|s3c6410_args.pdb|80000|0|1CE0E64075B8A62
- F|s3c6410_cmm.exp|80000|0|1CE0E6441387CA4
- F|s3c6410_cmm.lib|80000|0|1CE0E6441387CA4
- F|s3c6410_disp.exp|80000|0|1CE0E6561D66790
- F|s3c6410_disp.lib|80000|0|1CE0E6561D66790
- F|s3c6410_disp_lib.lib|d0000|0|1CE0E643C336926
- F|s3c6410_disp_lib.pdb|80000|0|1CE0E640CC722FE
- F|s3c6410_dma_lib.lib|80000|0|1CE0E643BADE576
- F|s3c6410_dma_lib.pdb|80000|0|1CE0E640B6FD05E
- F|s3c6410_fimg.exp|80000|0|1CE0E643FD7A09C
- F|s3c6410_fimg.lib|80000|0|1CE0E643FD7A09C
- F|s3c6410_g2d_lib.lib|d0000|0|1CE0E643C92C736
- F|s3c6410_g2d_lib.pdb|80000|0|1CE0E640EF9CDF6
- F|s3c6410_hsmmc0.exp|80000|0|1CE0E643DDBCBBA
- F|s3c6410_hsmmc0.lib|80000|0|1CE0E643DDBCBBA
- F|s3c6410_hsmmc0_lib.lib|80000|0|1CE0E643DC191DC
- F|s3c6410_hsmmc0_lib.pdb|80000|0|1CE0E64198BDAFC
- F|s3c6410_hsmmc1.exp|80000|0|1CE0E643DAC1CB2
- F|s3c6410_hsmmc1.lib|80000|0|1CE0E643DAC1CB2
- F|s3c6410_hsmmc1_lib.lib|80000|0|1CE0E643D91E2D4
- F|s3c6410_hsmmc1_lib.pdb|80000|0|1CE0E6417C93E8A
- F|s3c6410_iic.exp|80000|0|1CE0E643E0B7AC2
- F|s3c6410_iic.lib|80000|0|1CE0E643E0B7AC2
- F|s3c6410_iic_lib.lib|80000|0|1CE0E643DF140E4
- F|s3c6410_iic_lib.pdb|80000|0|1CE0E641A2DFAE4
- F|s3c6410_image_rotator_lib.lib|d0000|0|1CE0E643C598EC6
- F|s3c6410_image_rotator_lib.pdb|80000|0|1CE0E640D4A4454
- F|s3c6410_jpeg.exp|80000|0|1CE0E643FF43CD4
- F|s3c6410_jpeg.lib|80000|0|1CE0E643FF43CD4
- F|S3C6410_Layout.lib|80000|0|1CE0E643E3402BC
- F|s3c6410_layout.pdb|80000|0|1CE0E641B533C22
- F|s3c6410_ldi_lib.pdb|80000|0|1CE0E6561390C5C
- F|s3c6410_mfc.exp|80000|0|1CE0E64411BE06C
- F|s3c6410_mfc.lib|80000|0|1CE0E64411BE06C
- F|s3c6410_ohci2.exp|80000|0|1CE0E643F6EB924
- F|s3c6410_ohci2.lib|80000|0|1CE0E643F6EB924
- F|s3c6410_PM.lib|80000|0|1CE0E643B0E27E8
- F|s3c6410_pm.pdb|80000|0|1CE0E6407C471DA
- F|s3c6410_post_lib.lib|d0000|0|1CE0E643C467BF6
- F|s3c6410_post_lib.pdb|80000|0|1CE0E640D0C4730
- F|s3c6410_PwrCon.exp|80000|0|1CE0E643D6BBD34
- F|s3c6410_PwrCon.lib|80000|0|1CE0E643D6BBD34
- F|s3c6410_spi.def|80000|0|1CE0E643EFEAA9E
- F|s3c6410_spi.exp|80000|0|1CE0E643F0F5B14
- F|s3c6410_spi.lib|80000|0|1CE0E643F0F5B14
- F|s3c6410_touch.def|80000|0|1CE0E643F416C76
- F|s3c6410_touch.exp|80000|0|1CE0E643F521CEC
- F|s3c6410_touch.lib|80000|0|1CE0E643F521CEC
- F|s3c6410_tv_encoder_lib.lib|d0000|0|1CE0E643C7FB466
- F|s3c6410_tv_encoder_lib.pdb|80000|0|1CE0E640DBF178E
- F|s3c6410_tv_scaler_lib.lib|d0000|0|1CE0E643C6A3F3C
- F|s3c6410_tv_scaler_lib.pdb|80000|0|1CE0E640D811A6A
- F|s3c6410_uao.exp|80000|0|1CE0E6442294A26
- F|s3c6410_uao.lib|80000|0|1CE0E6442294A26
- F|s3c6410_usbdbgpdd.lib|80000|0|1CE0E643B49C2B2
- F|s3c6410_usbdbgpdd.pdb|80000|0|1CE0E640935FE58
- F|s3c6410_usbfn.def|80000|0|1CE0E643E9360CC
- F|s3c6410_usbfn.exp|80000|0|1CE0E643EA6739C
- F|s3c6410_usbfn.lib|80000|0|1CE0E643EA6739C
- F|s3c6410_Video.exp|80000|0|1CE0E656187B9F6
- F|s3c6410_Video.lib|80000|0|1CE0E656187B9F6
- F|s3c6410_wavedev_ac97.exp|80000|0|1CE0E643FA0CA86
- F|s3c6410_wavedev_ac97.lib|80000|0|1CE0E643FA0CA86
- F|SDIO8686.exp|80000|0|1CE0E644398744A
- F|SDIO8686.lib|80000|0|1CE0E644398744A
- F|smdk6410_keypad.exp|80000|0|1CE0E643E63B1C4
- F|smdk6410_keypad.lib|80000|0|1CE0E643E63B1C4
- F|smdk6410_serial.exp|80000|0|1CE0E643ECEFB96
- F|smdk6410_serial.lib|80000|0|1CE0E643ECEFB96
- F|_desktop.ini|80000|0|1CE0E4554DDF44C
+D|C:\WINCE600\platform\TenByTen6410_SLC\lib\ARMV4I\retail\|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0
 
-D|C:\WINCE600\PLATFORM\TenByTen6410_SLC\src\bootloader\STEPLDRIROM\|0|0|0|1c5fb4c9|0|0|0|1c5fb4c9|1c5fb4c9|0|0|0|0|0|0
+D|C:\WINCE600\PLATFORM\TenByTen6410_SLC\src\bootloader\EBOOT\|0|0|0|b4759d7f|0|0|0|b4759d7f|b4759d7f|0|0|0|0|0|0
 
-D|C:\WINCE600\PLATFORM\TenByTen6410_SLC\src\bootloader\STEPLDRIROM\obj\ARMV4I\retail\|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0
+D|C:\WINCE600\PLATFORM\TenByTen6410_SLC\src\bootloader\EBOOT\obj\ARMV4I\retail\|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0
 
-D|C:\WINCE600\PLATFORM\TenByTen6410_SLC\src\drivers\Display\|3002|0|0|0|0|0|0|0|0|0|0|0|0|0|0
- F|Build.err|80000|0|1CE0E6560E59A0E
- F|Build.log|80000|0|1CE0E6560E59A0E
- F|Build.wrn|80000|0|1CE0E6560E59A0E
- F|DISPCON_LIB\|0|10|0
- F|DISPLAY_DRV\|0|10|0
- F|G2D_LIB\|0|10|0
- F|IMAGE_ROTATOR_LIB\|0|10|0
- F|INC\|0|10|0
- F|LDI_LIB\|0|10|0
- F|POST_PROCESSOR_LIB\|0|10|0
- F|TV_ENCODER_LIB\|0|10|0
- F|TV_SCALER_LIB\|0|10|0
- F|VIDEO_DRV\|0|10|0
+D|C:\WINCE600\PLATFORM\TenByTen6410_SLC\src\bootloader\STEPLDR\|0|0|0|73a9985a|0|0|0|73a9985a|73a9985a|0|0|0|0|0|0
 
-D|C:\WINCE600\PLATFORM\TenByTen6410_SLC\src\drivers\Display\DISPCON_LIB\|3005|0|0|882c407a|0|0|0|882c407a|882c407a|0|0|0|0|0|0
- F|obj\|0|10|0
- F|s3c6410_display_con.c|40000|0|1CE0E458E414EA0
+D|C:\WINCE600\PLATFORM\TenByTen6410_SLC\src\bootloader\STEPLDR\obj\ARMV4I\retail\|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0
+
+D|C:\WINCE600\PLATFORM\TenByTen6410_SLC\src\bootloader\STEPLDRIROM\|5|0|0|1c5fb4c9|0|0|0|1c5fb4c9|1c5fb4c9|0|0|0|0|0|0
+ F|Build.err|80000|0|1CE0F1639D67058
+ F|Build.log|80000|0|1CE0F1639D67058
+ F|Build.wrn|80000|0|1CE0F1639D67058
+ F|main.c|40000|0|1CE0E458D5A0A86
   I|windows.h|1000
+  I|pehdr.h|1000
+  I|romldr.h|1000
   I|bsp_cfg.h|1000
-  I|s3c6410.h|1000
-  I|s3c6410_display_con.h|1001
-  I|s3c6410_display_con_macro.h|1001
-
-D|C:\WINCE600\PLATFORM\TenByTen6410_SLC\src\drivers\Display\DISPCON_LIB\obj\ARMV4I\retail\|3000|0|0|0|0|0|0|0|0|0|0|0|0|0|0
- F|s3c6410_display_con.obj|c0000|0|1CE0E640CD30EC0
- F|_objects.mac|80000|0|1CE0E643C251B0A
-
-D|C:\WINCE600\PLATFORM\TenByTen6410_SLC\src\drivers\Display\DISPLAY_DRV\|2b005|0|0|3163171b|0|0|0|3163171b|3163171b|0|0|0|0|0|0
- F|2d_accel_lib.lib|d0000|0|1CD41FBFF557600
- F|accel_2d.s|40000|0|1CE0E458E4D3A62
+  I|image_cfg.h|1001
+  I|utils.h|1001
+ F|obj\|0|10|0
+ F|s3c6410_addr.h|4|0|1CE0E458D5A0A86
+ F|startup.s|40000|0|1CE0E458D5ECF3A
   I|kxarm.h|1001
- F|blt.cpp|40000|0|1CE0E458E4D3A62
-  I|precomp.h|1001
-  I|dispperf.h|1000
- F|blt_alpha.cpp|40000|0|1CE0E458E4D3A62
-  I|precomp.h|1001
- F|Build.wrn|80000|0|1CE0E5F02C66904
- F|cursor.cpp|40000|0|1CE0E458E4D3A62
-  I|precomp.h|1001
- F|ddoverlay.cpp|40000|0|1CE0E458E4D3A62
-  I|precomp.h|1001
- F|display_main.cpp|40000|0|1CE0E458E4D3A62
-  I|bsp.h|1000
-  I|precomp.h|1001
-  I|pmplatform.h|1001
-  I|syspal.h|1000
-  I|gxinfo.h|1000
-  I|dispperf.h|1001
- F|display_main.h|4|0|1CE0E458E4F9CBC
-  I|precomp.h|9001
- F|dispmode.cpp|40000|0|1CE0E458E4F9CBC
-  I|precomp.h|1001
- F|halcaps.cpp|40000|0|1CE0E458E4F9CBC
-  I|precomp.h|1001
- F|haldd.cpp|40000|0|1CE0E458E4F9CBC
-  I|precomp.h|1001
- F|halsurf.cpp|40000|0|1CE0E458E4F9CBC
-  I|precomp.h|1001
- F|hwblt.cpp|40000|0|1CE0E458E4F9CBC
-  I|precomp.h|1001
- F|line.cpp|40000|0|1CE0E458E4F9CBC
-  I|precomp.h|1001
-  I|dispperf.h|1000
- F|mediatype.h|4|0|1CE0E458E51FF16
- F|obj\|0|10|0
- F|precomp.h|40004|0|1CE0E458E51FF16
-  I|bsp.h|1000
-  I|types.h|1000
-  I|winddi.h|1000
-  I|ddrawi.h|1000
-  I|ddgpe.h|1000
-  I|emul.h|1000
-  I|ddhfuncs.h|1000
-  I|CRegEdit.h|1000
-  I|dvp.h|1000
-  I|image_cfg.h|1000
-  I|dispperf.h|1000
-  I|mediatype.h|1001
-  I|display_main.h|9000
-  I|s3c6410_ldi.h|1001
-  I|s3c6410_display_con.h|1001
-  I|s3c6410_post_proc.h|1001
-  I|s3c6410_tv_scaler.h|1001
-  I|s3c6410_tv_encoder.h|1001
-  I|SVE_API.h|1001
-  I|fimgse2d.h|1000
-  I|priv_context.h|1001
- F|priv_context.h|4|0|1CE0E458E51FF16
- F|s3c6410_disp.def|c0000|0|1CE0E458E51FF16
- F|surf.cpp|40000|0|1CE0E458E51FF16
-  I|precomp.h|1001
- F|tvcontrol.cpp|40000|0|1CE0E458E51FF16
-  I|precomp.h|1001
-
-D|C:\WINCE600\PLATFORM\TenByTen6410_SLC\src\drivers\Display\DISPLAY_DRV\obj\ARMV4I\retail\|3000|0|0|0|0|0|0|0|0|0|0|0|0|0|0
- F|accel_2d.obj|d0000|0|1CE0E64153BFA36
- F|blt.obj|d0000|0|1CE0E6413EBCEA4
- F|blt_alpha.obj|d0000|0|1CE0E64142E907C
- F|cursor.obj|d0000|0|1CE0E6412E3299E
- F|ddoverlay.obj|d0000|0|1CE0E641283CB8E
- F|display_main.obj|d0000|0|1CE0E6412293232
- F|dispmode.obj|d0000|0|1CE0E6412AEB5E2
- F|halcaps.obj|d0000|0|1CE0E64148DEE8C
- F|haldd.obj|d0000|0|1CE0E6414B8D8E0
- F|halsurf.obj|d0000|0|1CE0E6414EAEA42
- F|hwblt.obj|d0000|0|1CE0E64137236B6
- F|line.obj|d0000|0|1CE0E6413179D5A
- F|precomp.obj|80000|0|1CE0E6404E158DE
- F|precomp.pch|80000|0|1CE0E64046A234A
- F|precomp.pchast|80000|0|1CE0E6404DEF684
- F|surf.obj|d0000|0|1CE0E6414656692
- F|tvcontrol.obj|d0000|0|1CE0E6415300E74
- F|_objects.mac|80000|0|1CE0E6444C4DC96
-
-D|C:\WINCE600\PLATFORM\TenByTen6410_SLC\src\drivers\Display\G2D_LIB\|13005|0|0|8ba19ba7|0|0|0|8ba19ba7|8ba19ba7|0|0|0|0|0|0
- F|FIMGSE2D.cpp|40000|0|1CE0E458E51FF16
-  I|precomp.h|1001
-  I|assert.h|1000
-  I|dispperf.h|1000
-  I|regctrl_g2d.h|1001
- F|obj\|0|10|0
- F|regctrl_g2d.cpp|40000|0|1CE0E458E51FF16
-  I|precomp.h|1001
-  I|regctrl_g2d.h|1001
-
-D|C:\WINCE600\PLATFORM\TenByTen6410_SLC\src\drivers\Display\G2D_LIB\obj\ARMV4I\retail\|3000|0|0|0|0|0|0|0|0|0|0|0|0|0|0
- F|FIMGSE2D.obj|c0000|0|1CE0E640EAB205C
- F|regctrl_g2d.obj|c0000|0|1CE0E640F592C06
- F|_objects.mac|80000|0|1CE0E643C8216C0
-
-D|C:\WINCE600\PLATFORM\TenByTen6410_SLC\src\drivers\Display\IMAGE_ROTATOR_LIB\|3005|0|0|882c407a|0|0|0|882c407a|882c407a|0|0|0|0|0|0
- F|obj\|0|10|0
- F|s3c6410_image_rotator.c|40000|0|1CE0E458E5B887E
+  I|s3c6410.inc|1001
+  I|image_cfg.inc|1001
+  I|MemParam_mDDR.inc|1001
+ F|stepldr_irom_sd.bib|80000|0|1CE0E458D5ECF3A
+ F|trimnb0.scr|80000|0|1CE0E458D5ECF3A
+ F|utils.c|40000|0|1CE0E458D6F7FB0
   I|windows.h|1000
   I|bsp_cfg.h|1000
-  I|s3c6410.h|1000
-  I|s3c6410_image_rotator.h|1001
-  I|s3c6410_image_rotator_macro.h|1001
+  I|s3c6410_addr.h|1001
+  I|soc_cfg.h|1000
+ F|utils.h|4|0|1CE0E458D6F7FB0
 
-D|C:\WINCE600\PLATFORM\TenByTen6410_SLC\src\drivers\Display\IMAGE_ROTATOR_LIB\obj\ARMV4I\retail\|3000|0|0|0|0|0|0|0|0|0|0|0|0|0|0
- F|s3c6410_image_rotator.obj|c0000|0|1CE0E640D4A4454
- F|_objects.mac|80000|0|1CE0E643C48DE50
+D|C:\WINCE600\PLATFORM\TenByTen6410_SLC\src\bootloader\STEPLDRIROM\obj\ARMV4I\retail\|2000|0|0|0|0|0|0|0|0|0|0|0|0|0|0
+ F|main.obj|c0000|0|1CE0E64B3E29514
+ F|startup.obj|c0000|0|1CE0E64B3B2E60C
+ F|utils.obj|c0000|0|1CE0E64B40FE1C2
+ F|_objects.mac|80000|0|1CE0F15F5BFA812
 
-D|C:\WINCE600\PLATFORM\TenByTen6410_SLC\src\drivers\Display\INC\|b000|0|0|0|0|0|0|0|0|0|0|0|0|0|0
- F|FIMGSE2D.h|4|0|1CE0E458E5DEAD8
-  I|regctrl_g2d.h|1001
- F|regctrl_g2d.h|4|0|1CE0E458E5DEAD8
-  I|ceddk.h|1000
-  I|g2d_reg.h|1000
- F|s3c6410_display_con.h|4|0|1CE0E458E5DEAD8
- F|s3c6410_display_con_macro.h|4|0|1CE0E458E604D32
- F|s3c6410_image_rotator.h|4|0|1CE0E458E604D32
- F|s3c6410_image_rotator_macro.h|4|0|1CE0E458E604D32
- F|s3c6410_ldi.h|4|0|1CE0E5F02C8CB5E
-  I|bsp.h|1000
-  I|s3c6410_display_con.h|1001
- F|s3c6410_post_proc.h|4|0|1CE0E458E604D32
- F|s3c6410_tv_encoder.h|4|0|1CE0E458E604D32
- F|s3c6410_tv_scaler.h|4|0|1CE0E458E604D32
- F|SVE_API.h|4|0|1CE0E458E5DEAD8
+D|C:\WINCE600\platform\TenByTen6410_SLC\src\common\kitldrv\usbdbg\inc\|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0
 
-D|C:\WINCE600\PLATFORM\TenByTen6410_SLC\src\drivers\Display\LDI_LIB\|3005|0|0|c33765|0|0|0|c33765|c33765|0|0|0|0|0|0
- F|obj\|0|10|0
- F|s3c6410_ldi.c|40000|0|1CE0E650EEBFF9A
-  I|bsp.h|1000
-  I|s3c6410_ldi.h|1001
-  I|s3c6410_display_con.h|1001
-  I|s3c6410_display_con_macro.h|1001
- F|s3c6410_ldi.c.mine|80000|0|1CE0E458E69D69A
- F|s3c6410_ldi.c.r1018|80000|0|1CE0E458E69D69A
- F|s3c6410_ldi.c.r1029|80000|0|1CE0E458E69D69A
+D|C:\WINCE600\platform\TenByTen6410_SLC\Src\Common\Nandflash\Fmd\|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0
 
-D|C:\WINCE600\PLATFORM\TenByTen6410_SLC\src\drivers\Display\LDI_LIB\obj\ARMV4I\retail\|3000|0|0|0|0|0|0|0|0|0|0|0|0|0|0
- F|s3c6410_ldi.obj|c0000|0|1CE0E65613DD110
- F|_objects.mac|80000|0|1CE0E6560FFD3EC
+D|C:\WINCE600\PLATFORM\TenByTen6410_SLC\src\drivers\Display\|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0
 
-D|C:\WINCE600\PLATFORM\TenByTen6410_SLC\src\drivers\Display\POST_PROCESSOR_LIB\|3005|0|0|882c407a|0|0|0|882c407a|882c407a|0|0|0|0|0|0
- F|obj\|0|10|0
- F|s3c6410_post_proc.c|40000|0|1CE0E458E6C38F4
-  I|windows.h|1000
-  I|bsp_cfg.h|1000
-  I|s3c6410.h|1000
-  I|s3c6410_post_proc.h|1001
-  I|s3c6410_post_proc_macro.h|1001
- F|s3c6410_post_proc_macro.h|4|0|1CE0E458E6C38F4
+D|C:\WINCE600\PLATFORM\TenByTen6410_SLC\src\drivers\Display\DISPCON_LIB\|0|0|0|882c407a|0|0|0|882c407a|882c407a|0|0|0|0|0|0
 
-D|C:\WINCE600\PLATFORM\TenByTen6410_SLC\src\drivers\Display\POST_PROCESSOR_LIB\obj\ARMV4I\retail\|3000|0|0|0|0|0|0|0|0|0|0|0|0|0|0
- F|s3c6410_post_proc.obj|c0000|0|1CE0E640D110BE4
- F|_objects.mac|80000|0|1CE0E643C35CB80
+D|C:\WINCE600\PLATFORM\TenByTen6410_SLC\src\drivers\Display\DISPCON_LIB\obj\ARMV4I\retail\|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0
 
-D|C:\WINCE600\PLATFORM\TenByTen6410_SLC\src\drivers\Display\TV_ENCODER_LIB\|3005|0|0|882c407a|0|0|0|882c407a|882c407a|0|0|0|0|0|0
- F|obj\|0|10|0
- F|s3c6410_tv_encoder.c|40000|0|1CE0E458E6C38F4
-  I|windows.h|1000
-  I|bsp_cfg.h|1000
-  I|s3c6410.h|1000
-  I|s3c6410_tv_encoder_macro.h|1001
-  I|s3c6410_tv_encoder.h|1001
- F|s3c6410_tv_encoder_macro.h|4|0|1CE0E458E6E9B4E
+D|C:\WINCE600\PLATFORM\TenByTen6410_SLC\src\drivers\Display\DISPLAY_DRV\|0|0|0|3163171b|0|0|0|3163171b|3163171b|0|0|0|0|0|0
 
-D|C:\WINCE600\PLATFORM\TenByTen6410_SLC\src\drivers\Display\TV_ENCODER_LIB\obj\ARMV4I\retail\|3000|0|0|0|0|0|0|0|0|0|0|0|0|0|0
- F|s3c6410_tv_encoder.obj|c0000|0|1CE0E640DC179E8
- F|_objects.mac|80000|0|1CE0E643C6F03F0
+D|C:\WINCE600\PLATFORM\TenByTen6410_SLC\src\drivers\Display\DISPLAY_DRV\obj\ARMV4I\retail\|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0
 
-D|C:\WINCE600\PLATFORM\TenByTen6410_SLC\src\drivers\Display\TV_SCALER_LIB\|3005|0|0|882c407a|0|0|0|882c407a|882c407a|0|0|0|0|0|0
- F|obj\|0|10|0
- F|s3c6410_tv_scaler.c|40000|0|1CE0E458E6E9B4E
-  I|windows.h|1000
-  I|bsp_cfg.h|1000
-  I|s3c6410.h|1000
-  I|s3c6410_tv_scaler.h|1001
-  I|s3c6410_tv_scaler_macro.h|1001
- F|s3c6410_tv_scaler_macro.h|4|0|1CE0E458E6E9B4E
+D|C:\WINCE600\PLATFORM\TenByTen6410_SLC\src\drivers\Display\G2D_LIB\|0|0|0|8ba19ba7|0|0|0|8ba19ba7|8ba19ba7|0|0|0|0|0|0
 
-D|C:\WINCE600\PLATFORM\TenByTen6410_SLC\src\drivers\Display\TV_SCALER_LIB\obj\ARMV4I\retail\|3000|0|0|0|0|0|0|0|0|0|0|0|0|0|0
- F|s3c6410_tv_scaler.obj|c0000|0|1CE0E640D85DF1E
- F|_objects.mac|80000|0|1CE0E643C5BF120
+D|C:\WINCE600\PLATFORM\TenByTen6410_SLC\src\drivers\Display\G2D_LIB\obj\ARMV4I\retail\|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0
 
-D|C:\WINCE600\PLATFORM\TenByTen6410_SLC\src\drivers\Display\VIDEO_DRV\|3005|0|0|dd468418|0|0|0|dd468418|dd468418|0|0|0|0|0|0
- F|Build.err|80000|0|1CE0E5F02CD9012
- F|Build.wrn|80000|0|1CE0E5F02D254C6
- F|DispConAPI.c|40000|0|1CE0E458E75C25C
-  I|bsp.h|1000
-  I|SVEngine.h|1001
- F|Interrupt.c|40000|0|1CE0E458E7824B6
-  I|bsp.h|1000
-  I|SVEngine.h|1001
- F|LocalPathAPI.c|40000|0|1CE0E458E7824B6
-  I|bsp.h|1000
-  I|SVEngine.h|1001
- F|obj\|0|10|0
- F|PostAPI.c|40000|0|1CE0E458E7824B6
-  I|bsp.h|1000
-  I|SVEngine.h|1001
- F|Power.c|40000|0|1CE0E458E7A8710
-  I|bsp.h|1000
-  I|pmplatform.h|1001
-  I|SVEngine.h|1001
- F|ResourceAPI.c|40000|0|1CE0E458E8672D2
-  I|bsp.h|1000
-  I|SVEngine.h|1001
- F|RotatorAPI.c|40000|0|1CE0E458E8672D2
-  I|bsp.h|1000
-  I|SVEngine.h|1001
- F|SVEngine.c|40000|0|1CE0E458E8B3786
-  I|bsp.h|1000
-  I|SVEngine.h|1001
- F|SVEngine.h|4|0|1CE0E458E8B3786
-  I|s3c6410_display_con.h|1001
-  I|s3c6410_ldi.h|1001
-  I|s3c6410_post_proc.h|1001
-  I|s3c6410_image_rotator.h|1001
-  I|s3c6410_tv_scaler.h|1001
-  I|s3c6410_tv_encoder.h|1001
-  I|SVE_API.h|1001
- F|TVEncoderAPI.c|40000|0|1CE0E458E8B3786
-  I|bsp.h|1000
-  I|SVEngine.h|1001
- F|TVScalerAPI.c|40000|0|1CE0E458E8B3786
-  I|bsp.h|1000
-  I|SVEngine.h|1001
- F|video_driver.c|40000|0|1CE0E458E925E94
-  I|bsp.h|1000
-  I|SVEngine.h|1001
- F|video_driver.def|c0000|0|1CE0E458E925E94
+D|C:\WINCE600\PLATFORM\TenByTen6410_SLC\src\drivers\Display\IMAGE_ROTATOR_LIB\|0|0|0|882c407a|0|0|0|882c407a|882c407a|0|0|0|0|0|0
 
-D|C:\WINCE600\PLATFORM\TenByTen6410_SLC\src\drivers\Display\VIDEO_DRV\obj\ARMV4I\retail\|3000|0|0|0|0|0|0|0|0|0|0|0|0|0|0
- F|DispConAPI.obj|d0000|0|1CE0E6410701F28
- F|Interrupt.obj|d0000|0|1CE0E640FCB9CE6
- F|LocalPathAPI.obj|d0000|0|1CE0E6410D6A446
- F|PostAPI.obj|d0000|0|1CE0E6410A492E4
- F|Power.obj|d0000|0|1CE0E641004D556
- F|ResourceAPI.obj|d0000|0|1CE0E6410394912
- F|RotatorAPI.obj|d0000|0|1CE0E64110B1802
- F|SVEngine.obj|d0000|0|1CE0E640F97292A
- F|TVEncoderAPI.obj|d0000|0|1CE0E641173FF7A
- F|TVScalerAPI.obj|d0000|0|1CE0E64113F8BBE
- F|video_driver.obj|d0000|0|1CE0E6411A87336
- F|_objects.mac|80000|0|1CE0E64449EB6F6
+D|C:\WINCE600\PLATFORM\TenByTen6410_SLC\src\drivers\Display\IMAGE_ROTATOR_LIB\obj\ARMV4I\retail\|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0
+
+D|C:\WINCE600\PLATFORM\TenByTen6410_SLC\src\drivers\Display\INC\|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0
+
+D|C:\WINCE600\PLATFORM\TenByTen6410_SLC\src\drivers\Display\LDI_LIB\|0|0|0|c33765|0|0|0|c33765|c33765|0|0|0|0|0|0
+
+D|C:\WINCE600\PLATFORM\TenByTen6410_SLC\src\drivers\Display\LDI_LIB\obj\ARMV4I\retail\|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0
+
+D|C:\WINCE600\PLATFORM\TenByTen6410_SLC\src\drivers\Display\POST_PROCESSOR_LIB\|0|0|0|882c407a|0|0|0|882c407a|882c407a|0|0|0|0|0|0
+
+D|C:\WINCE600\PLATFORM\TenByTen6410_SLC\src\drivers\Display\POST_PROCESSOR_LIB\obj\ARMV4I\retail\|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0
+
+D|C:\WINCE600\PLATFORM\TenByTen6410_SLC\src\drivers\Display\TV_ENCODER_LIB\|0|0|0|882c407a|0|0|0|882c407a|882c407a|0|0|0|0|0|0
+
+D|C:\WINCE600\PLATFORM\TenByTen6410_SLC\src\drivers\Display\TV_ENCODER_LIB\obj\ARMV4I\retail\|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0
+
+D|C:\WINCE600\PLATFORM\TenByTen6410_SLC\src\drivers\Display\TV_SCALER_LIB\|0|0|0|882c407a|0|0|0|882c407a|882c407a|0|0|0|0|0|0
+
+D|C:\WINCE600\PLATFORM\TenByTen6410_SLC\src\drivers\Display\TV_SCALER_LIB\obj\ARMV4I\retail\|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0
+
+D|C:\WINCE600\PLATFORM\TenByTen6410_SLC\src\drivers\Display\VIDEO_DRV\|0|0|0|dd468418|0|0|0|dd468418|dd468418|0|0|0|0|0|0
+
+D|C:\WINCE600\PLATFORM\TenByTen6410_SLC\src\drivers\Display\VIDEO_DRV\obj\ARMV4I\retail\|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0
+
+D|C:\WINCE600\platform\TenByTen6410_SLC\src\drivers\ExtPowerCTL\INC\|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0
 
 D|C:\WINCE600\platform\TenByTen6410_SLC\src\inc\|a000|0|0|0|0|0|0|0|0|0|0|0|0|0|0
  F|bsp.h|4|0|1CE0E4592F7B484
-  I|windows.h|1000
-  I|ceddk.h|1000
-  I|nkintr.h|1000
-  I|oal.h|1000
-  I|bsp_cfg.h|1001
-  I|bsp_base_reg_cfg.h|1001
-  I|ioctl_cfg.h|1001
-  I|image_cfg.h|1001
-  I|bsp_args.h|1001
-  I|s3c6410.h|1001
+  I|windows.h|0
+  I|ceddk.h|0
+  I|nkintr.h|0
+  I|oal.h|0
+  I|bsp_cfg.h|1
+  I|bsp_base_reg_cfg.h|1
+  I|ioctl_cfg.h|1
+  I|image_cfg.h|1
+  I|bsp_args.h|1
+  I|s3c6410.h|1
  F|bsp_args.h|4|0|1CE0E4592F7B484
-  I|oal_args.h|1001
-  I|oal_kitl.h|1001
+  I|oal_args.h|1
+  I|oal_kitl.h|1
  F|bsp_base_reg_cfg.h|4|0|1CE0E4592F7B484
  F|bsp_cfg.h|4|0|1CE0E4592F7B484
   I|soc_cfg.h|1000
@@ -596,18 +287,18 @@ D|C:\WINCE600\public\common\ddk\inc\|a000|0|0|0|0|0|0|0|0|0|0|0|0|0|0
  F|cardsv2.h|4|0|1C6D1EF08B36000
   I|SockSv2.h|0
  F|cebus.h|4|0|1C6D1EF08B36000
-  I|ceddk.h|9000
-  I|pm.h|9000
-  I|pkfuncs.h|9000
+  I|ceddk.h|0
+  I|pm.h|0
+  I|pkfuncs.h|0
  F|cebuscfg.h|4|0|1C6D1EF08B36000
  F|ceddk.h|4|0|1C6D1EF08B36000
-  I|ntstatus.h|1000
-  I|macwin32.h|1400
-  I|ddkmacro.h|1000
-  I|pkfuncs.h|1000
-  I|pm.h|1000
-  I|CeBus.h|9000
-  I|oaldma.h|9000
+  I|ntstatus.h|0
+  I|macwin32.h|0
+  I|ddkmacro.h|0
+  I|pkfuncs.h|0
+  I|pm.h|0
+  I|CeBus.h|0
+  I|oaldma.h|0
  F|cedma.h|4|0|1C6D1EF08B36000
   I|ceddk.h|0
   I|pm.h|0
@@ -620,12 +311,12 @@ D|C:\WINCE600\public\common\ddk\inc\|a000|0|0|0|0|0|0|0|0|0|0|0|0|0|0
   I|wceemul.h|0
  F|ddkmacro.h|4|0|1C6D1EF08B36000
  F|ddkreg.h|4|0|1C6D1EF08B36000
-  I|pkfuncs.h|1000
-  I|devload.h|1000
-  I|giisr.h|1000
+  I|pkfuncs.h|0
+  I|devload.h|0
+  I|giisr.h|0
  F|devload.h|4|0|1C6D1EF08B36000
  F|giisr.h|4|0|1C6D1EF08B36000
-  I|pkfuncs.h|1000
+  I|pkfuncs.h|0
  F|msacmdrv.h|4|0|1C6D1EF08B36000
  F|ndis.h|4|0|1C6D1EF08B36000
   I|windows.h|0
@@ -652,7 +343,7 @@ D|C:\WINCE600\public\common\ddk\inc\|a000|0|0|0|0|0|0|0|0|0|0|0|0|0|0
   I|specstrings.h|0
  F|nuiouser.h|4|0|1C6D1EF08B36000
  F|oaldma.h|4|0|1C6D1EF08B36000
-  I|ceddk.h|9000
+  I|ceddk.h|0
  F|pcibus.h|4|0|1C6D1EF08B36000
   I|PCIrsrc.h|0
  F|pcirsrc.h|4|0|1C6D1EF08B36000
@@ -839,8 +530,8 @@ D|C:\WINCE600\public\common\oak\inc\|a000|0|0|0|0|0|0|0|0|0|0|0|0|0|0
  F|crefcon.h|4|0|1C6D1EF08B36000
   I|CSync.h|0
  F|cregedit.h|4|0|1C6D1EF08B36000
-  I|winreg.h|1000
-  I|ddkreg.h|1000
+  I|winreg.h|0
+  I|ddkreg.h|0
  F|crypt_hw_offload.h|4|0|1C6D1EF08B36000
  F|cs.h|4|0|1C6D1EF08B36000
  F|cserpdd.h|4|0|1C6D1EF08B36000
@@ -858,14 +549,14 @@ D|C:\WINCE600\public\common\oak\inc\|a000|0|0|0|0|0|0|0|0|0|0|0|0|0|0
   I|winbase.h|1
  F|d3dmddk.h|4|0|1C6D1EF08B36000
  F|ddgpe.h|4|0|1C9C8AC1CCE9300
-  I|gpe.h|1000
-  I|ddrawi.h|1001
+  I|gpe.h|0
+  I|ddrawi.h|1
  F|ddhal.h|4|0|1C6D1EF08B36000
  F|ddhfuncs.h|4|0|1C6D1EF08B36000
  F|ddrawi.h|4|0|1C9C8AC1CCE9300
-  I|windows.h|1000
-  I|ddraw.h|1000
-  I|dvp.h|1000
+  I|windows.h|0
+  I|ddraw.h|0
+  I|dvp.h|0
  F|defbus.h|4|0|1C6D1EF08B36000
   I|windows.h|0
   I|CeBusCfg.h|0
@@ -912,10 +603,10 @@ D|C:\WINCE600\public\common\oak\inc\|a000|0|0|0|0|0|0|0|0|0|0|0|0|0|0
   I|guts_cmn.h|0
   I|static_assert.hxx|0
  F|emul.h|4|0|1C6D1EF08B36000
-  I|gpe.h|1000
+  I|gpe.h|0
  F|ethdbg.h|4|0|1C6D1EF08B36000
-  I|pshpack1.h|1000
-  I|poppack.h|1000
+  I|pshpack1.h|0
+  I|poppack.h|0
  F|evgen.h|4|0|1C6D1EF08B36000
  F|extfile.h|4|0|1C6D1EF08B36000
   I|mextfile.h|0
@@ -945,7 +636,7 @@ D|C:\WINCE600\public\common\oak\inc\|a000|0|0|0|0|0|0|0|0|0|0|0|0|0|0
  F|genblt_anyblt.h|4|0|1C6D1EF08B36000
  F|genblt_pcode.h|4|0|1C6D1EF08B36000
  F|gpe.h|4|0|1C6D1EF08B36000
-  I|genblt.h|1000
+  I|genblt.h|0
  F|guidgen.h|4|0|1C6D1EF08B36000
  F|guts.h|4|0|1C9C8AC1DFFC000
   I|static_assert.hxx|0
@@ -956,9 +647,9 @@ D|C:\WINCE600\public\common\oak\inc\|a000|0|0|0|0|0|0|0|0|0|0|0|0|0|0
   I|windows.h|0
  F|gxinfo.h|4|0|1C6D1EF08B36000
  F|halether.h|4|0|1C6D1EF08B36000
-  I|pkfuncs.h|1000
-  I|ethdbg.h|1000
-  I|kitl.h|1000
+  I|pkfuncs.h|0
+  I|ethdbg.h|0
+  I|kitl.h|0
  F|handle_map.hxx|4|0|1C6D1EF08B36000
   I|hash_map.hxx|0
   I|sync.hxx|0
@@ -1035,10 +726,10 @@ D|C:\WINCE600\public\common\oak\inc\|a000|0|0|0|0|0|0|0|0|0|0|0|0|0|0
  F|keybdpdd.h|4|0|1C6D1EF08B36000
   I|windows.h|0
  F|kitl.h|4|0|1C6D1EF08B36000
-  I|KitlProt.h|1001
+  I|KitlProt.h|1
  F|kitlprot.h|4|0|1C6D1EF08B36000
-  I|pshpack1.h|1000
-  I|poppack.h|1000
+  I|pshpack1.h|0
+  I|poppack.h|0
  F|l2tpcfg.h|4|0|1C6D1EF08B36000
  F|laymgr.h|4|0|1C6D1EF08B36000
   I|keybddbg.h|0
@@ -1076,7 +767,7 @@ D|C:\WINCE600\public\common\oak\inc\|a000|0|0|0|0|0|0|0|0|0|0|0|0|0|0
   I|pshpack1.h|1
   I|poppack.h|1
  F|mpm.h|4|0|1C6D1EF08B36000
-  I|kfuncs.h|1000
+  I|kfuncs.h|0
  F|mru.h|4|0|1C6D1EF08B36000
  F|mservice.h|4|0|1C6D1EF08B36000
   I|mwinbase.h|0
@@ -1120,10 +811,10 @@ D|C:\WINCE600\public\common\oak\inc\|a000|0|0|0|0|0|0|0|0|0|0|0|0|0|0
   I|windev.h|0
   I|netui_args.h|0
  F|nkexport.h|4|0|1C6D1EF08B36000
-  I|nkglobal.h|1001
+  I|nkglobal.h|1
  F|nkglobal.h|4|0|1C6D1EF08B36000
-  I|oemglobal.h|1001
-  I|profiler.h|1001
+  I|oemglobal.h|1
+  I|profiler.h|1
  F|nkintr.h|4|0|1C6D1EF08B36000
  F|nmpioctl.h|4|0|1C6D1EF08B36000
  F|notifdev.h|4|0|1C6D1EF08B36000
@@ -1152,8 +843,8 @@ D|C:\WINCE600\public\common\oak\inc\|a000|0|0|0|0|0|0|0|0|0|0|0|0|0|0
   I|winerror.h|0
  F|oemfw.h|4|0|1C6D1EF08B36000
  F|oemglobal.h|4|0|1CB9D8734ABA100
-  I|kitl.h|1000
-  I|bcoemglobal.h|1000
+  I|kitl.h|0
+  I|bcoemglobal.h|0
  F|oemglobal.h.110211_KB982563|80000|0|1C6D1EF08B36000
  F|ohcd.def|80000|0|1C6D1EF08B36000
  F|ohcdddsi.h|4|0|1C6D1EF08B36000
@@ -1260,8 +951,8 @@ D|C:\WINCE600\public\common\oak\inc\|a000|0|0|0|0|0|0|0|0|0|0|0|0|0|0
  F|rebarview.hpp|4|0|1C6D1EF08B36000
   I|windows.h|0
  F|romldr.h|4|0|1C6D1EF08B36000
-  I|pshpack1.h|0
-  I|poppack.h|0
+  I|pshpack1.h|1000
+  I|poppack.h|1000
  F|romxip.h|4|0|1C6D1EF08B36000
   I|winioctl.h|0
  F|rtinfo.h|4|0|1C6D1EF08B36000
@@ -1874,7 +1565,7 @@ D|C:\WINCE600\public\common\oak\lib\ARMV4I\retail\|2000|0|0|0|0|0|0|0|0|0|0|0|0|
  F|ddbtn.pdb|80000|0|1C6D1EF08B36000
  F|ddcore.lib|80000|0|1CC04617F3DD800
  F|ddcore.pdb|80000|0|1CC04617F3DD800
- F|ddgpe.lib|d0000|0|1CA48F8D2D8E700
+ F|ddgpe.lib|90000|0|1CA48F8D2D8E700
  F|ddgpe.pdb|80000|0|1CA48F767424A00
  F|ddguid.pdb|80000|0|1CA3D8C6EF8DF00
  F|ddi_3dr.def|80000|0|1C6D1EF08B36000
@@ -2161,7 +1852,7 @@ D|C:\WINCE600\public\common\oak\lib\ARMV4I\retail\|2000|0|0|0|0|0|0|0|0|0|0|0|0|
  F|fsstubs.pdb|80000|0|1CC4672F2C34000
  F|fsysram.lib|80000|0|1CC4672F2C34000
  F|fsysram.pdb|80000|0|1CC4672ECCD5F00
- F|fulllibc.lib|80000|0|1CC772A039F3900
+ F|fulllibc.lib|c0000|0|1CC772A039F3900
  F|fulllibc.pdb|80000|0|1CC772A026E0C00
  F|fw6.def|80000|0|1C6D1EF08B36000
  F|fw6.lib|80000|0|1CDD22777DAD500
@@ -3721,10 +3412,10 @@ D|C:\WINCE600\public\common\sdk\inc\|a000|0|0|0|0|0|0|0|0|0|0|0|0|0|0
  F|armintr.h|4|0|1C6D1EF08B36000
  F|armmacros.s|0|0|1C6D1EF08B36000
  F|assert.h|4|0|1C6D1EF08B36000
-  I|crtdefs.h|1000
-  I|windef.h|1000
-  I|types.h|1000
-  I|winbase.h|1000
+  I|crtdefs.h|0
+  I|windef.h|0
+  I|types.h|0
+  I|winbase.h|0
  F|authhlp.h|4|0|1C6D1EF08B36000
   I|windows.h|0
   I|sspi.h|0
@@ -3804,7 +3495,7 @@ D|C:\WINCE600\public\common\sdk\inc\|a000|0|0|0|0|0|0|0|0|0|0|0|0|0|0
  F|dbt.h|4|0|1C6D1EF08B36000
  F|dccole.h|4|0|1C6D1EF08B36000
  F|ddraw.h|4|0|1C9C8AC31129000
-  I|windows.h|1000
+  I|windows.h|0
  F|ddraw.h.080121_KB946657|80000|0|1C6D1EF08B36000
  F|deque|80000|0|1C6D1EF08B36000
  F|devmgmt.h|4|0|1C6D1EF08B36000
@@ -3815,8 +3506,8 @@ D|C:\WINCE600\public\common\sdk\inc\|a000|0|0|0|0|0|0|0|0|0|0|0|0|0|0
   I|pshpack1.h|1
   I|poppack.h|1
  F|dvp.h|4|0|1C6D1EF08B36000
-  I|windows.h|1000
-  I|ddraw.h|1000
+  I|windows.h|0
+  I|ddraw.h|0
  F|EGL\|0|10|0
  F|emmintrin.h|4|0|1C6D1EF08B36000
   I|crtdefs.h|0
@@ -4010,7 +3701,7 @@ D|C:\WINCE600\public\common\sdk\inc\|a000|0|0|0|0|0|0|0|0|0|0|0|0|0|0
  F|packoff.h|4|0|1C6D1EF08B36000
  F|packon.h|4|0|1C6D1EF08B36000
  F|pm.h|4|0|1C6D1EF08B36000
-  I|mpm.h|1000
+  I|mpm.h|0
  F|pmpolicy.h|4|0|1C6D1EF08B36000
   I|msgqueue.h|0
  F|pnp.h|4|0|1C6D1EF08B36000
@@ -4313,19 +4004,5 @@ D|C:\WINCE600\public\common\sdk\inc\|a000|0|0|0|0|0|0|0|0|0|0|0|0|0|0
   I|libdefs|0
  F|_desktop.ini|80000|0|1CE0E457996CC82
 
-D|C:\WINCE600\public\common\sdk\lib\ARMV4I\retail\|3000|0|0|0|0|0|0|0|0|0|0|0|0|0|0
- F|alchemycontrols.lib|80000|0|1CA3D8D9DC38500
- F|alchemycontrols.pdb|80000|0|1CA3D8BAA46DE00
- F|bthguid.lib|80000|0|1C6D1EF08B36000
- F|ddguid.lib|80000|0|1C6D1EF08B36000
- F|ddguid.pdb|80000|0|1C6D1EF08B36000
- F|ntcompat.lib|80000|0|1C6D1EF08B36000
- F|ntcompat.pdb|80000|0|1C6D1EF08B36000
- F|xamlruntime.def|80000|0|1CA3D8A9F3F7E00
- F|xamlruntime.lib|80000|0|1CA3D8D9DC38500
- F|xamlruntime.pdb|80000|0|1CA3D8BCA769D00
- F|xamlruntime.res|80000|0|1CA3D8B86839800
- F|xlock.lib|80000|0|1C6D1EF08B36000
- F|xlock.pdb|80000|0|1C6D1EF08B36000
- F|_desktop.ini|80000|0|1CE0E4579B10660
+D|C:\WINCE600\public\common\sdk\lib\ARMV4I\retail\|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0
 
