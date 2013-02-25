@@ -1,8 +1,0 @@
-;; GPIO Bus Driver
-[HKEY_LOCAL_MACHINE\Drivers\BuiltIn\GPI]
-    "Prefix"="GPI"
-    "Dll"="GPIO.DLL"
-    "Order"=dword:200
-    "Index"=dword:0
-    "FriendlyName"="GPIO Driver"
-

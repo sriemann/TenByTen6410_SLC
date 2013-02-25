@@ -1,0 +1,61 @@
+ GPIODriver
+
+ Timestamp is 512b0418 (Mon Feb 25 14:26:32 2013)
+
+ Preferred load address is 10000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 00000076H .rdata                  CODE
+ 0001:00000078 00000027H .rdata$debug            CODE
+ 0001:000000a0 00000f7cH .text                   CODE
+ 0001:0000101c 00000028H .idata$2                CODE
+ 0001:00001044 00000014H .idata$3                CODE
+ 0001:00001058 00000014H .idata$4                CODE
+ 0001:0000106c 00000016H .idata$6                CODE
+ 0001:00001090 00000100H .edata                  CODE
+ 0002:00000000 00000014H .idata$5                DATA
+ 0002:00000014 00000020H .bss                    DATA
+ 0003:00000000 000000a0H .pdata                  DATA
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0000:00000000       ___safe_se_handler_count   00000000     <absolute>
+ 0000:00000000       ___safe_se_handler_table   00000000     <absolute>
+ 0001:00000020       ??_C@_1FG@LGOFOLAG@?$AA?$FL?$AAG?$AAI?$AAO?$AA?$FN?$AA?5?$AAv?$AA_?$AAp?$AAG?$AAP?$AAI?$AAO?$AAR?$AAe?$AAg?$AAs?$AA?5?$AAM?$AAm?$AAM?$AAa?$AAp?$AAI?$AAo?$AAS?$AAp?$AAa?$AAc?$AAe?$AA?$CI?$AA?$CJ@ 10001020     GPIODriver.obj
+ 0001:000000a0       ?InitializeAddresses@@YAHXZ 100010a0 f   GPIODriver.obj
+ 0001:000000f0       ?DllEntry@@YAHPAXK0@Z      100010f0 f   GPIODriver.obj
+ 0001:000000f8       ?GIO_Deinit@@YAHK@Z        100010f8 f   GPIODriver.obj
+ 0001:0000012c       ?GIO_Init@@YAKK@Z          1000112c f   GPIODriver.obj
+ 0001:0000015c       ?setPortToOutput@@YAHK@Z   1000115c f   GPIODriver.obj
+ 0001:000003f4       ?setPortToInput@@YAHK@Z    100013f4 f   GPIODriver.obj
+ 0001:000005ac       ?setPortPullUp@@YAHKH@Z    100015ac f   GPIODriver.obj
+ 0001:0000085c       ?bulkSetPortsToOutput@@YAHK@Z 1000185c f   GPIODriver.obj
+ 0001:000008a8       ?bulkSetPortsToInput@@YAHK@Z 100018a8 f   GPIODriver.obj
+ 0001:000008f4       ?bulkSetPortsToPullUpDown@@YAHKH@Z 100018f4 f   GPIODriver.obj
+ 0001:00000948       ?getDatum@@YAKK@Z          10001948 f   GPIODriver.obj
+ 0001:00000aa4       ?setDatum@@YAHKH@Z         10001aa4 f   GPIODriver.obj
+ 0001:00000d80       ?GIO_IOControl@@YAHKKPAEK0KPAK@Z 10001d80 f   GPIODriver.obj
+ 0001:00000edc       ?GIO_Open@@YAKKKK@Z        10001edc f   GPIODriver.obj
+ 0001:00000ee4       ?GIO_Close@@YAHK@Z         10001ee4 f   GPIODriver.obj
+ 0001:00000eec       ?GIO_PowerDown@@YAXK@Z     10001eec f   GPIODriver.obj
+ 0001:00000ef0       ?GIO_PowerUp@@YAXK@Z       10001ef0 f   GPIODriver.obj
+ 0001:00000ef4       ?GIO_Read@@YAKKPAXK@Z      10001ef4 f   GPIODriver.obj
+ 0001:00000f6c       ?GIO_Seek@@YAKKJK@Z        10001f6c f   GPIODriver.obj
+ 0001:00000f74       ?GIO_Write@@YAKKPBXK@Z     10001f74 f   GPIODriver.obj
+ 0001:00000fec       NKDbgPrintfW               10001fec f   coredll:COREDLL.dll
+ 0001:00000ffc       MmMapIoSpace               10001ffc f   ceddk:CEDDK.dll
+ 0001:0000100c       MmUnmapIoSpace             1000200c f   ceddk:CEDDK.dll
+ 0001:0000101c       __IMPORT_DESCRIPTOR_COREDLL 1000201c     coredll:COREDLL.dll
+ 0001:00001030       __IMPORT_DESCRIPTOR_CEDDK  10002030     ceddk:CEDDK.dll
+ 0001:00001044       __NULL_IMPORT_DESCRIPTOR   10002044     coredll:COREDLL.dll
+ 0002:00000000       __imp_MmUnmapIoSpace       10003000     ceddk:CEDDK.dll
+ 0002:00000004       __imp_MmMapIoSpace         10003004     ceddk:CEDDK.dll
+ 0002:00000008       \177CEDDK_NULL_THUNK_DATA  10003008     ceddk:CEDDK.dll
+ 0002:0000000c       __imp_NKDbgPrintfW         1000300c     coredll:COREDLL.dll
+ 0002:00000010       \177COREDLL_NULL_THUNK_DATA 10003010     coredll:COREDLL.dll
+ 0002:00000014       ?mInitialized@@3HA         10003014     GPIODriver.obj
+
+ entry point at        0000:00000000
+
+ Static symbols
+

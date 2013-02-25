@@ -1,4 +1,5 @@
 BUILD: [Thrd:Sequence:Type  ] Message
-BUILD: [01:0000000025:WARNN ] C:\WINCE600\PLATFORM\TenByTen6410_SLC\SRC\OAL\OALLIB\.\debug.c(70) : warning C4101: 'Div' : unreferenced local variable
-BUILD: [01:0000000026:WARNN ] C:\WINCE600\PLATFORM\TenByTen6410_SLC\SRC\OAL\OALLIB\.\debug.c(68) : warning C4101: 'DivSlot' : unreferenced local variable
-BUILD: [01:0000000027:WARNN ] C:\WINCE600\PLATFORM\TenByTen6410_SLC\SRC\OAL\OALLIB\.\debug.c(69) : warning C4101: 'uPCLK' : unreferenced local variable
+BUILD: [01:0000000025:WARNN ] C:\WINCE600\PLATFORM\TenByTen6410_SLC\SRC\OAL\OALLIB\.\debug.c(128) : warning C4101: 'Div' : unreferenced local variable
+BUILD: [01:0000000026:WARNN ] C:\WINCE600\PLATFORM\TenByTen6410_SLC\SRC\OAL\OALLIB\.\debug.c(126) : warning C4101: 'DivSlot' : unreferenced local variable
+BUILD: [01:0000000027:WARNN ] C:\WINCE600\PLATFORM\TenByTen6410_SLC\SRC\OAL\OALLIB\.\debug.c(127) : warning C4101: 'uPCLK' : unreferenced local variable
+BUILD: [00:0000000028:WARNN ] C:\WINCE600\PLATFORM\TenByTen6410_SLC\SRC\OAL\OALLIB\: Missing source file: C:\WINCE600\platform\TenByTen6410_SLC\lib\ARMV4I\retail\extpowerctl_lib.lib.

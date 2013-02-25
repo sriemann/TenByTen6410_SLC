@@ -120,3 +120,6 @@ FILE_VIEW_INCLUDES_FOLDER= \
     iic.h \
     LogoCraft.h \
 
+FILE_VIEW_RESOURCE_FOLDER= \
+    eboot.bib \
+

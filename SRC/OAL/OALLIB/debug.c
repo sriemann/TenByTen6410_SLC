@@ -66,7 +66,7 @@ static const UINT32 aSlotTable[16] =
 //  and thus shouldn't be touched during the OS initialization process.  The
 //  OAL provides this information via the registry.
 //
-
+/*
 VOID OALDebugRemoveFromRegistry(unsigned port)
 {
     HKEY Key;
@@ -120,6 +120,7 @@ VOID OALDebugRemoveFromRegistry(unsigned port)
 CleanUp:
     return;
 }
+*/
 VOID OEMInitDebugSerial()
 {
     UINT32 DivSlot;
